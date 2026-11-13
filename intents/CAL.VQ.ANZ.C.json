@@ -1,0 +1,76 @@
+{
+  "id": "43e1a8b6-4ebf-4e12-81bb-443273951297",
+  "name": "CAL.VQ.ANZ.C",
+  "auto": true,
+  "contexts": [
+    "calvq",
+    "calvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calvq",
+          "lifespan": 5
+        },
+        {
+          "name": "calvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of calcium"
+            },
+            {
+              "title": "Maximum calcium intake"
+            },
+            {
+              "title": "What does calcium do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 19, the Recommended Dietary Intakes for calcium increase with age and range from 210 milligrams per day during the first 6 months of life, up to 1,300 milligrams of calcium per day for those aged 12-18. See the associated table or the source document for full details. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

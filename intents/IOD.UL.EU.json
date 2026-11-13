@@ -1,0 +1,123 @@
+{
+  "id": "25e8cd81-5d67-453d-87a1-2417413685e8",
+  "name": "IOD.UL.EU",
+  "auto": true,
+  "contexts": [
+    "iodul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "iodul",
+          "lifespan": 5
+        },
+        {
+          "name": "ioduleu",
+          "lifespan": 5
+        },
+        {
+          "name": "ulsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For adults aged 18+, including those pregnant or lactating, the Tolerable Upper Intake Level for iodine is 600 micrograms per day. The Upper Level does not apply to individuals who are being treated with iodine under medical supervision or to populations with iodine deficiency disorders.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For adults aged 18+, including those pregnant or lactating, the Tolerable Upper Intake Level for iodine is 600 micrograms per day. The Upper Level does not apply to individuals who are being treated with iodine under medical supervision or to populations with iodine deficiency disorders. The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

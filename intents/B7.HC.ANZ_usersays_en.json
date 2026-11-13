@@ -1,0 +1,71 @@
+[
+  {
+    "id": "77051077-1ebf-4fc5-8abe-663a8811506b",
+    "data": [
+      {
+        "text": "information for australia and new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3714f85a-af48-405b-8811-24c98029ac72",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      },
+      {
+        "text": " new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a436352d-640b-4ac0-9b2e-fc40ad8ce236",
+    "data": [
+      {
+        "text": "new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03f986b0-f8cf-413a-a62c-50696a708a3c",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "be3d38ba-06ba-46fb-8d9b-bd5d4dd56b39",
+    "data": [
+      {
+        "text": "🇦🇺🇳🇿",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

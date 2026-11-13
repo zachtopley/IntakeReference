@@ -1,0 +1,115 @@
+{
+  "id": "5420513e-7fd6-4b9f-84d4-e8feb7506512",
+  "name": "B9.VQ.ANZ.L",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqanzl",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For lactating females aged 14-50, the Recommended Dietary Intake for folate is 500 micrograms of dietary folate equivalents per day. The Recommended Dietary Intake is equivalent to 500 micrograms of food folate, or 250 micrograms of folic acid on an empty stomach, or 300 micrograms of folic acid with meals or as fortified foods; fortified foods contain folic acid which has almost twice the potency of naturally occurring food folates. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "An additional 100-400 micrograms of dietary folate equivalents over current intakes may be required to optimise homocysteine levels and reduce overall chronic disease risk and DNA damage. This is to be attained through the replacement of nutrient-poor, energy-dense foods and drinks with folate-rich foods such as vegetables, fruits and wholegrain cereals. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum folate intake"
+            },
+            {
+              "title": "Best source of folate"
+            },
+            {
+              "title": "What does folate do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactating females aged 14-50, the Recommended Dietary Intake for folate is 500 micrograms of dietary folate equivalents per day. The Recommended Dietary Intake is equivalent to 500 micrograms of food folate, or 250 micrograms of folic acid on an empty stomach, or 300 micrograms of folic acid with meals or as fortified foods; fortified foods contain folic acid which has almost twice the potency of naturally occurring food folates. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. An additional 100-400 micrograms of dietary folate equivalents over current intakes may be required to optimise homocysteine levels and reduce overall chronic disease risk and DNA damage. This is to be attained through the replacement of nutrient-poor, energy-dense foods and drinks with folate-rich foods such as vegetables, fruits and wholegrain cereals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

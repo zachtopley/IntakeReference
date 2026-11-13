@@ -1,0 +1,70 @@
+{
+  "id": "e7ea9c65-2238-4239-9af3-e16d1789b658",
+  "name": "BGC.HC.SELECT",
+  "auto": true,
+  "contexts": [
+    "bgchc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bgchc",
+          "lifespan": 5
+        },
+        {
+          "name": "bgchcselect",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "🇪🇺"
+            },
+            {
+              "title": "🇦🇺🇳🇿"
+            },
+            {
+              "title": "🇨🇦"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want information for the European Union, for Australia \u0026 New Zealand, or for Canada?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

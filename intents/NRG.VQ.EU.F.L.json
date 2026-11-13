@@ -1,0 +1,79 @@
+{
+  "id": "bf5a2575-14fd-41ef-8980-42e8892f5ab8",
+  "name": "NRG.VQ.EU.F.L",
+  "auto": true,
+  "contexts": [
+    "nrgvq",
+    "nrgvqeu",
+    "nrgvqeuf"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgvq",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeuf",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeufl",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Pregnancy 🤰"
+            },
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactation up to 6 months post partum, the Average Requirement for energy is an additional 502 kilocalories per day, in addition to the Average Requirement for non-lactating females. The Average Requirement is the level of nutrient intake estimated to satisfy the physiological requirement or metabolic demand in half of the people in a population group, given a normal distribution of requirement. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

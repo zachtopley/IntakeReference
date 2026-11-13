@@ -1,0 +1,68 @@
+{
+  "id": "c385f90e-9e1d-48b5-a08f-1b1a44c2cdfb",
+  "name": "D.UL.ANZ",
+  "auto": true,
+  "contexts": [
+    "dul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dul",
+          "lifespan": 5
+        },
+        {
+          "name": "dulanz",
+          "lifespan": 5
+        },
+        {
+          "name": "anzulsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 1+, including those pregnant or lactating, the Upper Level of Intake for vitamin D is 80 micrograms per day. The Upper Level of Intake is the highest average daily nutrient intake level likely to pose no adverse health effects to almost all individuals in the general population. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

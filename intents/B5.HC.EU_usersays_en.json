@@ -1,0 +1,67 @@
+[
+  {
+    "id": "6691f6de-84ac-456f-83b5-398f5aa663af",
+    "data": [
+      {
+        "text": "europe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "426c0048-b353-4157-87f8-d5d0392edb84",
+    "data": [
+      {
+        "text": "eu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "335bead1-3d5e-4b02-9534-cd34399bbcd1",
+    "data": [
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78b6e504-8722-44f8-a58c-6a8bb2e091e6",
+    "data": [
+      {
+        "text": "🇪🇺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3e0cf34-dd4a-48a3-8083-58c1aeacd866",
+    "data": [
+      {
+        "text": "information for the european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

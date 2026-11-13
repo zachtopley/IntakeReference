@@ -1,0 +1,64 @@
+{
+  "id": "396abc28-9699-43fd-9039-4b0a205c7e94",
+  "name": "CHL.HC",
+  "auto": true,
+  "contexts": [
+    "chlhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "chlhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Chloride contributes to normal digestion by production of hydrochloric acid in the stomach. The European Commission has authorised this claim for products which contain at least 120 milligrams of chloride per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. This excludes chloride from sodium chloride. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

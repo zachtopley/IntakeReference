@@ -1,0 +1,74 @@
+{
+  "id": "abe46b55-37b4-4e46-8279-46ff258c2523",
+  "name": "MACROQUERY",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Water"
+            },
+            {
+              "title": "Energy"
+            },
+            {
+              "title": "Carbohydrates"
+            },
+            {
+              "title": "Protein"
+            },
+            {
+              "title": "Fat"
+            },
+            {
+              "title": "Fibre"
+            },
+            {
+              "title": "α-linolenic acid (ω-3)"
+            },
+            {
+              "title": "Linoleic acid (ω-6)"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can ask about the following macronutrients: water, energy, carbohydrates, protein, fat, fibre and omega 3 \u0026 6 fatty acids. You can also ask questions like \u0027how many calories are there per gram of carbohydrates?\u0027. Which macronutrient are you interested in?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

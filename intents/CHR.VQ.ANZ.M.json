@@ -1,0 +1,73 @@
+{
+  "id": "84c9c2ad-0bad-4413-a06d-db42181cc302",
+  "name": "CHR.VQ.ANZ.M",
+  "auto": true,
+  "contexts": [
+    "chrvq",
+    "chrvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "chrvq",
+          "lifespan": 5
+        },
+        {
+          "name": "chrvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "chrvqanzm",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 14+, the Adequate Intake for chromium is 35 micrograms per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

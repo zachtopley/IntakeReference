@@ -1,0 +1,78 @@
+{
+  "id": "bbff6a0c-ab87-44a1-b3f4-273ad5eae84c",
+  "name": "D.VQ.ANZ.F.1950",
+  "auto": true,
+  "contexts": [
+    "dvq",
+    "dvqanz",
+    "dvqanzf"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dvq",
+          "lifespan": 5
+        },
+        {
+          "name": "dvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "dvqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "dvqanzf1950",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males and females aged 19-50, excluding those pregnant or lactating, the Adequate Intake for vitamin D is 5 micrograms per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

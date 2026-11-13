@@ -1,0 +1,80 @@
+[
+  {
+    "id": "76f40639-06fa-477a-a22f-956f63e3e6de",
+    "data": [
+      {
+        "text": "males",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4d87105-cc95-4e69-85b3-8547ee5d09c9",
+    "data": [
+      {
+        "text": "male",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c023df97-f7d5-47ec-b158-8bdcff0b5dc2",
+    "data": [
+      {
+        "text": "information for males",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f911d0c-2ab1-4865-8269-deb0536e12e2",
+    "data": [
+      {
+        "text": "man",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e14fb8bc-7995-411a-82cb-694880bf41f6",
+    "data": [
+      {
+        "text": "i\u0027m male",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd812c08-d5ab-4f0d-8a18-14528ea1d94a",
+    "data": [
+      {
+        "text": "men",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

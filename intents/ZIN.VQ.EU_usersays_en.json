@@ -1,0 +1,97 @@
+[
+  {
+    "id": "80ff012b-de9a-45a6-8ce7-e3269810c887",
+    "data": [
+      {
+        "text": "information for europeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4bcbae90-5b76-4642-94b4-1d78ec7d706c",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f906bc44-215a-46cc-aefb-6f37152f5985",
+    "data": [
+      {
+        "text": "europeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52e865e7-b6bf-4c90-86c2-e308521479a6",
+    "data": [
+      {
+        "text": "🇪🇺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "844ed51d-936c-4866-b455-ae8c75ed7ef3",
+    "data": [
+      {
+        "text": "the eu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13db633d-ba6e-4707-a0c2-8d9aa64ed8ad",
+    "data": [
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "84ffcad6-3e82-49ee-9406-6eadf84183ca",
+    "data": [
+      {
+        "text": "europe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

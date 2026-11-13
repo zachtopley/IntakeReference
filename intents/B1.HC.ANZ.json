@@ -1,0 +1,64 @@
+{
+  "id": "fc6e136c-96b5-413d-aa52-3b85caee7ffb",
+  "name": "B1.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b1hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b1hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thiamin is necessary for normal carbohydrate metabolism and normal neurological and cardiac function. Thiamin contributes to normal energy production and normal psychological function. Food Standards Australia New Zealand has approved these claims for foods containing at least 110 micrograms of thiamin per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

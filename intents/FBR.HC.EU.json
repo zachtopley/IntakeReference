@@ -1,0 +1,100 @@
+{
+  "id": "c6b1de0a-b32f-435e-8914-d9ce75875dd1",
+  "name": "FBR.HC.EU",
+  "auto": true,
+  "contexts": [
+    "fbrhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fbrhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Barley grain fibre, oat grain fibre, sugar beet fibre and wheat bran fibre contribute to an increase in faecal bulk. Rye fibre contributes to normal bowel function. Wheat bran fibre contributes to an acceleration of intestinal transit. The claimed effect is obtained with a daily intake of at least 10 grams of wheat bran fibre.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products containing at least 6 grams of fibre per 100 grams or at least 3 grams of fibre per 100 kilocalories. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Arabinoxylan-rich fibre"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Barley grain fibre, oat grain fibre, sugar beet fibre and wheat bran fibre contribute to an increase in faecal bulk. Rye fibre contributes to normal bowel function. Wheat bran fibre contributes to an acceleration of intestinal transit. The claimed effect is obtained with a daily intake of at least 10 grams of wheat bran fibre. The European Commission has authorised these claims for products containing at least 6 grams of fibre per 100 grams or at least 3 grams of fibre per 100 kilocalories. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

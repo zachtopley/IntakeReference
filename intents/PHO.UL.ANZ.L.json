@@ -1,0 +1,73 @@
+{
+  "id": "3f0be6ad-73ed-4ab6-9a72-031179226596",
+  "name": "PHO.UL.ANZ.L",
+  "auto": true,
+  "contexts": [
+    "phoul",
+    "phoulanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "phoul",
+          "lifespan": 5
+        },
+        {
+          "name": "phoulanz",
+          "lifespan": 5
+        },
+        {
+          "name": "phoulanzl",
+          "lifespan": 5
+        },
+        {
+          "name": "anzulsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactating females aged 14-50, the Upper Level of Intake for phosphorus is 4,000 milligrams per day. The Upper Level of Intake is the highest average daily nutrient intake level likely to pose no adverse health effects to almost all individuals in the general population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "6eec36ca-7df0-4ddd-a49b-41773540d8b6",
+    "data": [
+      {
+        "text": "man",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d506da3-097a-43a9-9ea7-83b5ef82f850",
+    "data": [
+      {
+        "text": "males",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa551817-db7e-4c89-b24b-6c62074a71cd",
+    "data": [
+      {
+        "text": "men",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "abf1b855-8537-4839-b475-fe4c4ffde3a9",
+    "data": [
+      {
+        "text": "information for males",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7867b08b-3013-43bf-aae7-f67cfb297e00",
+    "data": [
+      {
+        "text": "i\u0027m male",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8dfa4efd-2d21-4deb-9f69-66a953ea1771",
+    "data": [
+      {
+        "text": "male",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

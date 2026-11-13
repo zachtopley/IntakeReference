@@ -1,0 +1,73 @@
+{
+  "id": "44d31c52-39f4-4626-8b62-629e281ebee5",
+  "name": "CAF.VQ.EU.P",
+  "auto": true,
+  "contexts": [
+    "cafvq",
+    "cafvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqeup",
+          "lifespan": 5
+        },
+        {
+          "name": "cafeusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Caffeine intakes from all sources up to 200 milligrams per day, consumed throughout the day by pregnant women in the general population, do not give rise to safety concerns for the fetus. This is the scientific opinion of the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

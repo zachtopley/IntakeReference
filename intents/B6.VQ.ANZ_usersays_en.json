@@ -1,0 +1,105 @@
+[
+  {
+    "id": "b160223f-09a8-4552-9161-fc054f49f35d",
+    "data": [
+      {
+        "text": "🇦🇺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "056aec1f-7a73-43f2-81c8-b38edea870b3",
+    "data": [
+      {
+        "text": "🇳🇿",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65e107c2-44bb-4689-8996-c9d9d6323b6b",
+    "data": [
+      {
+        "text": "new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b3f5c533-26ab-4f90-81ae-0db3ede7d3c2",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4929d163-323f-4fe3-a62f-1f767f175980",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      },
+      {
+        "text": " new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33c6395f-6ef5-424e-8105-1430b603d59f",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb727782-b0f8-4d9e-bbed-9aab80470e8b",
+    "data": [
+      {
+        "text": "🇦🇺🇳🇿",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "id": "bb614f50-c669-4eb7-bfaa-c5375d8c0a14",
+  "name": "ALLQUERY",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "allquery",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "You can ask me about vitamins A, C, D, E and K as well as vitamins B1, B2, B3, B5, B6, B7, B9, B12 and choline. You can ask about the elements bismuth, boron, calcium, chloride, chromium, copper, fluoride, iodine, iron, magnesium, manganese, molybdenum, phosphorus, potassium, selenium, sodium, titanium, and zinc. You can ask about macronutrients, including water, energy, carbohydrates, protein, fat, fibre, and omega 3 \u0026 6 fatty acids.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "You can also ask about other substances such as melatonin, caffeine, cannabidiol, kava, polyphenols, phytosterols, cholesterol, alcohol, betaine, creatine, beta-glucans, black and green tea, soybeans, alpha-carotene, walnuts, prunes, flaxseed, glucomannan, monacolin K, psyllium seed fibre, activated charcoal, arabinoxylan, pectin, resistant starch, fructose, tomatoes, lutein, lycopene, zeaxanthin, probiotics, tocopherols, tocotrienols, and algal oil. You can also ask about flavonoids such as anthocyanidins, flavonols, flavones, flavanones, and flavans. Which nutrient or other substance are you interested in?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Vitamin C"
+            },
+            {
+              "title": "Selenium"
+            },
+            {
+              "title": "Carbohydrates"
+            },
+            {
+              "title": "Cholesterol"
+            },
+            {
+              "title": "Cannabidiol"
+            },
+            {
+              "title": "Melatonin"
+            },
+            {
+              "title": "Alcohol"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can ask me about vitamins A, C, D, E and K as well as vitamins B1, B2, B3, B5, B6, B7, B9, B12 and choline. You can ask about the elements bismuth, boron, calcium, chloride, chromium, copper, fluoride, iodine, iron, magnesium, manganese, molybdenum, phosphorus, potassium, selenium, sodium, titanium, and zinc. You can ask about macronutrients, including water, energy, carbohydrates, protein, fat, fibre, and omega 3 \u0026 6 fatty acids. You can also ask about other substances such as melatonin, caffeine, cannabidiol, kava, polyphenols, phytosterols, cholesterol, alcohol, betaine, creatine, beta-glucans, black and green tea, soybeans, alpha-carotene, walnuts, prunes, flaxseed, glucomannan, monacolin K, psyllium seed fibre, activated charcoal, arabinoxylan, pectin, resistant starch, fructose, tomatoes, lutein, lycopene, zeaxanthin, probiotics, tocopherols, tocotrienols, and algal oil. You can also ask about flavonoids such as anthocyanidins, flavonols, flavones, flavanones, and flavans. Which nutrient or other substance are you interested in?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

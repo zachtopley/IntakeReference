@@ -1,0 +1,110 @@
+[
+  {
+    "id": "af25c068-c2d1-44fc-9bfa-e5bd53ce966f",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b61f33a0-1c17-4bac-9303-af0790b2bc95",
+    "data": [
+      {
+        "text": "eu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b32c69f1-d2f1-4856-a99e-af4bd86d42df",
+    "data": [
+      {
+        "text": "information for europeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16a6a45e-fd22-4cbf-a986-cba5b5feec6b",
+    "data": [
+      {
+        "text": "information for the european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5159961d-f0fe-48af-b798-bdda92dee65f",
+    "data": [
+      {
+        "text": "🇪🇺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "58685259-63f1-4904-b7c5-f4ef99dd5d6c",
+    "data": [
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3313325a-b376-4714-b240-e54ae359bdcf",
+    "data": [
+      {
+        "text": "europe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "abef6afa-6676-498c-9535-c4efc40d1ea4",
+    "data": [
+      {
+        "text": "the eu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

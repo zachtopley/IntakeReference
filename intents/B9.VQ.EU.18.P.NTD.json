@@ -1,0 +1,116 @@
+{
+  "id": "901c74dc-fcfe-4318-bb5b-d49c49449577",
+  "name": "B9.VQ.EU.18.P.NTD",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqeu",
+    "b9vqeu18p"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu18p",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Supplemental folic acid intake increases maternal folate status. Low maternal folate status is a risk factor in the development of neural tube defects in the developing foetus.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised this claim for food supplements which provide at least 400 micrograms of folic acid per daily portion. The target population is women of child-bearing age and the beneficial effect is obtained with a supplemental folic acid daily intake of 400 micrograms for at least one month before and up to three months after conception. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum folate intake"
+            },
+            {
+              "title": "What does folate do?"
+            },
+            {
+              "title": "Best source of folate"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Supplemental folic acid intake increases maternal folate status. Low maternal folate status is a risk factor in the development of neural tube defects in the developing foetus. The European Commission has authorised this claim for food supplements which provide at least 400 micrograms of folic acid per daily portion. The target population is women of child-bearing age and the beneficial effect is obtained with a supplemental folic acid daily intake of 400 micrograms for at least one month before and up to three months after conception. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

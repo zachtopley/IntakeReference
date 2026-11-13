@@ -1,0 +1,279 @@
+[
+  {
+    "id": "fd16ea42-f709-4a55-bbe5-b09cfe315c41",
+    "data": [
+      {
+        "text": "I want Google assistant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "58f13dad-d556-47aa-9e72-5d7ca5001d54",
+    "data": [
+      {
+        "text": "enough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7035cfbc-3690-46b9-aa53-1874d8915187",
+    "data": [
+      {
+        "text": "turn off",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19b75af2-ad81-4319-b487-834bb58f75d6",
+    "data": [
+      {
+        "text": "transfer me back to Google Assistant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c358b25d-f0e1-430e-91e5-0c747db8f62a",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 4,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "95c245fc-f81a-4e59-a6ab-88e821b23f50",
+    "data": [
+      {
+        "text": "no that\u0027s it please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02c05f30-f69b-4d9f-8ff6-74f2831bf92b",
+    "data": [
+      {
+        "text": "oh thank you that\u0027s it",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76f2ec09-f1b7-4347-8a57-aa8fd44d4e92",
+    "data": [
+      {
+        "text": "not right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e34d231d-f9a6-4ce3-9a3a-70a8b18289b0",
+    "data": [
+      {
+        "text": "go away",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "10406d49-5331-47f0-b048-cef482ec6a70",
+    "data": [
+      {
+        "text": "no thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d04023b-1b8a-470a-9e1f-76e5b8b33b6d",
+    "data": [
+      {
+        "text": "i\u0027m done for now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15637bf0-a8f5-4184-88af-8cca295b5b22",
+    "data": [
+      {
+        "text": "quit app",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "225e5b8f-d89e-4413-8b0a-2483ca8672be",
+    "data": [
+      {
+        "text": "exit app",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de8db239-0343-460b-a298-82d4c9c403fb",
+    "data": [
+      {
+        "text": "farewell",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "138fc0cc-19c1-43b8-8320-9e0d53e697da",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5fd2082-b87c-4f7a-bf5f-fc39940c1ed2",
+    "data": [
+      {
+        "text": "see ya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8742808-3823-43fd-b59f-6244989129f6",
+    "data": [
+      {
+        "text": "exit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "384ec0e4-e9f1-4f58-91b6-6c67eefe7019",
+    "data": [
+      {
+        "text": "goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f50b620-52be-4a0f-8451-314ec9cf6f16",
+    "data": [
+      {
+        "text": "i\u0027m done for ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8f1f616-1e18-4027-a393-0a1840eeb947",
+    "data": [
+      {
+        "text": "quit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a81558ac-c2e8-4607-86a1-e0dee6b28f58",
+    "data": [
+      {
+        "text": "end conversation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

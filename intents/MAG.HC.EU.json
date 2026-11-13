@@ -1,0 +1,97 @@
+{
+  "id": "29413203-6b13-4b4c-b25b-4f54038f3aaf",
+  "name": "MAG.HC.EU",
+  "auto": true,
+  "contexts": [
+    "maghc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "maghc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Magnesium contributes to: the reduction of tiredness and fatigue, electrolyte balance, normal energy-yielding metabolism, normal functioning of the nervous system, normal muscle function, normal protein synthesis, normal psychological function, and the maintenance of normal bones and teeth. Magnesium has a role in the process of cell division.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products which contain at least 56.25 milligrams of magnesium per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Magnesium contributes to: the reduction of tiredness and fatigue, electrolyte balance, normal energy-yielding metabolism, normal functioning of the nervous system, normal muscle function, normal protein synthesis, normal psychological function, and the maintenance of normal bones and teeth. Magnesium has a role in the process of cell division. The European Commission has authorised these claims for products which contain at least 56.25 milligrams of magnesium per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

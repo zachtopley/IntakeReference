@@ -1,0 +1,64 @@
+{
+  "id": "d44c44bb-90ee-4181-aa2f-c1e4d20adc0e",
+  "name": "MAN.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "manhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "manhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Manganese contributes to: normal bone formation, normal energy metabolism, cell protection from free radical damage, and normal connective tissue structure. Food Standards Australia New Zealand has approved these claims for foods containing at least 500 micrograms of manganese per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

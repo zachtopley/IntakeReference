@@ -1,0 +1,70 @@
+{
+  "id": "ac05b7b1-7937-40f2-9095-2a9d3543b8e0",
+  "name": "BGC.HC.CAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "bgcansource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bgcansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/label-etiquet/claims-reclam/assess-evalu/barley-orge-eng.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Summary of Health Canada’s Assessment of a Health Claim about Barley Products and Blood Cholesterol Lowering\u0027, Bureau of Nutritional Sciences, Food Directorate, Health Products and Food Branch, Health Canada, 2012, and, \u0027Summary of Assessment of a Health Claim about Oat Products and Blood Cholesterol Lowering\u0027, Bureau of Nutritional Sciences, Food Directorate, Health Products and Food Branch, Health Canada, 2010. Copyright Government of Canada. Reproduced in accordance with Government of Canada non-commercial reproduction policy. Intake Reference is not endorsed by Health Canada. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

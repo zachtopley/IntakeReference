@@ -1,0 +1,73 @@
+{
+  "id": "b5866e5d-9822-471a-bbd0-0b225f60bc4e",
+  "name": "WTR.VQ.ANZ.F",
+  "auto": true,
+  "contexts": [
+    "wtrvq",
+    "wtrvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wtrvq",
+          "lifespan": 5
+        },
+        {
+          "name": "wtrvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "wtrvqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 19+, excluding those pregnant or lactating, the Adequate Intake for total water is 2.8 litres per day, consisting of 2.1 litres from fluids and 0.7 litres from food. Total water includes water from foods as well as fluids. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "c6eb17ae-357e-4c69-b993-aebc2af7deb2",
+  "name": "MAG.VQ.ANZ.P.1930",
+  "auto": true,
+  "contexts": [
+    "magvq",
+    "magvqanz",
+    "magvqanzp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "magvq",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanzp",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanzp1930",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For pregnant females aged 19-30, the Recommended Dietary Intake for magnesium is 350 milligrams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

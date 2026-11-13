@@ -1,0 +1,61 @@
+{
+  "id": "0809011a-eafa-4e3b-a6ff-71a999f67575",
+  "name": "BET.HC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of betaine"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Betaine contributes to normal homocysteine metabolism. The beneficial effect is obtained with a daily intake of 1.5 grams of betaine. A daily intake in excess of 4 grams may significantly increase blood cholesterol levels. The European Commission has authorised this claim for products which contain at least 500 milligrams of betaine per quantified portion. Betaine in this instance refers to the compound trimethylglycine. Would you like to know more about the source of this information, or would you like more information about the dietary sources of betaine?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

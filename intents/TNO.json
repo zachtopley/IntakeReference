@@ -1,0 +1,97 @@
+{
+  "id": "32deb31d-e1d4-4bb9-b5d9-7e8a655825ae",
+  "name": "TNO",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "zno",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Sunscreens containing titanium dioxide, at concentrations up to 25%, help prevent sunburn. Titanium dioxide sunscreens which provide a Sun Protection Factor of 30 or greater provide high protection against sunburn and tanning, and are intended for skin highly sensitive to sunburn. Apply generously and evenly at least 15 minutes before sun exposure, and reapply as needed or after towel drying, swimming, or sweating.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For external use only. When using these products keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash or irritation develops and lasts. For children under 6 months of age: ask a doctor. Limiting sun exposure, wearing protective clothing, and using sunscreens may reduce the risks of skin aging, skin cancer, and other harmful effects of the sun. Is there anything else I can help you with?",
+              "displayText": "For external use only. When using these products keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash or irritation develops and lasts. For children under 6 months of age: ask a doctor. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Sun alert:",
+          "textToSpeech": "",
+          "formattedText": "Limiting sun exposure, wearing protective clothing, and using sunscreens may reduce the risks of skin aging, skin cancer, and other harmful effects of the sun.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sunscreens containing titanium dioxide, at concentrations up to 25%, help prevent sunburn. Titanium dioxide sunscreens which provide a Sun Protection Factor of 30 or greater provide high protection against sunburn and tanning, and are intended for skin highly sensitive to sunburn. Apply generously and evenly at least 15 minutes before sun exposure, and reapply as needed or after towel drying, swimming, or sweating. For external use only. When using these products keep out of eyes. Rinse with water to remove. Stop use and ask a doctor if rash or irritation develops and lasts. For children under 6 months of age: ask a doctor. Limiting sun exposure, wearing protective clothing, and using sunscreens may reduce the risks of skin aging, skin cancer, and other harmful effects of the sun. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

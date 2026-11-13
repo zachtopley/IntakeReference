@@ -1,0 +1,123 @@
+[
+  {
+    "id": "b2ace164-a166-49e0-a1c4-ea268d4a72c2",
+    "data": [
+      {
+        "text": "European Union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4854b733-9fab-4a93-910c-6e9829877c18",
+    "data": [
+      {
+        "text": "🇪🇺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "533aabaf-db1b-4838-b57a-b8ed0ee39a6a",
+    "data": [
+      {
+        "text": "information for the european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "20bc626f-247d-4a30-bc42-a9709b595570",
+    "data": [
+      {
+        "text": "information for europeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c33dea12-59b6-485a-a58c-459b631a5630",
+    "data": [
+      {
+        "text": "eu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0813c3b-26bd-4f06-b4a9-3090c81cdbfa",
+    "data": [
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "deb18cfb-6717-4d64-ac52-a5f193e0bc6e",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "european union",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4ac9714-5ba3-421c-84d0-c085c717d1e0",
+    "data": [
+      {
+        "text": "europe",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d38f1fdc-9bc7-4354-bfa6-0ec196cff767",
+    "data": [
+      {
+        "text": "the eu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

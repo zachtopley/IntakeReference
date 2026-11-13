@@ -1,0 +1,65 @@
+{
+  "id": "c419b5c9-da2c-45b1-8f74-31f48d74504a",
+  "name": "FNON.FS.HES",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of hesperetin is raw lemon juice, which contains as much as 142 milligrams of hesperetin per 100 grams. Tangelo juice contains as much as 75 milligrams of hesperetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of hesperetin or more per 100 grams. Fresh peppermint, blood orange juice, raw white grapefruit juice, raw lime juice, raw orange juice, sour orange juice, raw tangerine juice, tangor juice, raw peeled lemons, raw limes, raw oranges, and raw yuzu.",
+              "displayText": "Based on data from the United States Department of Agriculture, the highest food source of hesperetin is raw lemon juice, which contains as much as 142 milligrams of hesperetin per 100 grams. Tangelo juice contains as much as 75 milligrams of hesperetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of hesperetin or more per 100 grams: fresh peppermint, blood orange juice, raw white grapefruit juice, raw lime juice, raw orange juice, sour orange juice, raw tangerine juice, tangor juice, raw peeled lemons, raw limes, raw oranges, and raw yuzu.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of hesperetin by weight is raw lemon juice, which contains as much as 142 milligrams of hesperetin per 100 grams. Tangelo juice contains as much as 75 milligrams of hesperetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of hesperetin or more per 100 grams: fresh peppermint, blood orange juice, raw white grapefruit juice, raw lime juice, raw orange juice, sour orange juice, raw tangerine juice, tangor juice, raw peeled lemons, raw limes, raw oranges, and raw yuzu."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

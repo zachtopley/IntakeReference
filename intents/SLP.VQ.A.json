@@ -1,0 +1,117 @@
+{
+  "id": "1c14b48e-8752-401a-9bcc-114f6dfa81aa",
+  "name": "SLP.VQ.A",
+  "auto": true,
+  "contexts": [
+    "slpvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "slpvq",
+          "lifespan": 5
+        },
+        {
+          "name": "slpsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For everyone aged 18+, the recommended hours of sleep per day are as follows. At least 7 hours for those aged 18 to 60 years. Between 7 and 9 hours for those aged 61 to 64 years. And between 7 and 8 hours for those aged 65 plus years.",
+              "displayText": "For everyone aged 18+, the recommended hours of sleep per day are listed in the table below.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "subtitle": "US Centers for Disease Control \u0026 Prevention",
+          "title": "Daily Sleep Recommendations",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Age",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Hours Per Day",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "18-60 yrs"
+                },
+                {
+                  "text": "7+ hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "61-64 yrs"
+                },
+                {
+                  "text": "7-9 hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "65+ yrs"
+                },
+                {
+                  "text": "7-8 hrs"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 18+, the recommended hours of sleep per day are as follows: 7+ hours for those aged 18-60 years, 7-9 hours for those aged 61-64 years, and 7-8 hours for those aged 65+ years. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

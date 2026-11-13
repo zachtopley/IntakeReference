@@ -1,0 +1,57 @@
+{
+  "id": "7b3932ce-5805-4e3d-b3bb-7ee6f46aadc1",
+  "name": "HC.EU.SOURCE",
+  "auto": true,
+  "contexts": [
+    "hceusource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Full Register",
+          "url": "http://ec.europa.eu/food/safety/labelling_nutrition/claims/register/public/?event\u003dsearch",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from \u0027European Union Register of nutrition and health claims made on foods\u0027, Copyright European Union 1995-2018. \"Re-use is authorised, provided the source is acknowledged\". Intake Reference is not endorsed by the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

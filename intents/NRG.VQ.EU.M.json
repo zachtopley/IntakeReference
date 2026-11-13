@@ -1,0 +1,78 @@
+{
+  "id": "d0a2c480-309c-4461-919c-4260eca8ebc9",
+  "name": "NRG.VQ.EU.M",
+  "auto": true,
+  "contexts": [
+    "nrgvq",
+    "nrgvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgvq",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeum",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Sedentary"
+            },
+            {
+              "title": "Moderately active 🥉"
+            },
+            {
+              "title": "Active 🥈"
+            },
+            {
+              "title": "Very active 🥇"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Information varies by physical activity level. Do you want information for a sedentary, moderately active, active or very active lifestyle?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

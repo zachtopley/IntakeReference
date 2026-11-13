@@ -1,0 +1,57 @@
+{
+  "id": "83e1f548-6e31-4dc2-8e9b-1545e9a9b583",
+  "name": "CAF.VQ.ANZ.SOURCE",
+  "auto": true,
+  "contexts": [
+    "cafvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafvqanz",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "http://www.foodstandards.gov.au/publications/Documents/safety%20aspects%20of%20dietary%20caffeine.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from \u0027Report from the Expert Working Group on the safety aspects of dietary caffeine\u0027, Australia New Zealand Food Authority, June 2000. Provided under a Creative Commons Attribution 3.0 Australia licence. Copyright Food Standards Australia New Zealand, 2000. Intake Reference is not endorsed by Food Standards Australia New Zealand. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

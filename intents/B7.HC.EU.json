@@ -1,0 +1,64 @@
+{
+  "id": "3197e828-2302-4e86-861c-fb4ad48bccdf",
+  "name": "B7.HC.EU",
+  "auto": true,
+  "contexts": [
+    "b7hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b7hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Biotin contributes to: normal energy-yielding metabolism, normal functioning of the nervous system, normal macronutrient metabolism, and normal psychological function. Biotin contributes to the maintenance of normal hair, normal mucous membranes and normal skin. These claims have been authorised for products which contain at least 7.5 micrograms of biotin per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

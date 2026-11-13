@@ -1,0 +1,95 @@
+{
+  "id": "6d1787f5-6e8d-4403-a8d4-b03c4ffdb2e7",
+  "name": "B6.VQ.EU.18.M",
+  "auto": true,
+  "contexts": [
+    "b6vq",
+    "b6vqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b6vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b6vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "b6vqeu18m",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 15+, the Population Reference Intake for vitamin B6 is 1.7 milligrams per day. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

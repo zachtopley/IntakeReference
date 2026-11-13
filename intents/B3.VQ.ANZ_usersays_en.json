@@ -1,0 +1,105 @@
+[
+  {
+    "id": "bdd40079-efcb-4f6a-9a40-bfd780134eeb",
+    "data": [
+      {
+        "text": "🇦🇺🇳🇿",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3de5e3a-2cf2-464b-bb3e-74e76195ea1f",
+    "data": [
+      {
+        "text": "🇳🇿",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30443158-408e-4a85-bec2-2026427add86",
+    "data": [
+      {
+        "text": "🇦🇺",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1055dd6-15c1-48d4-bd30-a4a4f9c12d6a",
+    "data": [
+      {
+        "text": "new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c20db157-e986-42ad-b9fc-d7dbcce860c6",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fede64fd-cccf-4351-91ad-b894b186193b",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6e33327-326f-4269-af11-bc0098bba70c",
+    "data": [
+      {
+        "text": "australia",
+        "userDefined": false
+      },
+      {
+        "text": " new zealand",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

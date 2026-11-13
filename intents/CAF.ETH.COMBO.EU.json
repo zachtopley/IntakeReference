@@ -1,0 +1,62 @@
+{
+  "id": "0acdab10-9914-4fd5-ba64-ed073bb514a9",
+  "name": "CAF.ETH.COMBO.EU",
+  "auto": true,
+  "contexts": [
+    "cafethcombo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafethcombo",
+          "lifespan": 5
+        },
+        {
+          "name": "cafeusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alcohol consumption at doses up to about 0.65 grams per kilogram of bodyweight, leading to a blood alcohol content of about 0.08%, would not affect the safety of single doses of caffeine up to 200 milligrams from any dietary source. Up to these levels of intake, caffeine is unlikely to mask the subjective perception of alcohol intoxication. This is the scientific opinion of the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

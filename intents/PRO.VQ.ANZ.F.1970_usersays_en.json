@@ -1,0 +1,125 @@
+[
+  {
+    "id": "146fb85f-058b-4b51-9f4b-3ce79fe8d381",
+    "data": [
+      {
+        "text": "19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d725ccf-eb79-4e7a-be95-cc390820900c",
+    "data": [
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "391fc883-d003-4f95-a1b9-096de8b767c4",
+    "data": [
+      {
+        "text": "those aged 19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39493ec5-af24-429e-a853-e81dd5750697",
+    "data": [
+      {
+        "text": "information for those aged 19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cced068-0863-4390-a047-ff2c6b22fc3a",
+    "data": [
+      {
+        "text": "ages ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c7fdd14-abe5-40d5-b9e4-e91fb487fc55",
+    "data": [
+      {
+        "text": "age 19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "699c0002-1e9f-4e60-b3bb-6e8e794851c1",
+    "data": [
+      {
+        "text": "age ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

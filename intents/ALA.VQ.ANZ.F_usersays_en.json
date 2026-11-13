@@ -1,0 +1,80 @@
+[
+  {
+    "id": "f3091e0e-d4d2-47c1-81ca-65356d0b5280",
+    "data": [
+      {
+        "text": "woman",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7b12819-2e38-4007-a07e-4d631ae432bf",
+    "data": [
+      {
+        "text": "women",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4502da80-0c69-467e-a36b-a63b25448b73",
+    "data": [
+      {
+        "text": "information for females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68a9ff27-7892-4069-a55f-1ba79c606f04",
+    "data": [
+      {
+        "text": "i\u0027m female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c73e90e4-fe29-42c5-a70a-dcc81dd31772",
+    "data": [
+      {
+        "text": "female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6fa0e04-a4aa-412f-aeed-7a23185af802",
+    "data": [
+      {
+        "text": "females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

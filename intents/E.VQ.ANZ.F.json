@@ -1,0 +1,115 @@
+{
+  "id": "379bc4d0-110e-424f-af6e-dd3597723fc5",
+  "name": "E.VQ.ANZ.F",
+  "auto": true,
+  "contexts": [
+    "evq",
+    "evqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "evq",
+          "lifespan": 5
+        },
+        {
+          "name": "evqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "evqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For females aged 19+, excluding those pregnant or lactating, the Adequate Intake for vitamin E is 7 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the Suggested Dietary Target for vitamin E is 14 milligrams per day. The Suggested Dietary Target is a daily average intake from food and beverages for certain nutrients that that may help in prevention of chronic disease. It is equivalent to the 90th centile of intake in the Australian and New Zealand populations and is to be attained by including some poly- or monounsaturated fats and oils and replacing nutrient-poor, energy-dense foods and drinks with plenty of vegetables and wholegrain cereals. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of vitamin E"
+            },
+            {
+              "title": "Maximum vitamin E intake"
+            },
+            {
+              "title": "What does vitamin E do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 19+, excluding those pregnant or lactating, the Adequate Intake for vitamin E is 7 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Additionally, the Suggested Dietary Target for vitamin E is 14 milligrams per day. The Suggested Dietary Target is a daily average intake from food and beverages for certain nutrients that that may help in prevention of chronic disease. It is equivalent to the 90th centile of intake in the Australian and New Zealand populations and is to be attained by including some poly- or monounsaturated fats and oils and replacing nutrient-poor, energy-dense foods and drinks with plenty of vegetables and wholegrain cereals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

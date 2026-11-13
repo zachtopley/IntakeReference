@@ -1,0 +1,64 @@
+{
+  "id": "d2132e45-d1ec-4f5c-8397-2e82f9f1d0c2",
+  "name": "BT.HC.EU",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bthc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Green tea 🍵"
+            },
+            {
+              "title": "Caffeine"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Owing to its caffeine content, black tea improves attention. In order to obtain the claimed effect, 2–3 servings of black tea, providing at least 75 milligrams of caffeine in total, should be consumed within 90 minutes. The target population is adults in the general population. The European Commission has authorised this claim for black tea prepared from the leaves of Camellia sinensis. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

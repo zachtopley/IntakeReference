@@ -1,0 +1,62 @@
+{
+  "id": "fa244d9d-f364-40fe-aa73-1492393164c9",
+  "name": "MCK.HC.KOR",
+  "auto": true,
+  "contexts": [
+    "mckhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "mckhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hckorsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to the Ministry of Food and Drug Safety, monacolin K from red yeast rice helps to maintain healthy blood cholesterol levels. The beneficial effect is obtained with a daily intake of between 4 and 8 milligrams of monacolin K. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

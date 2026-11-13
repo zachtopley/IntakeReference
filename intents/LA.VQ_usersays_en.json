@@ -1,0 +1,232 @@
+[
+  {
+    "id": "39f67e1a-d732-48e6-b78c-b7e684a5b1c2",
+    "data": [
+      {
+        "text": "linoleic acid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "38157df1-789a-4999-a523-f1fc71690ace",
+    "data": [
+      {
+        "text": "minimum linoleic acid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "46609659-8b74-4823-950d-10cf942dea08",
+    "data": [
+      {
+        "text": "minimum omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18768580-20c5-44b6-aed9-dc5898867f13",
+    "data": [
+      {
+        "text": "linoleic acid recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2c4eda9-45d7-412c-a2e0-67e807a24411",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": " recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89205c0c-5e75-4686-8670-8d416aee5fe1",
+    "data": [
+      {
+        "text": "linoleic acid (ω-6)",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "580e9514-fb0d-4194-9275-cac032535cdc",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b138c8b6-2a17-456e-9632-8c9df9308ef9",
+    "data": [
+      {
+        "text": "how much omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": " do I need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba337446-90d9-4217-a6b2-3b39e2914166",
+    "data": [
+      {
+        "text": "recommended omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": " intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bfddfc3a-e642-4464-bdd8-b07f75f3c696",
+    "data": [
+      {
+        "text": "how much omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": " do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a0936d22-d721-4aeb-9b21-d1cc62a4c9c7",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": " fatty acids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0a4408a-69f9-4137-89dc-63e71fa59579",
+    "data": [
+      {
+        "text": "recommended linoleic acid intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "349b55de-0b3a-45b2-9488-e996165835cf",
+    "data": [
+      {
+        "text": "how much linoleic acid do I need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "da8d1653-6880-4164-9f77-5a27bbe912b9",
+    "data": [
+      {
+        "text": "how much linoleic acid do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

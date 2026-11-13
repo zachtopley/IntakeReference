@@ -1,0 +1,97 @@
+{
+  "id": "47755f28-e754-4d1e-8253-4f2447cc5a1e",
+  "name": "C.HC.EU",
+  "auto": true,
+  "contexts": [
+    "chc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "chc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Vitamin C increases iron absorption. Vitamin C contributes to normal collagen formation for the normal function of blood vessels, bones, cartilage, gums, skin and teeth. Vitamin C contributes to normal energy-yielding metabolism, normal functioning of the nervous system, normal psychological function, normal function of the immune system, the protection of cells from oxidative stress, the reduction of tiredness and fatigue, and the regeneration of the reduced form of vitamin E.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products which contain at least 12 milligrams of vitamin C per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin C increases iron absorption. Vitamin C contributes to normal collagen formation for the normal function of blood vessels, bones, cartilage, gums, skin and teeth. Vitamin C contributes to normal energy-yielding metabolism, normal functioning of the nervous system, normal psychological function, normal function of the immune system, the protection of cells from oxidative stress, the reduction of tiredness and fatigue, and the regeneration of the reduced form of vitamin E. The European Commission has authorised these claims for products which contain at least 12 milligrams of vitamin C per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

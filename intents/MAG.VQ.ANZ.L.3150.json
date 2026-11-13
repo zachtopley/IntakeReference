@@ -1,0 +1,78 @@
+{
+  "id": "1357adf7-3904-4866-9ab4-a0c94449e1ed",
+  "name": "MAG.VQ.ANZ.L.3150",
+  "auto": true,
+  "contexts": [
+    "magvq",
+    "magvqanz",
+    "magvqanzl"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "magvq",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanzl",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanzl3150",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactating females aged 31-50, the Recommended Dietary Intake for magnesium is 320 milligrams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

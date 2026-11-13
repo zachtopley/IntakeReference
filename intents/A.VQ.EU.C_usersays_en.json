@@ -1,0 +1,181 @@
+[
+  {
+    "id": "66f01ec5-5229-4cb9-8b01-1faf58ffaf63",
+    "data": [
+      {
+        "text": "children ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": " or less",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a68d8dae-9446-474b-9006-dfb6f647b967",
+    "data": [
+      {
+        "text": "children below the age of 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b856deb3-cdee-4444-9ccc-4b36ee90babb",
+    "data": [
+      {
+        "text": "children ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": " and younger",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "944ecb5c-1e4e-4a4e-b81b-dde7fba0fe50",
+    "data": [
+      {
+        "text": "children less than ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53375ed6-1776-4941-9c75-2fda38f1bcb6",
+    "data": [
+      {
+        "text": "children 👶(under ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "userDefined": false
+      },
+      {
+        "text": ")",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19610658-3465-41c7-baa7-91f0ecfbfe4d",
+    "data": [
+      {
+        "text": "those under ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7a7d418-e0bd-4484-817b-424bf8852e6f",
+    "data": [
+      {
+        "text": "kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "545f3f45-910f-4535-9af2-f95b9b3af219",
+    "data": [
+      {
+        "text": "children under 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2d46404-d338-4720-bba7-11c9f0165ca4",
+    "data": [
+      {
+        "text": "infants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "79a53a5e-b561-4754-948f-e93d08363848",
+    "data": [
+      {
+        "text": "children younger than ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2b641d47-b5fc-49a0-ab58-900a39b8c221",
+    "data": [
+      {
+        "text": "children",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

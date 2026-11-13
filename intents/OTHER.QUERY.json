@@ -1,0 +1,74 @@
+{
+  "id": "04c842c0-41d1-4424-ba74-48f277f937a6",
+  "name": "OTHER.QUERY",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Kava"
+            },
+            {
+              "title": "Olive oil polyphenols"
+            },
+            {
+              "title": "Melatonin"
+            },
+            {
+              "title": "Cannabidiol"
+            },
+            {
+              "title": "Black tea"
+            },
+            {
+              "title": "Green tea"
+            },
+            {
+              "title": "Caffeine"
+            },
+            {
+              "title": "Soybeans"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can ask me about other substances such as melatonin, caffeine, cannabidiol, kava, polyphenols, phytosterols, cholesterol, alcohol, betaine, creatine, beta-glucans, black and green tea, soybeans, alpha-carotene, walnuts, prunes, flaxseed, glucomannan, monacolin K, psyllium seed fibre, activated charcoal, arabinoxylan, pectin, resistant starch, fructose, tomatoes, lutein, lycopene, zeaxanthin, probiotics, tocopherols, tocotrienols, and algal oil. You can also ask about flavonoids such as anthocyanidins, flavonols, flavones, flavanones, and flavans. Which other substance are you interested in?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

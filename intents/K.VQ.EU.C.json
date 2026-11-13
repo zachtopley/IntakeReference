@@ -1,0 +1,73 @@
+{
+  "id": "74c64713-074a-4b46-bf9a-bfe9cc6986b0",
+  "name": "K.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "kvq",
+    "kvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "kvq",
+          "lifespan": 5
+        },
+        {
+          "name": "kvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of vitamin K"
+            },
+            {
+              "title": "What does vitamin K do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the Adequate Intakes for vitamin K range from 10 micrograms of phylloquinone per day for those aged 7-11 months, up to 65 micrograms of phylloquinone per day for those aged 15-17. See the associated table or the source document for full details. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

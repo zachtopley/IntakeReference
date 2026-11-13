@@ -1,0 +1,64 @@
+{
+  "id": "ce73c1fe-4f37-4805-a20e-33164c686aa1",
+  "name": "CAF.VQ.ANZ",
+  "auto": true,
+  "contexts": [
+    "cafvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqanz",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There is no recognised health-based guidance value, such as an Acceptable Daily Intake, for caffeine. However, a report published by a Food Standards Australia New Zealand Expert Working Group concludes: firstly, that there are reports of increased anxiety levels at caffeine doses of 95 milligrams in children and doses of 210 milligrams in adults; secondly, that caffeine has been reported to reduce the ability to sleep at doses of 100 milligrams at bedtime; thirdly, it is concluded that caffeine at doses typically consumed in the diet may lead to withdrawal effects and some physical dependence in adults. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

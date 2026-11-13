@@ -1,0 +1,65 @@
+{
+  "id": "994ffd3a-7cf5-44d4-9d3d-388d33685117",
+  "name": "NRG.VQ.EU",
+  "auto": true,
+  "contexts": [
+    "nrgvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgvq",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Males"
+            },
+            {
+              "title": "Females"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Do you want information for males or females?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

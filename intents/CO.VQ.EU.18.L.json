@@ -1,0 +1,95 @@
+{
+  "id": "d0d94c2c-a476-4fde-8248-f74b77ce7f68",
+  "name": "CO.VQ.EU.18.L",
+  "auto": true,
+  "contexts": [
+    "covq",
+    "covqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "covq",
+          "lifespan": 5
+        },
+        {
+          "name": "covqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "covqeu18l",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactation, the Adequate Intake for choline is 520 milligrams per day. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,73 @@
+{
+  "id": "97256479-97d0-4c04-b010-71e34d2214df",
+  "name": "B5.VQ.ANZ.P",
+  "auto": true,
+  "contexts": [
+    "b5vq",
+    "b5vqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b5vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b5vqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "b5vqanzp",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For pregnant females aged 14-50, the Adequate Intake for pantothenic acid is 5 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "aff31228-b93f-46aa-b1fc-a98eb6129bda",
+  "name": "B9.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum folate intake"
+            },
+            {
+              "title": "Maximum folate intake"
+            },
+            {
+              "title": "What does folate do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, yeast extract spread contains 793 micrograms of folate per 100 grams. Raw mung beans contain 625 micrograms of folate per 100 grams. Raw garbanzo beans contain 557 micrograms of folate per 100 grams. Dried spearmint contains 530 micrograms of folate per 100 grams. Would you like to know more about the source of this information, or would you like more information about folate?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

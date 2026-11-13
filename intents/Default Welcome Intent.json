@@ -1,0 +1,135 @@
+{
+  "id": "8e461e18-04d6-4043-9e34-edf325f404bc",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "telegram",
+          "title": "Suggestions",
+          "buttons": [
+            {
+              "text": "vitamin B12"
+            },
+            {
+              "text": "magnesium"
+            },
+            {
+              "text": "protein"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Hi, I\u0027m Intake Reference. I provide information about vitamins, elements, macronutrients, foods, and more. Information is provided for reference purposes only and is not a substitute for professional medical advice.",
+              "displayText": "Hi, I\u0027m Intake Reference. I provide information about vitamins, elements, macronutrients, foods and more.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Get started with questions like, \"how much vitamin B12 do I need?\", or, \"what foods contain the most protein?\", or, \"what does vitamin K do?\", or, \"how much selenium is too much?\". Or just tell me the nutrient you\u0027re interested in, and we\u0027ll go from there.",
+              "displayText": "Information is provided for reference purposes only and is not a substitute for professional medical or legal advice. Intake Reference is not endorsed by the organisations from which its information is sourced.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "vitamins"
+            },
+            {
+              "title": "elements"
+            },
+            {
+              "title": "macronutrients"
+            },
+            {
+              "title": "flavonoids"
+            },
+            {
+              "title": "other substances"
+            },
+            {
+              "title": "sources of information"
+            },
+            {
+              "title": "what can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Hi, I\u0027m Intake Reference. I provide information about vitamins, elements, macronutrients, foods, and more. Get started with questions like: \u0027how much vitamin B12 do I need?\u0027, \u0027what foods contain the most protein?\u0027, \u0027what does vitamin K do?\u0027, and \u0027how much selenium is too much?\u0027. Information is provided for reference purposes only and is not a substitute for professional medical or legal advice. Intake Reference is not endorsed by the organisations from which its information is sourced."
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEGRAM_WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    },
+    {
+      "name": "TELEPHONY_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

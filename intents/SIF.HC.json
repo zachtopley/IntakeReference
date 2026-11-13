@@ -1,0 +1,66 @@
+{
+  "id": "42e746f3-65a3-430b-9a5f-1ec13a4137cb",
+  "name": "SIF.HC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hckorsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to the Ministry of Food and Drug Safety, soybean isoflavones help to maintain bone health. The beneficial effect is obtained with a daily intake of between 24 and 27 milligrams of soybean isoflavones in their aglycone form. Soybean isoflavones include daidzein, genistein, and glycitein."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Infants, children, pregnant and lactating women, as well as individuals sensitive to estrogen, and individuals with an allergy to soybeans, should exercise caution when consuming soybean isoflavones. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "aeaffbd6-8a76-4939-a0dc-f4aa2d9057ed",
+  "name": "ZPT.VQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "zpt",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Zinc pyrithione controls the symptoms of dandruff, in preparations for external use only, at concentrations of 0.3–2% when formulated to be applied and then washed off after brief exposure, and at concentrations of 0.1–0.25% when formulated to be applied and left on the skin or scalp. Zinc pyrithione controls the symptoms of seborrheic dermatitis, in preparations for external use only, at concentrations of 0.95–2% when formulated to be applied and then washed off after brief exposure, and at concentrations of 0.1–0.25% when formulated to be applied and left on the skin or scalp.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Avoid contact with the eyes. If contact occurs, rinse eyes thoroughly with water. If condition worsens or does not improve after regular use of the product as directed, consult a doctor. For best results use at least twice a week or as directed by a doctor. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Zinc pyrithione controls the symptoms of dandruff, in preparations for external use only, at concentrations of 0.3–2% when formulated to be applied and then washed off after brief exposure, and at concentrations of 0.1–0.25% when formulated to be applied and left on the skin or scalp. Zinc pyrithione controls the symptoms of seborrheic dermatitis, in preparations for external use only, at concentrations of 0.95–2% when formulated to be applied and then washed off after brief exposure, and at concentrations of 0.1–0.25% when formulated to be applied and left on the skin or scalp. Avoid contact with the eyes. If contact occurs, rinse eyes thoroughly with water. If condition worsens or does not improve after regular use of the product as directed, consult a doctor. For best results use at least twice a week or as directed by a doctor. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

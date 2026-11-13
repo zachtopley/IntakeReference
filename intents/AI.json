@@ -1,0 +1,91 @@
+{
+  "id": "f5f92279-0385-456a-ab22-281ea65648e5",
+  "name": "AI",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Adequate Intakes are a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population, as well as a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The term refers to the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that is assumed to be adequate. An Adequate Intake is established when a Population Reference Intake or Recommended Dietary Intake cannot be established.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Tolerable Upper Intake"
+            },
+            {
+              "title": "Reference Intake Range"
+            },
+            {
+              "title": "Pop. Reference Intake"
+            },
+            {
+              "title": "Recomm. Dietary Intake"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adequate Intakes are a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population, as well as a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population. The term refers to the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that is assumed to be adequate. An Adequate Intake is established when a Population Reference Intake or Recommended Dietary Intake cannot be established."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

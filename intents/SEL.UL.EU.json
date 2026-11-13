@@ -1,0 +1,123 @@
+{
+  "id": "2a6d0758-d6d4-4129-a56c-a6adace59024",
+  "name": "SEL.UL.EU",
+  "auto": true,
+  "contexts": [
+    "selul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "selul",
+          "lifespan": 5
+        },
+        {
+          "name": "seluleu",
+          "lifespan": 5
+        },
+        {
+          "name": "ulsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For adults aged 18+, including those pregnant or lactating, the Tolerable Upper Intake Level for selenium is 300 micrograms per day. The Upper Level only applies to selenium naturally present in food and the forms of selenium found acceptable for use in food; sodium selenate, sodium selenite and sodium hydrogen selenite.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For adults aged 18+, including those pregnant or lactating, the Tolerable Upper Intake Level for selenium is 300 micrograms per day. The Upper Level only applies to selenium naturally present in food and the forms of selenium found acceptable for use in food; sodium selenate, sodium selenite and sodium hydrogen selenite. The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

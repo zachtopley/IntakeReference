@@ -1,0 +1,93 @@
+[
+  {
+    "id": "01c222f6-714e-4f3f-af9b-bb95be857e4a",
+    "data": [
+      {
+        "text": "how caloric is protein?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13c789a1-25cb-4743-aa8e-03e8d3b605d7",
+    "data": [
+      {
+        "text": "how much energy per gram of protein?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "508bc8f9-bb67-440c-80d0-025a860716c7",
+    "data": [
+      {
+        "text": "calories in a gram of protein",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "096d90e4-6eee-47a5-a0b1-4f0cfa1e8d2e",
+    "data": [
+      {
+        "text": "protein calories per gram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b1fc74d8-30a2-4e49-8a03-42e93ba27d3b",
+    "data": [
+      {
+        "text": "how many calories does protein have?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6277e936-5ba2-4e23-9a04-fcfa239c081b",
+    "data": [
+      {
+        "text": "how many calories in protein?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "12720a96-f04b-465b-a6ab-e6101213dd47",
+    "data": [
+      {
+        "text": "how many calories per gram of protein?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

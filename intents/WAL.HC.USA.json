@@ -1,0 +1,64 @@
+{
+  "id": "013bb3ef-a15b-4744-90e4-42267a3d7be0",
+  "name": "WAL.HC.USA",
+  "auto": true,
+  "contexts": [
+    "walhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "walhc",
+          "lifespan": 5
+        },
+        {
+          "name": "walhcusasource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Supportive but not conclusive research shows that eating 42.5 grams of walnuts per day, as part of a low saturated fat and low cholesterol diet and not resulting in increased caloric intake, may reduce the risk of coronary heart disease. See nutrition information for fat content. The United States Food and Drug Administration intends to consider exercising its enforcement discretion for this qualified health claim. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

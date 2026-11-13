@@ -1,0 +1,71 @@
+{
+  "id": "de037776-3bd6-4fc0-ac74-520b0f06c061",
+  "name": "BCRYPTO.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "α-carotene"
+            },
+            {
+              "title": "β-carotene (vitamin A)"
+            },
+            {
+              "title": "Lycopene"
+            },
+            {
+              "title": "Lutein"
+            },
+            {
+              "title": "Zeaxanthin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of beta-cryptoxanthin by weight is cayenne pepper. Cayenne pepper contains 6.3 milligrams of beta-cryptoxanthin per 100 grams. The second highest source is paprika, which contains 6.2 milligrams of beta-cryptoxanthin per 100 grams. The third highest source is chili powder, which contains 3.5 milligrams of beta-cryptoxanthin per 100 grams. Would you like to know more about the source of this information, or would you like more information about carotenoids?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

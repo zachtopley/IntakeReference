@@ -1,0 +1,73 @@
+{
+  "id": "f9f21990-00cd-41f2-a251-59fd9c5fb75f",
+  "name": "MOL.VQ.ANZ.L",
+  "auto": true,
+  "contexts": [
+    "molvq",
+    "molvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "molvq",
+          "lifespan": 5
+        },
+        {
+          "name": "molvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "molvqanzl",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactating females aged 14+, the Recommended Dietary Intake for molybdenum is 50 micrograms per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

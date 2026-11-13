@@ -1,0 +1,57 @@
+{
+  "id": "2fd1e3c5-e553-447c-a4fb-9ea2eeb4cd04",
+  "name": "VQ.SOURCE.ANZ",
+  "auto": true,
+  "contexts": [
+    "vqanzsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://www.nhmrc.gov.au/_files_nhmrc/file/your_health/healthy/nutrition/17599_nhmrc_nrv_update-dietary_intakes_0.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from \u0027Nutrient Reference Values for Australia and New Zealand Including Recommended Dietary Intakes\u0027, National Health and Medical Research Council, Australian Government Department of Health and Ageing, New Zealand Ministry of Health, Canberra 2006, updated September 2017. Copyright Commonwealth of Australia 2016. Provided under a Creative Commons Attribution 4.0 International licence. Intake Reference is not endorsed by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

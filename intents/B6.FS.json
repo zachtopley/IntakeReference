@@ -1,0 +1,65 @@
+{
+  "id": "84c71504-7bbe-42c7-8d69-7eb0dc0a3e5b",
+  "name": "B6.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin B6 intake"
+            },
+            {
+              "title": "Maximum vitamin B6 intake"
+            },
+            {
+              "title": "What does vitamin B6 do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, dried pasilla peppers contain 4.2 milligrams of vitamin B6 per 100 grams. Rice bran contains 4 milligrams of vitamin B6 per 100 grams. Ground sage contains 2.7 milligrams of vitamin B6 per 100 grams. Would you like to know more about the source of this information, or would you like more information about vitamin B6?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,72 @@
+{
+  "id": "357816f8-6ea6-42ae-8297-90a56cc1a92c",
+  "name": "PRO.VQ.ANZ.F",
+  "auto": true,
+  "contexts": [
+    "provq",
+    "provqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "provq",
+          "lifespan": 5
+        },
+        {
+          "name": "provqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "provqanzf",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "age 19-70"
+            },
+            {
+              "title": "age 71+"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want information for those aged 19-70 or for those aged 71+?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

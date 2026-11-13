@@ -1,0 +1,97 @@
+{
+  "id": "fe5d0a3b-a230-4acb-9009-c48d3e242b75",
+  "name": "CTN.HC.S",
+  "auto": true,
+  "contexts": [
+    "ctnhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctnhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Daily creatine consumption can enhance the effect of resistance training on muscle strength in adults over the age of 55. The beneficial effect is obtained with a daily intake of 3 grams of creatine in conjunction with resistance training, which allows an increase in workload over time and which should be performed at least three times per week for several weeks, at an intensity of at least 65-75% of one repetition maximum load. One repetition maximum load is the maximum weight or force an individual can exert in a single lift.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised this claim for foods targeting adults over the age of 55, who are engaged in regular resistance training. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Daily creatine consumption can enhance the effect of resistance training on muscle strength in adults over the age of 55. The beneficial effect is obtained with a daily intake of 3 grams of creatine in conjunction with resistance training, which allows an increase in workload over time and which should be performed at least three times per week for several weeks, at an intensity of at least 65-75% of one repetition maximum load. One repetition maximum load is the maximum weight or force an individual can exert in a single lift. The European Commission has authorised this claim for foods targeting adults over the age of 55, who are engaged in regular resistance training. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "b254e499-20ad-4989-b5bc-83762916eac8",
+    "data": [
+      {
+        "text": "non nutritive substances",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddbd51d2-3aba-4e81-b28d-a4fc83a54b0c",
+    "data": [
+      {
+        "text": "/other",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19e7be4c-e238-40a5-8809-c62062e45401",
+    "data": [
+      {
+        "text": "what other substances can you tell me about",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "df9b48c2-c9ba-46ba-a96f-43d5cf4d4cc6",
+    "data": [
+      {
+        "text": "other substances",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

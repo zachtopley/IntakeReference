@@ -1,0 +1,96 @@
+{
+  "id": "da4c36fb-94d9-4a5a-bf93-9d2fcfb5ba59",
+  "name": "D.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest source of vitamin D2 by weight is raw brown mushrooms which have been exposed to ultraviolet light, which contain 31.9 micrograms of vitamin D2 per 100 grams. Raw portobello mushrooms which have been exposed to ultraviolet light contain 28.4 micrograms of vitamin D2 per 100 grams. Raw maitake mushrooms contain 28.1 micrograms of vitamin D2 per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 1 microgram of vitamin D2 or more per 100 grams: raw chanterelle mushrooms, raw morel mushrooms, dried shiitake mushrooms, fortified soy milk, fortified rice milk, and fortified coconut milk. Would you like to know more about the source of this information, or would you like more information about vitamin D?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin D intake"
+            },
+            {
+              "title": "Maximum vitamin D intake"
+            },
+            {
+              "title": "What does vitamin D do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest source of vitamin D2 by weight is raw brown mushrooms which have been exposed to ultraviolet light, which contain 31.9 micrograms of vitamin D2 per 100 grams. Raw portobello mushrooms which have been exposed to ultraviolet light contain 28.4 micrograms of vitamin D2 per 100 grams. Raw maitake mushrooms contain 28.1 micrograms of vitamin D2 per 100 grams. Additionally, the following foods contain 1 microgram of vitamin D2 or more per 100 grams: raw chanterelle mushrooms, raw morel mushrooms, dried shiitake mushrooms, fortified soy milk, fortified rice milk, and fortified coconut milk. Would you like to know more about the source of this information, or would you like more information about vitamin D?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

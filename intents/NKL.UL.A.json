@@ -1,0 +1,72 @@
+{
+  "id": "8830ea9b-cb1e-48f8-81a4-51bda34543a2",
+  "name": "NKL.UL.A",
+  "auto": true,
+  "contexts": [
+    "nklul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nklul",
+          "lifespan": 5
+        },
+        {
+          "name": "nadrisource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 14+, including those pregnant or lactating, the Tolerable Upper Intake Level for nickel is 1 milligram per day."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

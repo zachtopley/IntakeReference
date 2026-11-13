@@ -1,0 +1,60 @@
+{
+  "id": "c46d19d6-8ce4-40c3-96cf-a7d5699b3f07",
+  "name": "POT.VQ.EU.18.F",
+  "auto": true,
+  "contexts": [
+    "potvq",
+    "potvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "potvq",
+          "lifespan": 5
+        },
+        {
+          "name": "potvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "potvqeu18f",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 18+, excluding those pregnant or lactating, the Adequate Intake for potassium is 3,500 milligrams per day. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,91 @@
+{
+  "id": "0b3ab129-58f9-42bf-a4fa-8d7a75ed98a0",
+  "name": "MOL.VQ.EU",
+  "auto": true,
+  "contexts": [
+    "molvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "molvq",
+          "lifespan": 5
+        },
+        {
+          "name": "molvqeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More options",
+          "replies": [
+            "Upper Intake Level",
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More options",
+          "replies": [
+            "Upper Intake Level",
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Adults"
+            },
+            {
+              "title": "Children 👶(under 15)"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Do you want information for adults or children under 15?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

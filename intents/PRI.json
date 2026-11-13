@@ -1,0 +1,91 @@
+{
+  "id": "70a4296c-2476-45c2-8d2a-dba84903ee2a",
+  "name": "PRI",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Population Reference Intakes are a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population. Recommended Dietary Intakes are a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Both terms refer to a level of daily nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Reference Intake Range"
+            },
+            {
+              "title": "Adequate Intake"
+            },
+            {
+              "title": "Tolerable Upper Intake"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Population Reference Intakes are a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population. Recommended Dietary Intakes are a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population. Both terms refer to a level of daily nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

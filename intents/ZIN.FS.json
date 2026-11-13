@@ -1,0 +1,96 @@
+{
+  "id": "9211624a-bf2b-4f2b-8419-2a73fb2b2c3d",
+  "name": "ZIN.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, toasted wheat germ cereal contains 16.7 milligrams of zinc per 100 grams. Unroasted sesame seed butter contains 10.5 milligrams of zinc per 100 grams. Roasted unsalted pumpkin and squash seeds contain 10.3 milligrams of zinc per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 8 milligrams of zinc or more per 100 grams. Crude wheat germ, high-fat, low-fat and defatted sesame flour, dried watermelon seeds, toasted unsalted sesame seeds, hulled hemp seeds, raw mature hyacinth beans, and dried chervil. Would you like to know more about the source of this information, or would you like more information about zinc?",
+              "displayText": "Additionally, the following foods contain 8 milligrams of zinc or more per 100 grams: crude wheat germ, high-fat, low-fat and defatted sesame flour, dried watermelon seeds, toasted unsalted sesame seeds, hulled hemp seeds, raw mature hyacinth beans, and dried chervil. Would you like to know more about the source of this information, or would you like more information about zinc?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum zinc intake"
+            },
+            {
+              "title": "Maximum zinc intake"
+            },
+            {
+              "title": "Why do we need zinc?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, toasted wheat germ cereal contains 16.7 milligrams of zinc per 100 grams. Unroasted sesame seed butter contains 10.5 milligrams of zinc per 100 grams. Roasted unsalted pumpkin and squash seeds contain 10.3 milligrams of zinc per 100 grams. Additionally, the following foods contain 8 milligrams of zinc or more per 100 grams: crude wheat germ, high-fat, low-fat and defatted sesame flour, dried watermelon seeds, toasted unsalted sesame seeds, hulled hemp seeds, raw mature hyacinth beans, and dried chervil. Would you like to know more about the source of this information, or would you like more information about zinc?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

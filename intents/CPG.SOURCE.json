@@ -1,0 +1,90 @@
+{
+  "id": "0b72fac8-3f03-448f-8b47-8410e44fce1d",
+  "name": "CPG.SOURCE",
+  "auto": true,
+  "contexts": [
+    "cpgsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cpgsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Regulation 1169 dash 2011 of the European Parliament and Council of the European Union. Copyright European Union, 1998-2018. \"Re-use is authorised provided the source is acknowledged\". Intake Reference is not endorsed by the European Union.",
+              "displayText": "Regulation (EU) 1169/2011 of the European Parliament and Council of the European Union. Copyright European Union, 1998-2018. \"Re-use of the EUR-Lex data for commercial or non-commercial purposes is authorised provided the source is acknowledged\". Intake Reference is not endorsed by the European Union.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "full regulation",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri\u003dCELEX:32011R1169\u0026from\u003den",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Regulation (EU) 1169/2011 of the European Parliament and Council of the European Union. Copyright European Union, 1998-2018. \"Reuse of the EUR-Lex data for commercial or non-commercial purposes is authorised provided the source is acknowledged\". Intake Reference is not endorsed by the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

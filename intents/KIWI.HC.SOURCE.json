@@ -1,0 +1,55 @@
+{
+  "id": "14f8a885-f710-47f9-9877-ae35e2d026f5",
+  "name": "KIWI.HC.SOURCE",
+  "auto": true,
+  "contexts": [
+    "kiwihc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "kiwihc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "EFSA publication",
+          "url": "https://www.efsa.europa.eu/en/efsajournal/pub/6641",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Green kiwifruit (lat. Actinidia deliciosa var. Hayward) and maintenance of normal defecation: evaluation of a health claim pursuant to Article 13(5) of Regulation (EC) No 1924/2006\u0027. European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Copyright 2021 European Food Safety Authority. Provided under a Creative Commons Attribution No Derivatives 4.0 license. Intake Reference is not endorsed by the European Food Safety Authority, an agency of the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

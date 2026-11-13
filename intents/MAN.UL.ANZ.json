@@ -1,0 +1,74 @@
+{
+  "id": "f5680cb1-4055-44f2-8273-223c9025ad32",
+  "name": "MAN.UL.ANZ",
+  "auto": true,
+  "contexts": [
+    "manul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "manul",
+          "lifespan": 5
+        },
+        {
+          "name": "manulanz",
+          "lifespan": 5
+        },
+        {
+          "name": "anzulsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum manganese intakes"
+            },
+            {
+              "title": "What does manganese do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are insufficient data to set an Upper Level of Intake for manganese. However, manganese intake beyond that normally present in food and beverages could represent a risk of adverse health effects without evidence of any health benefit. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

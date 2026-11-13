@@ -1,0 +1,57 @@
+[
+  {
+    "id": "b3874b75-b4d0-472b-868a-5054b296538e",
+    "data": [
+      {
+        "text": "does vitamin D reduce the risk of ",
+        "userDefined": false
+      },
+      {
+        "text": "bone",
+        "userDefined": false
+      },
+      {
+        "text": " fractures?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8fccaef-be8c-4069-a817-df3822bf0bfd",
+    "data": [
+      {
+        "text": "does vitamin D reduce the risk of falling?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a912bb7-e52c-484d-ab79-5d74999b17c4",
+    "data": [
+      {
+        "text": "vitamin d and the reduced risk of ",
+        "userDefined": false
+      },
+      {
+        "text": "bone",
+        "userDefined": false
+      },
+      {
+        "text": " fractures",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

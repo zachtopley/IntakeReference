@@ -1,0 +1,91 @@
+{
+  "id": "74259345-40e8-43bd-ac7a-e6281f4c59fd",
+  "name": "ABX.HC.EU",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Consumption of arabinoxylan as part of a meal contributes to a reduction of the blood glucose rise after that meal. The beneficial effect is obtained by consuming arabinoxylan-rich fibre produced from wheat endosperm as part of the meal.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised this claim for products which contain at least 8 grams of arabinoxylan-rich fibre produced from wheat endosperm (at least 60% arabinoxylan by weight) per 100 grams of available carbohydrates in a quantified portion as part of the meal. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Consumption of arabinoxylan as part of a meal contributes to a reduction of the blood glucose rise after that meal. The beneficial effect is obtained by consuming arabinoxylan-rich fibre produced from wheat endosperm as part of the meal. The European Commission has authorised this claim for products which contain at least 8 grams of arabinoxylan-rich fibre produced from wheat endosperm (at least 60% arabinoxylan by weight) per 100 grams of available carbohydrates in a quantified portion as part of the meal. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

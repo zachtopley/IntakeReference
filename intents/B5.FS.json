@@ -1,0 +1,62 @@
+{
+  "id": "6d3ec39a-7748-4483-be07-65cd7e2f7adc",
+  "name": "B5.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin B5 intake"
+            },
+            {
+              "title": "What does vitamin B5 do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, dried shiitake mushrooms contain 21.9 milligrams of pantothenic acid per 100 grams. Rice bran contains 7.4 milligrams of pantothenic acid per 100 grams. Toasted unsalted sunflower seed kernels contain 7 milligrams of pantothenic acid per 100 grams. Would you like to know more about the source of this information, or would you like more information about vitamin B5?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

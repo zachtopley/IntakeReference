@@ -1,0 +1,78 @@
+{
+  "id": "e3f07741-89f4-40f0-84b8-b78f34df001b",
+  "name": "CAL.VQ.ANZ.M.71",
+  "auto": true,
+  "contexts": [
+    "calvq",
+    "calvqanz",
+    "calvqanzm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calvq",
+          "lifespan": 5
+        },
+        {
+          "name": "calvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "calvqanzm",
+          "lifespan": 5
+        },
+        {
+          "name": "calvqanzm71",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 71+, the Recommended Dietary Intake for calcium is 1,300 milligrams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

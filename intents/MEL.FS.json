@@ -1,0 +1,59 @@
+{
+  "id": "beaf23fc-b974-4ab4-a4f4-2e41ecb754da",
+  "name": "MEL.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pistachio",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does melatonin do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Pistachios contain 23.3 milligrams of melatonin per 100 grams. Pistachios were found to have the highest melatonin content of the hundreds of foods studied in a review entitled \u0027Dietary Sources and Bioactivities of Melatonin\u0027, published in 2017 in the journal \u0027Nutrients\u0027. Would you like to know more about the source of this information, or would you like more information about melatonin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

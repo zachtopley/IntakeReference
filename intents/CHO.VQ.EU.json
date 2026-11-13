@@ -1,0 +1,123 @@
+{
+  "id": "4a9a74ab-02f8-48c9-9ec7-32445e7447ca",
+  "name": "CHO.VQ.EU",
+  "auto": true,
+  "contexts": [
+    "chovq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "chovq",
+          "lifespan": 5
+        },
+        {
+          "name": "chovqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Cholesterol is synthesised by the body and is not required in the diet, therefore the Panel decided not to propose a reference on cholesterol.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Although there is a positive dose-dependent relationship between the intake of dietary cholesterol and blood LDL cholesterol concentrations, the main dietary determinant of blood LDL cholesterol concentrations is saturated fat intake. Furthermore, most dietary cholesterol is obtained from foods which are also significant sources of dietary saturated fatty acids, for example, dairy and meat products. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Cholesterol is synthesised by the body and is not required in the diet, therefore the Panel decided not to propose a reference on cholesterol. Although there is a positive dose-dependent relationship between the intake of dietary cholesterol and blood LDL cholesterol concentrations, the main dietary determinant of blood LDL cholesterol concentrations is saturated fat intake. Furthermore, most dietary cholesterol is obtained from foods which are also significant sources of dietary saturated fatty acids, for example, dairy and meat products. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

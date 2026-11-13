@@ -1,0 +1,75 @@
+{
+  "id": "d1b44d06-29eb-439f-903d-844070d7cd47",
+  "name": "B1.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum thiamin intake"
+            },
+            {
+              "title": "Maximum thiamin intake"
+            },
+            {
+              "title": "Why do we need thiamin?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, thiamine, also known as vitamin B1."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest source of thiamin by weight is yeast extract spread. Yeast extract spread contains 23.4 milligrams of thiamin per 100 grams. Additionally, rice bran contains 2.75 milligrams of thiamin per 100 grams. High-fat sesame flour contains 2.68 milligrams of thiamin per 100 grams. Would you like to know more about the source of this information, or would you like more information about thiamin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

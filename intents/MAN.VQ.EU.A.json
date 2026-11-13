@@ -1,0 +1,76 @@
+{
+  "id": "c6d56343-7dbb-412e-9efc-168619a5b977",
+  "name": "MAN.VQ.EU.A",
+  "auto": true,
+  "contexts": [
+    "manvq",
+    "manvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "manvq",
+          "lifespan": 5
+        },
+        {
+          "name": "manvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum manganese intake"
+            },
+            {
+              "title": "Best source of manganese"
+            },
+            {
+              "title": "What does manganese do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 15+, including those pregnant or lactating, the Adequate Intake for manganese is 3 milligrams per day. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

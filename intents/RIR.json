@@ -1,0 +1,94 @@
+{
+  "id": "78902144-248f-4678-b66c-c5b533b92ccb",
+  "name": "RIR",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Reference Intake Range is a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population. The Acceptable Macronutrient Distribution Range is a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Both terms refer to the intake range for macronutrients, expressed as a percentage of energy intake, which would allow for an adequate intake of all other nutrients. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Tolerable Upper Intake"
+            },
+            {
+              "title": "Adequate Intake"
+            },
+            {
+              "title": "Pop. Reference Intake"
+            },
+            {
+              "title": "Recomm. Dietary Intake"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Reference Intake Range is a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population. The Acceptable Macronutrient Distribution Range is a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population. Both terms refer to the intake range for macronutrients, expressed as a percentage of energy intake, which would allow for an adequate intake of all other nutrients. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

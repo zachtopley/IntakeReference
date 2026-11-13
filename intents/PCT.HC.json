@@ -1,0 +1,91 @@
+{
+  "id": "340b4579-8dcf-4233-962a-b81c2387b8da",
+  "name": "PCT.HC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Consumption of pectins with a meal contributes to the reduction of the blood glucose rise after that meal. The beneficial effect is obtained by consuming 10 grams of pectins as part of the meal. The European Commission has authorised this claim for products which contain 10 grams of pectins per quantified portion.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Pectins contribute to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of 6 grams of pectins. The European Commission has authorised this claim for products which provide a daily intake of 6 grams of pectins. To avoid choking, consume with plenty of water. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Consumption of pectins with a meal contributes to the reduction of the blood glucose rise after that meal. The beneficial effect is obtained by consuming 10 grams of pectins as part of the meal. The European Commission has authorised this claim for products which contain 10 grams of pectins per quantified portion. Pectins contribute to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of 6 grams of pectins. The European Commission has authorised this claim for products which provide a daily intake of 6 grams of pectins. To avoid choking, consume with plenty of water. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

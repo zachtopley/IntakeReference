@@ -1,0 +1,127 @@
+[
+  {
+    "id": "9d521ffa-1d32-46d0-8a31-09704fa30491",
+    "data": [
+      {
+        "text": "children less than 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a86ccbd9-41fc-4e85-b0b4-3a26172270f8",
+    "data": [
+      {
+        "text": "under 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5118fd14-66ab-431d-b72e-291b1668c523",
+    "data": [
+      {
+        "text": "children below the age of 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1a3ae8e-57f3-45b1-a478-b9eac69d4c5f",
+    "data": [
+      {
+        "text": "those under 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8c32696d-f2e6-46eb-acf1-4474eadde87f",
+    "data": [
+      {
+        "text": "children",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03b8e2a6-a6f7-4073-b860-b6e75aa6d5c8",
+    "data": [
+      {
+        "text": "children 👶(under ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "userDefined": false
+      },
+      {
+        "text": ")",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39b9c293-004d-4611-9985-9bfdf418b42a",
+    "data": [
+      {
+        "text": "kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "107fff7f-8192-40be-abe7-25bcfc358bdf",
+    "data": [
+      {
+        "text": "children under 15",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d79ae705-af78-4161-9762-feed96f162bb",
+    "data": [
+      {
+        "text": "infants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

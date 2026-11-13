@@ -1,0 +1,102 @@
+{
+  "id": "918382aa-13fd-4ac9-b739-fde35563749a",
+  "name": "B3.UL.ANZ",
+  "auto": true,
+  "contexts": [
+    "b3ul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b3ul",
+          "lifespan": 5
+        },
+        {
+          "name": "b3ulanz",
+          "lifespan": 5
+        },
+        {
+          "name": "anzulsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Niacin is a generic descriptor for the closely related compounds, nicotinic acid and its amide nicotinamide, which act similarly as nutrients. For adults aged 19+, including those pregnant or lactating, the Upper Level of Intake for niacin, in the form of nicotinic acid, is 35 milligrams per day. For adults aged 19+, excluding those pregnant or lactating, the Upper Level of Intake for niacin, in the form of nicotinamide, is 900 milligrams per day. There is a lack of data on the safety of nicotinamide in pregnancy and lactation, and the level does not therefore apply to these groups.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Upper Level of Intake is the highest average daily nutrient intake level likely to pose no adverse health effects to almost all individuals in the general population. As intake increases above the Upper Level, the potential risk of adverse effects increases. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Niacin is a generic descriptor for the closely related compounds, nicotinic acid and its amide nicotinamide, which act similarly as nutrients. For adults aged 19+, including those pregnant or lactating, the Upper Level of Intake for niacin, in the form of nicotinic acid, is 35 milligrams per day. For adults aged 19+, excluding those pregnant or lactating, the Upper Level of Intake for niacin, in the form of nicotinamide, is 900 milligrams per day. There is a lack of data on the safety of nicotinamide in pregnancy and lactation, and the level does not therefore apply to these groups. The Upper Level of Intake is the highest average daily nutrient intake level likely to pose no adverse health effects to almost all individuals in the general population. As intake increases above the Upper Level, the potential risk of adverse effects increases. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,74 @@
+{
+  "id": "2572c6d2-b8eb-4584-b096-a62bc4348cc4",
+  "name": "ZPT.SOURCE",
+  "auto": true,
+  "contexts": [
+    "zpt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "zpt",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            },
+            {
+              "title": "Zinc oxide"
+            },
+            {
+              "title": "Titanium dioxide"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "code of regulations",
+          "url": "https://www.ecfr.gov/cgi-bin/text-idx?SID\u003d85470b6a7a6bf558a3ed883a201325ed\u0026mc\u003dtrue\u0026node\u003dsp21.5.358.h\u0026rgn\u003ddiv6",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Drug Products for the Control of Dandruff, Seborrheic Dermatitis, and Psoriasis\u0027, Electronic Code of Federal Regulations, Title 21, Part 358, Subpart H. According to Title 17, Section 105 of the United States Code, \"Copyright protection under this title is not available for any work of the United States Government\". Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

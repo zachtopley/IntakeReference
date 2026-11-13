@@ -1,0 +1,80 @@
+[
+  {
+    "id": "340d29f4-fa3a-4aee-8d2b-4379e80d4424",
+    "data": [
+      {
+        "text": "water benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87d74834-fc47-4e6b-80d5-cd2b97172952",
+    "data": [
+      {
+        "text": "water functions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b17ef7ec-0a22-48f1-a9fa-3d4794680b19",
+    "data": [
+      {
+        "text": "water health claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45249c16-ce0c-425c-8519-aac22a36d6d8",
+    "data": [
+      {
+        "text": "what does water do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1faa05cc-e45e-4474-9f87-64c391977b3f",
+    "data": [
+      {
+        "text": "why do I need to drink water?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76aa9526-1ba9-4582-98f6-6a21e1b85360",
+    "data": [
+      {
+        "text": "why is it important to stay hydrated?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

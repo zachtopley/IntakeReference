@@ -1,0 +1,60 @@
+{
+  "id": "94c0f344-cbb0-4a10-8573-d2393fa1834d",
+  "name": "GTOC.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin E intake"
+            },
+            {
+              "title": "Maximum vitamin E intake"
+            },
+            {
+              "title": "What does vitamin E do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, dried pumpkin and squash seeds contain 35.1 milligrams of gamma tocopherol per 100 grams. Dried black walnuts contain 28.78 milligrams of gamma tocopherol per 100 grams. Cold pressed flaxseed oil contains 28.76 milligrams of gamma tocopherol per 100 grams. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

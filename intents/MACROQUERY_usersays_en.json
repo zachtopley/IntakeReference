@@ -1,0 +1,67 @@
+[
+  {
+    "id": "299f345c-48cb-43d2-b1ea-d4adfaf2e113",
+    "data": [
+      {
+        "text": "/macro",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a64dfd24-4aaa-4b34-b690-f6bc94552b14",
+    "data": [
+      {
+        "text": "what macronutrients can i choose from?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9b956a3-bfa6-44e8-8501-b7eb1430836c",
+    "data": [
+      {
+        "text": "macros",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5fec72bd-c28c-4d5e-9813-4ca8d6957454",
+    "data": [
+      {
+        "text": "macronutrients",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6030cc19-b74d-4083-a0ff-77134ad4080e",
+    "data": [
+      {
+        "text": "what macronutrients can you tell me about?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

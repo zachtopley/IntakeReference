@@ -1,0 +1,96 @@
+{
+  "id": "ac4ad6c7-0d70-4419-b6a0-8afa6860242a",
+  "name": "MAG.VQ.ANZ.M",
+  "auto": true,
+  "contexts": [
+    "magvq",
+    "magvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "magvq",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "magvqanzm",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "age 19-30"
+            },
+            {
+              "title": "age 31+"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Select from",
+          "replies": [
+            "age 19-30",
+            "age 31+"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "Select from",
+          "replies": [
+            "age 19-30",
+            "age 31+"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Do you want information for those aged 19-30 or for those aged 31+?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

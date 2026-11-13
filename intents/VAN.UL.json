@@ -1,0 +1,70 @@
+{
+  "id": "e73dcc83-6a62-4774-9af3-4af4fd70f523",
+  "name": "VAN.UL",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "vanul",
+          "lifespan": 5
+        },
+        {
+          "name": "nadrisource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For adults aged 19+, excluding those pregnant or lactating, the Tolerable Upper Intake Level for vanadium is 1.8 milligrams per day. Although vanadium in food has not been shown to cause adverse effects in humans, there is no justification for adding vanadium to food and vanadium supplements should be used with caution."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

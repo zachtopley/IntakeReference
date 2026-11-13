@@ -1,0 +1,68 @@
+{
+  "id": "c4627032-5f44-44dc-acc5-621b2280d67a",
+  "name": "TOM.HC.USA.SOURCE",
+  "auto": true,
+  "contexts": [
+    "tomsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tomsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "enforcement letter",
+          "url": "http://wayback.archive-it.org/7993/20171114183704/https://www.fda.gov/Food/IngredientsPackagingLabeling/LabelingNutrition/ucm072767.htm",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Letter Regarding Tomatoes and Prostate Cancer (Lycopene Health Claim Coalition)\u0027, United States Food and Drug Administration website, 2005. Unless otherwise noted, the contents of the FDA website are not copyrighted. Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "5aa5b02f-f358-4d45-963d-6bbad1936d7f",
+    "data": [
+      {
+        "text": "maximum phosphorus intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11c3b3b9-31e2-4caa-983d-c1234595a2ac",
+    "data": [
+      {
+        "text": "phosphorus upper level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1373f356-0036-44d6-8135-e9faaa34b85d",
+    "data": [
+      {
+        "text": "what\u0027s the most phosphorus i should take?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f2d645bd-38c2-4410-99ef-e0b5961bad54",
+    "data": [
+      {
+        "text": "maximum phosphorus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25e42883-08be-438e-bad1-278772685e33",
+    "data": [
+      {
+        "text": "how much phosphorus is too much?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "459a69e6-c3b1-4e35-9c1b-410802fbd08b",
+    "data": [
+      {
+        "text": "how much phosphorus is dangerous?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc07273b-a1ee-43ec-963f-b62808ce1d4a",
+    "data": [
+      {
+        "text": "how much phosphorus is excessive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

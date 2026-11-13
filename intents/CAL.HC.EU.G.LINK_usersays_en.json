@@ -1,0 +1,36 @@
+[
+  {
+    "id": "02654c52-32b9-4511-a3b4-f61c403dc95c",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83c2611a-d985-4378-bb2b-e387cc07fd3c",
+    "data": [
+      {
+        "text": "info for females aged ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

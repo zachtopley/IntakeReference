@@ -1,0 +1,100 @@
+{
+  "id": "34e4ec81-63c7-4603-8903-546432e39c3c",
+  "name": "STANOL.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "stanolhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "stanolhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "A diet low in saturated fatty acids and containing 2 grams of phytosterols, phytostanols and their esters per day reduces blood cholesterol and reduces dietary and biliary cholesterol absorption.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Food Standards Australia New Zealand has approved these claims for certain foods containing a minimum of 0.8 grams of total plant sterol equivalents per serving. Would you like to know more about the source of this information, or would you like more information about the dietary sources of phytosterols?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of phytosterols"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A diet low in saturated fatty acids and containing 2 grams of phytosterols, phytostanols and their esters per day reduces blood cholesterol and reduces dietary and biliary cholesterol absorption. Food Standards Australia New Zealand has approved these claims for certain foods containing a minimum of 0.8 grams of total plant sterol equivalents per serving. Would you like to know more about the source of this information, or would you like more information about the dietary sources of phytosterols?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

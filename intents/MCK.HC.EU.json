@@ -1,0 +1,62 @@
+{
+  "id": "46ceaf67-215a-4f9a-a229-3fac7ea4bc63",
+  "name": "MCK.HC.EU",
+  "auto": true,
+  "contexts": [
+    "mckhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "mckhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Monacolin K from red yeast rice contributes to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of 10 milligrams of monacolin K from fermented red yeast rice preparations. The European Commission has authorised this claim for products which provide a daily intake of 10 milligrams of monacolin K from red yeast rice. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

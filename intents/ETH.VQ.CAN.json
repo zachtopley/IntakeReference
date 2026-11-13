@@ -1,0 +1,88 @@
+{
+  "id": "9fe3133f-20b9-45e0-80b7-a07797a6d966",
+  "name": "ETH.VQ.CAN",
+  "auto": true,
+  "contexts": [
+    "ethvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ethvq",
+          "lifespan": 5
+        },
+        {
+          "name": "ethcan",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "More information",
+          "textToSpeech": "",
+          "formattedText": "Do not consume alcohol: when operating any kind of vehicle, tools or machinery; using medications or other drugs that interact with alcohol; engaging in sports or other potentially dangerous physical activities; working; making important decisions; if pregnant or planning to be pregnant; before breastfeeding; while responsible for the care or supervision of others; if suffering from serious physical illness, mental illness or alcohol dependence. The safest option during pregnancy or when planning to become pregnant is to not consume alcohol at all. Alcohol in the mother\u0027s bloodstream can harm the developing fetus. While the risk from light consumption during pregnancy appears very low, there is no threshold of alcohol use in pregnancy that has been definitively proven to be safe.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Alcohol during pregnancy"
+            },
+            {
+              "title": "Alcohol and caffeine"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "People who do not consume alcohol are not encouraged to start drinking. If alcohol is consumed, males should consume no more than 40 grams of pure alcohol per day and no more than 201 grams of pure alcohol per week. Females should consume no more than 26 grams of pure alcohol per day and no more than 134 grams of pure alcohol per week. Always have some non-drinking days per week to minimize tolerance and habit formation. People of low bodyweight or who are not accustomed to alcohol are advised to consume below these maximum limits."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "These guidelines are a limit, not a target. Consume alcohol with meals and not on an empty stomach. Consume no more than 26 grams of pure alcohol in any three-hour period. Alternate with caffeine-free non-alcoholic drinks. Alcohol should only be consumed by adults of legal drinking age. Well-established health risks associated with long-term alcohol consumption include increased risk of many types of cancer – liver, oesophageal, mouth, pharynx, larynx, colorectal, and breast – and other serious health conditions such as hypertension and liver disease. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,86 @@
+{
+  "id": "68d412dc-d0d8-43e9-9949-012b0448d53a",
+  "name": "RES.HC.USA.SOURCE",
+  "auto": true,
+  "contexts": [
+    "usaressource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usaressource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "\u0027Regarding Petition for a Health Claim for High-Amylose Maize Starch (Containing Type-2 Resistant Starch) and Reduced Risk of Type 2 Diabetes Mellitus\u0027, United States Food and Drug Administration website, 2016. Unless otherwise noted, the contents of the FDA website are not copyrighted. Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?",
+              "displayText": "\u0027Re. Petition for a Health Claim for High-Amylose Maize Starch (Containing Type-2 Resistant Starch) and Reduced Risk of Type 2 Diabetes Mellitus\u0027, United States Food and Drug Administration website, 2016. Unless otherwise noted, the contents of the FDA website are not copyrighted. Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "enforcement letter",
+          "url": "http://wayback.archive-it.org/7993/20171115122025/https://www.fda.gov/downloads/Food/IngredientsPackagingLabeling/LabelingNutrition/UCM546963.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Re. Petition for a Health Claim for High-Amylose Maize Starch (Containing Type-2 Resistant Starch) and Reduced Risk of Type 2 Diabetes Mellitus\u0027, United States Food and Drug Administration website, 2016. \u0027Unless otherwise noted, the contents of the FDA website are not copyrighted\u0027. Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

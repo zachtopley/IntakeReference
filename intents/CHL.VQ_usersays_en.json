@@ -1,0 +1,106 @@
+[
+  {
+    "id": "04221949-137d-48ae-9686-084cf57f2f39",
+    "data": [
+      {
+        "text": "minimum chloride",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a82eef22-9273-4164-88a5-eadd00ea1bde",
+    "data": [
+      {
+        "text": "chloride recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1fa065ed-0772-4670-9ace-fcc67425139e",
+    "data": [
+      {
+        "text": "recommended chloride intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "461263be-ed37-4fc2-8744-7f98cb289679",
+    "data": [
+      {
+        "text": "chloride",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26725fb1-80b8-486d-98d6-b101d64ef396",
+    "data": [
+      {
+        "text": "how much chloride should i get a day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e51e3e5a-1f18-48aa-8c7c-cbbcf0ea1e66",
+    "data": [
+      {
+        "text": "how much chloride do i need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "441f3c80-05c4-40de-8c5c-a4bae527d559",
+    "data": [
+      {
+        "text": "how much chlorine do i need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b07ba54-1192-45c6-ac0f-1be58ee94cf0",
+    "data": [
+      {
+        "text": "chlorine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "id": "a25e59da-1055-4ca4-af27-bae661035a8b",
+  "name": "B5.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "b5vq",
+    "b5vqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b5vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b5vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does vitamin B5 do?"
+            },
+            {
+              "title": "Best source of vitamin B5"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children aged 7-11 months, the Adequate Intake for pantothenic acid is 3 milligrams per day. For children aged 1-10, the Adequate Intake is 4 milligrams of pantothenic acid per day. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

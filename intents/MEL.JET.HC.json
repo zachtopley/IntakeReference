@@ -1,0 +1,64 @@
+{
+  "id": "6f039889-aefc-4946-9c35-8ce281153f2b",
+  "name": "MEL.JET.HC",
+  "auto": true,
+  "contexts": [
+    "melhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "melhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Melatonin contributes to the alleviation of subjective feelings of jet lag. The European Commission has authorised this claim for products which contain at least 0.5 milligrams of melatonin per quantified portion. The beneficial effect is obtained with a minimum intake of 0.5 milligrams to be taken close to bedtime on the first day of travel and on the following few days after arrival at the destination. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "id": "c98bfa23-7d23-419a-8594-5e7c54b5b168",
+    "data": [
+      {
+        "text": "greater than ",
+        "userDefined": false
+      },
+      {
+        "text": "6 months",
+        "userDefined": false
+      },
+      {
+        "text": " post partum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "65641ead-99b0-48a7-8b47-05bdde47644c",
+    "data": [
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": "+ mos. post partum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1904033d-0aff-4e4f-89a3-ac67d97128df",
+    "data": [
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": "+ months post partum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cffdaf1a-319b-4eb1-ac6a-87ce7d44f945",
+    "data": [
+      {
+        "text": "more than ",
+        "userDefined": false
+      },
+      {
+        "text": "6 months",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1b8d6df-a24a-437c-be09-43a42deb270f",
+    "data": [
+      {
+        "text": "more than ",
+        "userDefined": false
+      },
+      {
+        "text": "6",
+        "userDefined": false
+      },
+      {
+        "text": " months post partum",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

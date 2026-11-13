@@ -1,0 +1,54 @@
+[
+  {
+    "id": "a9d03a4a-5f35-4c6c-b914-836a126d4901",
+    "data": [
+      {
+        "text": "dietary sources of myricetin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bd71fbd4-4fe9-4e83-a8ce-65b97e894b1d",
+    "data": [
+      {
+        "text": "food sources of myricetin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "119ab98c-5a4c-4c83-b512-444ae5b629b5",
+    "data": [
+      {
+        "text": "sources of myricetin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94799c27-72ff-4710-af7c-a41419ebbd03",
+    "data": [
+      {
+        "text": "myricetin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

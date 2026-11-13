@@ -1,0 +1,67 @@
+[
+  {
+    "id": "f5e75089-b0cc-442e-9d6b-e3d52f015f01",
+    "data": [
+      {
+        "text": "how much melatonin will help me sleep?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39085b63-0b97-4175-b8ed-9e2d862d048a",
+    "data": [
+      {
+        "text": "can melatonin help me sleep?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1aae770b-5bf8-4f83-9894-26e61f3cd621",
+    "data": [
+      {
+        "text": "does melatonin help me sleep?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23e4977e-febd-4dad-9ec2-10fa86ba65a3",
+    "data": [
+      {
+        "text": "melatonin and sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f11f0da-9e15-4cf9-92f8-81d5a3d49ac5",
+    "data": [
+      {
+        "text": "information about melatonin and sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

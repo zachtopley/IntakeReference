@@ -1,0 +1,78 @@
+{
+  "id": "a7d9932b-2b06-4f7e-9a10-f9f5e3715e14",
+  "name": "D.VQ.ANZ.F.5170",
+  "auto": true,
+  "contexts": [
+    "dvq",
+    "dvqanz",
+    "dvqanzf"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dvq",
+          "lifespan": 5
+        },
+        {
+          "name": "dvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "dvqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "dvqanzf5170",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For adults aged 51-70, the Adequate Intake for vitamin D is 10 micrograms per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

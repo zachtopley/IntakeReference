@@ -1,0 +1,64 @@
+{
+  "id": "067d8a0a-2737-46d8-9bbf-c8566e80c8f5",
+  "name": "B5.HC.EU",
+  "auto": true,
+  "contexts": [
+    "b5hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b5hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Pantothenic acid contributes to: normal energy-yielding metabolism, normal mental performance, normal synthesis and metabolism of steroid hormones, vitamin D and some neurotransmitters, and the reduction of tiredness and fatigue. The European Commission has authorised these claims for products which contain at least 0.9 milligrams of pantothenic acid per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

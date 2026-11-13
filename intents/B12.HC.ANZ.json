@@ -1,0 +1,64 @@
+{
+  "id": "285028eb-b33d-43eb-928f-4e468867f07a",
+  "name": "B12.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b12hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b12hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin B12 is necessary for normal cell division and normal neurological structure and function. Vitamin B12 contributes to: normal blood formation, normal energy metabolism, normal homocysteine metabolism, normal psychological function, normal immune system function, and the reduction of tiredness and fatigue. Food Standards Australia New Zealand has approved these claims for foods containing at least 200 nanograms of vitamin B12 per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

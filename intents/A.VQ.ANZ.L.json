@@ -1,0 +1,115 @@
+{
+  "id": "8b16c34b-1e02-4cbe-abaf-fd42cc14bfa9",
+  "name": "A.VQ.ANZ.L",
+  "auto": true,
+  "contexts": [
+    "avq",
+    "avqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "avq",
+          "lifespan": 5
+        },
+        {
+          "name": "avqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "avqanzl",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For lactating females aged 14-50, the Recommended Dietary Intake for vitamin A is 1,100 micrograms of retinol equivalents per day. The Recommended Dietary Intake is equivalent to 1,100 micrograms of all-trans retinol, or 6,600 micrograms of all-trans β-carotene, or 13,200 micrograms of α-carotene, β-cryptoxanthin and other provitamin A carotenoids. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, for females aged 14+, the Suggested Dietary Target for vitamin A is 1,220 micrograms of vitamin A per day or 5,000 micrograms of carotenes per day. The Suggested Dietary Target is equivalent to the 90th centile of intake in the Australian and New Zealand populations, and is to be attained by replacing nutrient-poor, energy-dense foods and drinks with plenty of red-yellow vegetables and fruits, and small amounts of vegetable oils. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum vitamin A intake"
+            },
+            {
+              "title": "Best source of vitamin A"
+            },
+            {
+              "title": "What does vitamin A do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactating females aged 14-50, the Recommended Dietary Intake for vitamin A is 1,100 micrograms of retinol equivalents per day. The Recommended Dietary Intake is equivalent to 1,100 micrograms of all-trans retinol, or 6,600 micrograms of all-trans β-carotene, or 13,200 micrograms of α-carotene, β-cryptoxanthin and other provitamin A carotenoids. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Additionally, for females aged 14+, the Suggested Dietary Target for vitamin A is 1,220 micrograms of vitamin A per day or 5,000 micrograms of carotenes per day. The Suggested Dietary Target is equivalent to the 90th centile of intake in the Australian and New Zealand populations, and is to be attained by replacing nutrient-poor, energy-dense foods and drinks with plenty of red-yellow vegetables and fruits, and small amounts of vegetable oils. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

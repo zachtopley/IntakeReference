@@ -1,0 +1,65 @@
+{
+  "id": "cfa0f244-ac41-4de0-b668-dd02170c888b",
+  "name": "G.TRI.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin E intake"
+            },
+            {
+              "title": "Maximum vitamin E intake"
+            },
+            {
+              "title": "What does vitamin E do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, unsalted dry-roasted pistachios contain 3.14 milligrams of gamma-tocotrienol per 100 grams. Chili powder contains 2.85 milligrams of gamma-tocotrienol per 100 grams. Additionally, wasabi contains 2.4 milligrams of gamma-tocotrienol per 100 grams. Would you like to know more about the source of this information, or would you like more information about vitamin E?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

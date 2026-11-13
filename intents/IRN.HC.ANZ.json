@@ -1,0 +1,64 @@
+{
+  "id": "7fdaaa90-39ce-42e4-ad39-7635e57fcc96",
+  "name": "IRN.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "irnhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "irnhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Iron is necessary for: normal oxygen transport, normal immune system function, normal neurological development in the foetus, and normal cell division. Iron contributes to: normal energy production, normal blood formation, normal cognitive function, the reduction of tiredness and fatigue. Food Standards Australia New Zealand has approved these claims for foods containing at least 1.2 milligrams of iron per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

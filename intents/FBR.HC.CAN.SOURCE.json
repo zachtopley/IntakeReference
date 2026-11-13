@@ -1,0 +1,70 @@
+{
+  "id": "f7b32134-6e0a-4b97-b13e-b39b0304278c",
+  "name": "FBR.HC.CAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "canfbrsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "canfbrsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "claims table",
+          "url": "http://www.inspection.gc.ca/food/labelling/food-labelling-for-industry/health-claims/eng/1392834838383/1392834887794?chap\u003d8#s13c8",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Acceptable Function Claims Table\u0027, Function Claims, Canadian Food Inspection Agency website, 2018. Copyright 2018 Government of Canada. Reproduced in accordance with Government of Canada non-commercial reproduction policy. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

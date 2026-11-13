@@ -1,0 +1,96 @@
+{
+  "id": "7d60834d-b9eb-4634-bb89-a350207ea416",
+  "name": "EPADHA.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Alright, eicosapentaenoic acid and docosahexaenoic acid, also known as EPA and DHA.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, raw wakame seaweed contains 186 milligrams of EPA per 100 grams. Additionally, uncooked quinoa contains 47 milligrams of DHA per 100 grams. Would you like to know more about the source of this information, or would you like more information about EPA and DHA?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "More about EPA \u0026 DHA"
+            },
+            {
+              "title": "α-linolenic acid"
+            },
+            {
+              "title": "Linoleic acid"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, eicosapentaenoic acid and docosahexaenoic acid, also known as EPA and DHA. Based on data from the United States Department of Agriculture, raw wakame seaweed contains 186 milligrams of EPA per 100 grams. Additionally, uncooked quinoa contains 47 milligrams of DHA per 100 grams. Would you like to know more about the source of this information, or would you like more information about EPA and DHA?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

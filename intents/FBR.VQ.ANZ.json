@@ -1,0 +1,101 @@
+{
+  "id": "a75d3cd1-f01f-4b9a-8c8a-6029a3370ece",
+  "name": "FBR.VQ.ANZ",
+  "auto": true,
+  "contexts": [
+    "fbrvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fbrvq",
+          "lifespan": 5
+        },
+        {
+          "name": "fbrvqanz",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Males"
+            },
+            {
+              "title": "Females"
+            },
+            {
+              "title": "Pregnancy 🤰"
+            },
+            {
+              "title": "Lactation 🤱"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Select from",
+          "replies": [
+            "Males",
+            "Females",
+            "Pregnancy 🤰",
+            "Lactation 🤱"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "Select from",
+          "replies": [
+            "Males",
+            "Females",
+            "Pregnancy 🤰",
+            "Lactation 🤱"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Do you want information for males, females, pregnancy or lactation?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

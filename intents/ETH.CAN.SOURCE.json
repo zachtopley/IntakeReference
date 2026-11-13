@@ -1,0 +1,55 @@
+{
+  "id": "8f713291-7ba6-40f4-8c06-b60545da2d5b",
+  "name": "ETH.CAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "ethcan"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ethcan",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "guidelines",
+          "url": "https://www.ccsa.ca/sites/default/files/2019-04/2011-Summary-of-Evidence-and-Guidelines-for-Low-Risk%20Drinking-en.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alcohol and health in Canada: A summary of evidence and guidelines for low risk drinking, Canadian Centre on Substance Abuse, 2011, commissioned by the National Alcohol Strategy Advisory Committee of Canada. Limits on alcohol consumption have been rounded down to the nearest gram. Copyright Canadian Centre on Substance Abuse 2011. \"This report may be freely reproduced and distributed. Citation of the sources is required under copyright law\". Intake Reference is not endorsed by the aforementioned organizations. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

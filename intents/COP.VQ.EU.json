@@ -1,0 +1,104 @@
+{
+  "id": "e6aee88b-3787-4f96-bdee-a05f991de460",
+  "name": "COP.VQ.EU",
+  "auto": true,
+  "contexts": [
+    "copvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "copvq",
+          "lifespan": 5
+        },
+        {
+          "name": "copvqeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "Select from",
+          "replies": [
+            "Males",
+            "Females",
+            "Pregnancy 🤰",
+            "Lactation 🤱"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Select from",
+          "replies": [
+            "Males",
+            "Females",
+            "Pregnancy 🤰",
+            "Lactation 🤱"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Males"
+            },
+            {
+              "title": "Females"
+            },
+            {
+              "title": "Pregnancy 🤰"
+            },
+            {
+              "title": "Lactation 🤱"
+            },
+            {
+              "title": "Children 👶(under 18)"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Do you want information for males, females, pregnancy, lactation, or children under 18?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

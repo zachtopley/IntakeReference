@@ -1,0 +1,101 @@
+{
+  "id": "45965807-08fc-40f9-842b-02082bba572e",
+  "name": "SOD.VQ.ANZ",
+  "auto": true,
+  "contexts": [
+    "sodvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "sodvq",
+          "lifespan": 5
+        },
+        {
+          "name": "sodvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For everyone aged 14+, including those pregnant or lactating, the Adequate Intake for sodium is between 460 and 920 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate.",
+              "displayText": "For everyone aged 14+, including those pregnant or lactating, the Adequate Intake for sodium is 460-920 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the Suggested Dietary Target for sodium is 2,000 milligrams per day. The Suggested Dietary Target is a daily average intake from food and beverages for certain nutrients that may help in prevention of chronic disease. The target is based on analysis of data indicating that if sodium intake at a population level were to decrease from the current average to 2,000 milligrams per day, reductions in average population blood pressure could be achieved. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 14+, including those pregnant or lactating, the Adequate Intake for sodium is 460-920 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Additionally, the Suggested Dietary Target for sodium is 2,000 milligrams per day. The Suggested Dietary Target is a daily average intake from food and beverages for certain nutrients that may help in prevention of chronic disease. The target is based on analysis of data indicating that if sodium intake at a population level were to decrease from the current average to 2,000 milligrams per day, reductions in average population blood pressure could be achieved. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

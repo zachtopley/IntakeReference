@@ -1,0 +1,65 @@
+{
+  "id": "68220ce3-e74f-4175-a581-06763b220d78",
+  "name": "ATOC.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin E intake"
+            },
+            {
+              "title": "Maximum vitamin E intake"
+            },
+            {
+              "title": "What does vitamin E do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, wheat germ oil contains 149 milligrams of alpha tocopherol per 100 grams. Dried sunflower seeds contain 35.2 milligrams of alpha tocopherol per 100 grams. Almonds contain 25.6 milligrams of alpha tocopherol per 100 grams. Would you like to know more about the source of this information, or would you like more information about alpha tocopherol?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

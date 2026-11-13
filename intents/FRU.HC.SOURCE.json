@@ -1,0 +1,55 @@
+{
+  "id": "a0e1b3af-6f87-4c2b-b038-4db8487d0053",
+  "name": "FRU.HC.SOURCE",
+  "auto": true,
+  "contexts": [
+    "fruhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fruhc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "report",
+          "url": "http://apps.who.int/iris/bitstream/10665/42665/1/WHO_TRS_916.pdf?ua\u003d1",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Report of a Joint World Health Organization / Food and Agriculture Organization of the United Nations Expert Consultation on Diet, Nutrition, and the Prevention of Chronic Diseases, World Health Organization, 2003. Intake Reference is not endorsed by any of the aforementioned organizations. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

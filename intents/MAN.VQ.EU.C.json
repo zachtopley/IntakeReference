@@ -1,0 +1,104 @@
+{
+  "id": "8ba64693-a0b4-448c-8327-dcf732ef4282",
+  "name": "MAN.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "manvq",
+    "manvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "manvq",
+          "lifespan": 5
+        },
+        {
+          "name": "manvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For children under 15, the Adequate Intakes for manganese increase with age, and range from between 20 and 500 micrograms for those aged 7-11 months, up to 2 milligrams per day for those aged 11-14. See the associated table for full details.",
+              "displayText": "For children under 15, the Adequate Intakes for manganese increase with age and range from 20-500 micrograms for those aged 7-11 months, up to 2 milligrams per day for those aged 11-14. See the associated table or the source document for full details.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of manganese"
+            },
+            {
+              "title": "What does manganese do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 15, the Adequate Intakes for manganese increase with age and range from 20-500 micrograms for those aged 7-11 months, up to 2 milligrams per day for those aged 11-14. See the associated table for full details. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

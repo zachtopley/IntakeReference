@@ -1,0 +1,59 @@
+{
+  "id": "d76c4c04-8128-4174-bd49-40b9dcead7f8",
+  "name": "CRAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "cranhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cranhc",
+          "lifespan": 5
+        },
+        {
+          "name": "cransource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "enforcement letter",
+          "url": "https://www.fda.gov/media/140304/download",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Re. Health Claim Petition – Consumption of Cranberry Products and Reduced Risk of Recurrent Urinary Tract Infection in Healthy Women\u0027, United States Food and Drug Administration website, 2020. \u0027Unless otherwise noted, the contents of the FDA website are not copyrighted\u0027. Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

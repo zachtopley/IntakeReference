@@ -1,0 +1,73 @@
+{
+  "id": "17ad5fe2-c4f1-498a-97cd-632b4f1c3490",
+  "name": "C.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "cvq",
+    "cvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does vitamin C do?"
+            },
+            {
+              "title": "Best source of vitamin C"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the Population Reference Intakes for vitamin C range from 20 milligrams per day for those aged 7-11 months, up to 100 milligrams per day for those aged 15-17. See the associated table or the source document for full details. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

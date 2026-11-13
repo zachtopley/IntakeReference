@@ -1,0 +1,55 @@
+{
+  "id": "27ad80c6-e835-4bed-8196-4f8b5dcac50e",
+  "name": "HC.KOR.SOURCE",
+  "auto": true,
+  "contexts": [
+    "hckorsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hckorsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Food Code",
+          "url": "https://www.mfds.go.kr/eng/brd/m_15/down.do?brd_id\u003deng0001\u0026seq\u003d70011\u0026data_tp\u003dA\u0026file_seq\u003d1",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Health Functional Food Code, Ministry of Food and Drug Safety, Government of the Republic of Korea, 2010. Intake Reference is not endorsed by the Ministry of Food and Drug Safety. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

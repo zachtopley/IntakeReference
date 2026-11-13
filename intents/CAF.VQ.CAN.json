@@ -1,0 +1,71 @@
+{
+  "id": "9fa65886-cbf0-4891-8786-6b4cb59db413",
+  "name": "CAF.VQ.CAN",
+  "auto": true,
+  "contexts": [
+    "cafvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqcan",
+          "lifespan": 5
+        },
+        {
+          "name": "cafcansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Caffeine \u0026 alcohol"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A review by Health Canada concluded that for the general population of healthy adults, moderate caffeine intake at a dose level up to 400 milligrams per day is not associated with adverse effects. For women who plan to become pregnant and during pregnancy, caffeine intake should not exceed 300 milligrams per day. Children should consume less than 2.5 milligrams of caffeine per kilogram of bodyweight per day. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

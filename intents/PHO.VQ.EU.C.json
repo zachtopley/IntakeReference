@@ -1,0 +1,73 @@
+{
+  "id": "1cf34321-5b13-4cfc-9e48-054cebdc7edf",
+  "name": "PHO.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "phovq",
+    "phovqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "phovq",
+          "lifespan": 5
+        },
+        {
+          "name": "phovqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does phosphorus do?"
+            },
+            {
+              "title": "Best source of phosphorus"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the Adequate Intakes for phosphorus increase with age and range from 160 milligrams per day for those aged 7-11 months, up to 640 milligrams per day for those aged 11-17. See the associated table or the source document for full details. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "89b30634-cf59-43b8-93d5-547d14cef84f",
+  "name": "CAF.VQ.CAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "cafcansource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafcansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Caffeine \u0026 alcohol"
+            },
+            {
+              "title": "Green tea 🍵"
+            },
+            {
+              "title": "Black tea ☕️"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://www.tandfonline.com/doi/pdf/10.1080/0265203021000007840?needAccess\u003dtrue",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Effects of caffeine on human health\u0027, Toxicological Evaluation Section, Chemical Health Hazard Assessment Division, Bureau of Chemical Safety, Food Directorate, Health Canada, 2003. Copyright 2003 Government of Canada. Reproduced in accordance with Government of Canada non-commercial reproduction policy. Intake Reference is not endorsed by Health Canada. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "2dcec4ff-c859-4d03-bf1a-61a6bcb2c6f5",
+    "data": [
+      {
+        "text": "what does iodine do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e6f90f6-0dc7-48f5-aa2f-22fc54530b40",
+    "data": [
+      {
+        "text": "what is iodine solution used for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5ccf1ed-464e-4ed4-8a52-374eb024f73b",
+    "data": [
+      {
+        "text": "iodine functions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "46e7a3eb-8ee5-4e73-a432-09e2eeab226a",
+    "data": [
+      {
+        "text": "iodine benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4f2b0b5-e034-4928-a3cb-23c1aa602f49",
+    "data": [
+      {
+        "text": "why do I need iodine?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42ba4527-f7de-4c4c-9150-52c0d70f4eda",
+    "data": [
+      {
+        "text": "iodine health claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

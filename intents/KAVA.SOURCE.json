@@ -1,0 +1,68 @@
+{
+  "id": "72c6a108-1791-46d7-9ada-bb4a6681ff1b",
+  "name": "KAVA.SOURCE",
+  "auto": true,
+  "contexts": [
+    "kava"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "kava",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "standard",
+          "url": "https://www.legislation.gov.au/Details/F2018L01344",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from the Federal Register of Legislation, Poisons Standard October 2018. Provided under a Creative Commons Attribution 4.0 International license. Go to legislation.gov.au for the latest information on Australian Government law. Intake Reference is not endorsed by the Therapeutic Goods Administration or the Federal Government of Australia. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

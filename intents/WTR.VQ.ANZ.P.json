@@ -1,0 +1,72 @@
+{
+  "id": "1147a0d7-767f-45f0-a6b9-f27926ad90c7",
+  "name": "WTR.VQ.ANZ.P",
+  "auto": true,
+  "contexts": [
+    "wtrvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wtrvq",
+          "lifespan": 5
+        },
+        {
+          "name": "wtrvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "wtrvqanzp",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For pregnant females aged 19-50, the Adequate Intake for total water is 3.1 litres per day, consisting of 2.3 litres from fluids and 0.8 litres from food. Total water includes water from foods as well as fluids. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

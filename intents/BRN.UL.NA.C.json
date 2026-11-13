@@ -1,0 +1,159 @@
+{
+  "id": "c880aaf6-cce9-43fa-aea1-a7e92910c409",
+  "name": "BRN.UL.NA.C",
+  "auto": true,
+  "contexts": [
+    "brnul",
+    "brnulna"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "brnul",
+          "lifespan": 5
+        },
+        {
+          "name": "brnulna",
+          "lifespan": 5
+        },
+        {
+          "name": "brnulnac",
+          "lifespan": 5
+        },
+        {
+          "name": "nadrisource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Tolerable Upper Intake Levels for boron are as follows. 3 milligrams per day for those aged 1 to 3 years. 6 milligrams per day for those aged 4 to 8 years. 11 milligrams per day for those aged 9 to 13 years. And 17 milligrams per day for those aged 14 to 18 years. The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?",
+              "displayText": "For children under 18, including those pregnant or lactating, the Tolerable Upper Intake Levels for boron are listed in the table below. The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Tolerable Upper Intake Levels for Boron",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Age",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Intake Level",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "1-3"
+                },
+                {
+                  "text": "3 mg"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "4-8"
+                },
+                {
+                  "text": "6 mg"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "9-13"
+                },
+                {
+                  "text": "11 mg"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "14-18"
+                },
+                {
+                  "text": "17 mg"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Tolerable Upper Intake Levels for boron are as follows: 3 milligrams per day for those aged 1-3 years, 6 milligrams per day for those aged 4-8 years, 11 milligrams per day for those aged 9-13 years, and 17 milligrams per day for those aged 14-18 years."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "6743d24f-f6c1-426e-8348-7c9bc0274256",
+  "name": "FND.SOURCE",
+  "auto": true,
+  "contexts": [
+    "special"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "database",
+          "url": "http://www.ars.usda.gov/nutrientdata/flav",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "USDA Database for the Flavonoid Content of Selected Foods, Release 3.3, Nutrient Data Laboratory, Agricultural Research Service, United States Department of Agriculture, 2018. \u0027USDA food composition data is in the public domain, there is no copyright and no permission is needed for its use\u0027. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

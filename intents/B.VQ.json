@@ -1,0 +1,74 @@
+{
+  "id": "245b292c-c7dc-46f4-8eed-cb8eb7ccb6a9",
+  "name": "B.VQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "B1"
+            },
+            {
+              "title": "B2"
+            },
+            {
+              "title": "B3"
+            },
+            {
+              "title": "B5"
+            },
+            {
+              "title": "B6"
+            },
+            {
+              "title": "B7"
+            },
+            {
+              "title": "B9"
+            },
+            {
+              "title": "B12"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The B vitamins are a class of eight water-soluble vitamins. You can ask me about vitamins B1, B2, B3, B5, B6, B7, B9 and B12. Which B vitamin are you interested in?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

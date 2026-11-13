@@ -1,0 +1,59 @@
+{
+  "id": "12db4199-c207-4b71-b74c-9dfe3d55df37",
+  "name": "LYC.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Tomatoes 🍅"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest source of lycopene by weight is sun dried tomatoes. Sun dried tomatoes contain 45.9 milligrams of lycopene per 100 grams. Additionally, canned tomato paste contains 28.8 milligrams of lycopene per 100 grams. Canned tomato sauce contains 13.9 milligrams of lycopene per 100 grams. Would you like to know more about the source of this information, or would you like more information about tomatoes?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

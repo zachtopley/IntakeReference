@@ -1,0 +1,105 @@
+{
+  "id": "affe78d8-3cd4-4c06-853b-9c747c2170a5",
+  "name": "SOURCE",
+  "auto": true,
+  "contexts": [
+    "onboard"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "onboard",
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Information is sourced from open-license works published by government health authorities. Information for the European Union is sourced from Dietary Reference Values published by the European Food Safety Authority, as well as health and nutrition claims authorised by the European Commission. Information for Australia \u0026 New Zealand is sourced from Nutrient Reference Values published by the National Health and Medical Research Council, as well as health and nutrition claims approved by Food Standards Australia New Zealand.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Information for the United States of America is sourced from the United States Food and Drug Administration and the United States Department of Agriculture. Information for Canada is sourced from Health Canada and the Canadian Food Inspection Agency. For full citations, ask for the source of information after I\u0027ve answered a specific question. Intake Reference is not endorsed by the organisations from which its information is sourced. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "vitamins"
+            },
+            {
+              "title": "elements"
+            },
+            {
+              "title": "macronutrients"
+            },
+            {
+              "title": "other substances"
+            },
+            {
+              "title": "what can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Information is sourced from open-license works published by government health authorities. Information for the European Union is sourced from Dietary Reference Values published by the European Food Safety Authority, as well as health and nutrition claims authorised by the European Commission. Information for Australia \u0026 New Zealand is sourced from Nutrient Reference Values published by the National Health and Medical Research Council, as well as health and nutrition claims approved by Food Standards Australia New Zealand. Information for the United States of America is sourced from the United States Food and Drug Administration and the United States Department of Agriculture. Information for Canada is sourced from Health Canada and the Canadian Food Inspection Agency. For full citations, ask for the source of information after I\u0027ve answered a specific question. Intake Reference is not endorsed by the organisations from which its information is sourced. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

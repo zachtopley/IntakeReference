@@ -1,0 +1,64 @@
+{
+  "id": "9dad796e-505a-412e-a887-0b227bdc3577",
+  "name": "WAL.HC.EU",
+  "auto": true,
+  "contexts": [
+    "walhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "walhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Walnuts contribute to the improvement of the elasticity of blood vessels. The beneficial effect is obtained with a daily intake of 30 grams of walnuts. The European Commission has authorised this claim for products which provide a daily intake of 30 grams of walnuts. The Panel concludes that the LDL-cholesterol-lowering effect of walnuts could be attributed to their content of monounsaturated and polyunsaturated fatty acids. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

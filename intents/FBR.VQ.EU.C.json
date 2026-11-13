@@ -1,0 +1,76 @@
+{
+  "id": "d81dbe61-cf61-47c6-921f-3cbc43514114",
+  "name": "FBR.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "fbrvq",
+    "fbrvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fbrvq",
+          "lifespan": 5
+        },
+        {
+          "name": "fbrvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Fibre calories per gram"
+            },
+            {
+              "title": "What does fibre do?"
+            },
+            {
+              "title": "Best source of fibre"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the Adequate Intakes for fibre increase with age and range from 10 grams per day for those aged 1-3, to 21 grams per day for those aged 15-17. See the associated table or the source document for full details. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

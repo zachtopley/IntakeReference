@@ -1,0 +1,104 @@
+{
+  "id": "68cd33e1-5368-46c6-97c4-ea6ee7f22d06",
+  "name": "FAT.VQ.ANZ",
+  "auto": true,
+  "contexts": [
+    "fatvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fatvq",
+          "lifespan": 5
+        },
+        {
+          "name": "fatvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. The Working Party reviewed the literature on total fat and it was agreed that there was little or no evidence for its essentiality in humans, for ages and life stages other than infancy.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "However, for everyone aged 14+, including those pregnant or lactating, the Acceptable Macronutrient Distribution Range for fat is between 20 and 35 percent of energy intake. Saturated and trans fats together should be limited to no more than 10% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?",
+              "displayText": "However, for everyone aged 14+, including those pregnant or lactating, the Acceptable Macronutrient Distribution Range for fat is 20-35% of energy intake. Saturated and trans fats together should be limited to no more than 10% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Calories per gram of fat"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. The Working Party reviewed the literature on total fat and it was agreed that there was little or no evidence for its essentiality in humans, for ages and life stages other than infancy. However, for everyone aged 14+, including those pregnant or lactating, the Acceptable Macronutrient Distribution Range for fat is 20-35% of energy intake. Saturated and trans fats together should be limited to no more than 10% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

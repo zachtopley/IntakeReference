@@ -1,0 +1,106 @@
+{
+  "id": "3ca1f5c4-1b83-4f0f-9657-dd7084b9bf62",
+  "name": "ALA.VQ.ANZ.L",
+  "auto": true,
+  "contexts": [
+    "alavq",
+    "alavqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alavq",
+          "lifespan": 5
+        },
+        {
+          "name": "alavqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "alavqanzl",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For lactating females aged 14-50, the Adequate Intake for α-linolenic acid is 1.2 grams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for α-linolenic acid is between 0.5 and 1 percent of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?",
+              "displayText": "Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for α-linolenic acid is 0.5-1% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactating females aged 14-50, the Adequate Intake for α-linolenic acid is 1.2 grams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for α-linolenic acid is 0.5-1% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

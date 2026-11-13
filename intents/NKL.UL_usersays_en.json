@@ -1,0 +1,41 @@
+[
+  {
+    "id": "79cb6cc3-b044-4226-b1a7-06552eb70021",
+    "data": [
+      {
+        "text": "how much nickel is too much",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70023979-34af-4659-b895-7a21173051ab",
+    "data": [
+      {
+        "text": "nickel intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "862358ef-d00c-4033-b350-78820ddfcfc3",
+    "data": [
+      {
+        "text": "nickel",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

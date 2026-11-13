@@ -1,0 +1,84 @@
+{
+  "id": "738440e7-dc07-44f6-b4f3-0c26fc800fe4",
+  "name": "ETH.PRE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ethpre",
+          "lifespan": 5
+        },
+        {
+          "name": "dietguide",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "According to the Dietary Guidelines for Americans, women who are, or who may be pregnant should not consume alcohol. Consuming alcohol during pregnancy, especially in the first few months of pregnancy, may result in negative behavioral or neurological consequences in the offspring. No safe level of alcohol consumption during pregnancy has been established. Women who are breastfeeding should consult with their health care provider regarding alcohol consumption. Is there anything else I can help you with?",
+              "displayText": "According to the Dietary Guidelines for Americans, women who are or who may be pregnant should not consume alcohol. Consuming alcohol during pregnancy, especially in the first few months of pregnancy, may result in negative behavioral or neurological consequences in the offspring. No safe level of alcohol consumption during pregnancy has been established. Women who are breastfeeding should consult with their health care provider regarding alcohol consumption. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "More information",
+          "textToSpeech": "",
+          "formattedText": "Excessive alcohol consumption increases the risk of many chronic diseases and violence and, over time, can impair short-term and long-term cognitive function. Binge drinking is associated with a wide range of health and social problems, including sexually transmitted diseases, unintended pregnancy, accidental injuries, and violent crime. Many individuals should not consume alcohol, including individuals who are taking certain over-the-counter or prescription medications or who have certain medical conditions, those who are recovering from alcoholism or are unable to control the amount they drink, and anyone younger than age 21. Individuals should not drink if they are driving, planning to drive, or are participating in other activities requiring skill, coordination, and alertness.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to the Dietary Guidelines for Americans, women who are or who may be pregnant should not drink. Consuming alcohol during pregnancy, especially in the first few months of pregnancy, may result in negative behavioral or neurological consequences in the offspring. No safe level of alcohol consumption during pregnancy has been established. Women who are breastfeeding should consult with their health care provider regarding alcohol consumption. Excessive alcohol consumption increases the risk of many chronic diseases and violence and, over time, can impair short-term and long-term cognitive function. Binge drinking is associated with a wide range of health and social problems, including sexually transmitted diseases, unintended pregnancy, accidental injuries, and violent crime. Many individuals should not consume alcohol, including individuals who are taking certain over-the-counter or prescription medications or who have certain medical conditions, those who are recovering from alcoholism or are unable to control the amount they drink, and anyone younger than age 21. Individuals should not drink if they are driving, planning to drive, or are participating in other activities requiring skill, coordination, and alertness. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

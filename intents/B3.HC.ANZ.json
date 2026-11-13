@@ -1,0 +1,64 @@
+{
+  "id": "870c9471-dd50-49d2-9b11-f5cd5b82609c",
+  "name": "B3.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b3hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b3hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Niacin is necessary for: normal neurological function, normal energy release from food, normal structure and function of skin and mucous membranes. Niacin contributes to normal psychological function and the reduction of tiredness and fatigue. Food Standards Australia New Zealand has approved these claims for foods containing at least 1 milligram of niacin per serving, excluding niacin provided from the conversion of the amino acid tryptophan. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

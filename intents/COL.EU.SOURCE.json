@@ -1,0 +1,59 @@
+{
+  "id": "4f89b808-693c-486f-89e9-8cb210a77973",
+  "name": "COL.EU.SOURCE",
+  "auto": true,
+  "contexts": [
+    "coleu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "coleu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Regulation 1333 dash 2008 of the European Parliament and the Council of the European Union. Copyright European Union 1998-2019. \"Re-use is authorised provided the source is acknowledged\". Intake Reference is not endorsed by the European Union. Is there anything else I can help you with?",
+              "displayText": "Regulation (EC) 1333/2008 of the European Parliament and the Council of the European Union. Copyright European Union 1998-2019. \"Re-use of the EUR-Lex data for commercial or non-commercial purposes is authorised provided the source is acknowledged\". Intake Reference is not endorsed by the European Union. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Regulation (EC) 1333/2008 of the European Parliament and the Council of the European Union. Copyright European Union 1998-2019. \"Re-use of the EUR-Lex data for commercial or non-commercial purposes is authorised provided the source is acknowledged\". Intake Reference is not endorsed by the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,93 @@
+{
+  "id": "ad11d0f9-fe9f-43f7-8fc1-f4477b62ba43",
+  "name": "POT.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, freeze-dried parsley contains 6,300 milligrams of potassium per 100 grams. Dried coriander leaf contains 4,466 milligrams of potassium per 100 grams. Sun dried tomatoes contain 3,427 milligrams of potassium per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 2,000 milligrams of potassium or more per 100 grams. Dried chervil, dried dill weed, freeze-dried sweet red peppers, dried tarragon, freeze-dried chives, dried parsley, dried basil, dehydrated carrot, raw full-fat soy flour, dried ancho peppers, freeze-dried leeks, paprika, dried pasilla peppers, yeast extract spread, ground turmeric, and cayenne pepper. Would you like to know more about the source of this information, or would you like more information about potassium?",
+              "displayText": "Additionally, the following foods contain 2,000 milligrams of potassium or more per 100 grams: dried chervil, dried dill weed, freeze-dried sweet red peppers, dried tarragon, freeze-dried chives, dried parsley, dried basil, dehydrated carrot, raw full-fat soy flour, dried ancho peppers, freeze-dried leeks, paprika, dried pasilla peppers, yeast extract spread, ground turmeric, and cayenne pepper. Would you like to know more about the source of this information, or would you like more information about potassium?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum potassium intake"
+            },
+            {
+              "title": "Why do we need potassium?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, freeze-dried parsley contains 6,300 milligrams of potassium per 100 grams. Dried coriander leaf contains 4,466 milligrams of potassium per 100 grams. Sun dried tomatoes contain 3,427 milligrams of potassium per 100 grams. Additionally, the following foods contain 2,000 milligrams of potassium or more per 100 grams: dried chervil, dried dill weed, freeze-dried sweet red peppers, dried tarragon, freeze-dried chives, dried parsley, dried basil, dehydrated carrot, raw full-fat soy flour, dried ancho peppers, freeze-dried leeks, paprika, dried pasilla peppers, yeast extract spread, ground turmeric, and cayenne pepper. Would you like to know more about the source of this information, or would you like more information about potassium?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

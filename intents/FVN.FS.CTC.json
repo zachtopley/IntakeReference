@@ -1,0 +1,87 @@
+{
+  "id": "c346b941-acf5-4b62-b533-10017910dc1d",
+  "name": "FVN.FS.CTC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of catechin by weight is raw rabbiteye blueberries, which contain as much as 387 milligrams of catechin per 100 grams. Raw blackberries contain as much as 313 milligrams of catechin per 100 grams. Raw grape seeds contain as much as 244 milligrams of catechin per 100 grams.",
+              "displayText": "Based on data from the United States Department of Agriculture, the highest food source of catechin by weight is raw rabbiteye blueberries (Vaccinium virgatum), which contain as much as 387 milligrams of catechin per 100 grams. Raw blackberries contain as much as 313 milligrams of catechin per 100 grams. Raw grape seeds contain as much as 244 milligrams of catechin per 100 grams.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain as much as 15 milligrams of catechin or more per 100 grams. Raw blueberries, raw cranberrybush berries, raw white nectarines, raw white peaches, raw black diamond plums, raw immature broadbeans, red wine, brewed Quingmao green tea, and carob flour. Is there anything else I can help you with?",
+              "displayText": "Additionally, the following foods contain as much as 15 milligrams of catechin or more per 100 grams: raw blueberries, raw cranberrybush berries (Viburnum opulus), raw white nectarines, raw white peaches, raw black diamond plums, raw immature broadbeans, red wine, brewed Quingmao green tea, and carob flour. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of catechin by weight is raw rabbiteye blueberries (Vaccinium virgatum), which contain as much as 387 milligrams of catechin per 100 grams. Raw blackberries contain as much as 313 milligrams of catechin per 100 grams. Raw grape seeds contain as much as 244 milligrams of catechin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of catechin or more per 100 grams: raw blueberries, raw cranberrybush berries (Viburnum opulus), raw white nectarines, raw white peaches, raw black diamond plums, raw immature broadbeans, red wine, brewed Quingmao green tea, and carob flour. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

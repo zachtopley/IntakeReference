@@ -1,0 +1,97 @@
+{
+  "id": "9627798c-e8a5-4e4b-80b5-52ea88cba0cc",
+  "name": "SOD.UL.EU",
+  "auto": true,
+  "contexts": [
+    "sodul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "sodul",
+          "lifespan": 5
+        },
+        {
+          "name": "soduleu",
+          "lifespan": 5
+        },
+        {
+          "name": "ulsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The data are insufficient to establish a Tolerable Upper Intake Level for sodium. However, the habitual intake of sodium for populations across Europe is high and exceeds the amounts required for normal function. The current levels of sodium consumption as sodium chloride have been associated directly with a greater likelihood of increased blood pressure, which in turn has been directly related to the development of cardiovascular disease and renal disease. For these reasons, national and international bodies have set targets for a reduction in the sodium consumed in the diet.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The data are insufficient to establish a Tolerable Upper Intake Level for sodium. However, the habitual intake of sodium for populations across Europe is high and exceeds the amounts required for normal function. The current levels of sodium consumption as sodium chloride have been associated directly with a greater likelihood of increased blood pressure, which in turn has been directly related to the development of cardiovascular disease and renal disease. For these reasons, national and international bodies have set targets for a reduction in the sodium consumed in the diet. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

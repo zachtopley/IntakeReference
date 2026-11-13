@@ -1,0 +1,113 @@
+[
+  {
+    "id": "9a0c0a76-498b-4e71-a4b7-c6fbb3b145db",
+    "data": [
+      {
+        "text": "🇺🇸",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "385fb88f-b89b-41f0-9060-9f00435ab76a",
+    "data": [
+      {
+        "text": "US",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23d8b11a-5c6f-4ed6-a634-44e46c8dcb9f",
+    "data": [
+      {
+        "text": "information for the ",
+        "userDefined": false
+      },
+      {
+        "text": "united states of",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4849d53-bc58-4ef9-8b00-d11ff1b8524a",
+    "data": [
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "964471c3-ade4-4218-8cc9-43986a422cfd",
+    "data": [
+      {
+        "text": "united states of",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e08cfe77-cd1d-4c02-afe7-0618acf6c555",
+    "data": [
+      {
+        "text": "united states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee24d29f-63ab-4405-9c34-4e398076b2ab",
+    "data": [
+      {
+        "text": "usa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "id": "2ea08fa4-a49f-4186-b298-e3a065e45271",
+  "name": "D.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "dhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Vitamin D is necessary for normal bone structure and normal absorption and utilisation of calcium and phosphorus. Vitamin D contributes to: normal cell division, normal blood calcium levels, the maintenance of normal muscle function, the maintenance of normal teeth, and the normal function of the immune system.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Food Standards Australia New Zealand has approved these claims for foods containing at least 1 microgram of vitamin D per serving. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin D is necessary for normal bone structure and normal absorption and utilisation of calcium and phosphorus. Vitamin D contributes to: normal cell division, normal blood calcium levels, the maintenance of normal muscle function, the maintenance of normal teeth, and the normal function of the immune system. Food Standards Australia New Zealand has approved these claims for foods containing at least 1 microgram of vitamin D per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,78 @@
+{
+  "id": "a3b0ccca-8a99-4ccc-80fe-33871cc3a20c",
+  "name": "B2.VQ.ANZ.F.71",
+  "auto": true,
+  "contexts": [
+    "b2vq",
+    "b2vqanz",
+    "b2vqanzf"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b2vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b2vqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "b2vqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "b2vqanzf71",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 71+, the Recommended Dietary Intake for riboflavin is 1.3 milligrams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

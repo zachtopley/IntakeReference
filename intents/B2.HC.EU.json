@@ -1,0 +1,64 @@
+{
+  "id": "b4be522b-2796-45a2-9ecb-b071a646a15d",
+  "name": "B2.HC.EU",
+  "auto": true,
+  "contexts": [
+    "b2hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b2hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Riboflavin contributes to: normal energy-yielding metabolism, normal functioning of the nervous system, the maintenance of normal mucous membranes and skin, the maintenance of normal red blood cells, the maintenance of normal vision, the normal metabolism of iron, the protection of cells from oxidative stress, and the reduction of tiredness and fatigue. The European Commission has authorised these claims for products which contain at least 210 micrograms of riboflavin per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

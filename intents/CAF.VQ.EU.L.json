@@ -1,0 +1,74 @@
+{
+  "id": "eb5adaae-0033-4376-8ad5-2078bce11721",
+  "name": "CAF.VQ.EU.L",
+  "auto": true,
+  "contexts": [
+    "cafvq",
+    "cafvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqeul",
+          "lifespan": 5
+        },
+        {
+          "name": "cafeusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Caffeine \u0026 alcohol safety"
+            },
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Single doses of caffeine up to 200 milligrams and habitual caffeine consumption at doses of 200 milligrams per day, consumed by lactating women in the general population, do not give rise to safety concerns for the breastfed infant. This is the scientific opinion of the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

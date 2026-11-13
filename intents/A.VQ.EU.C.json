@@ -1,0 +1,110 @@
+{
+  "id": "70d9fc61-416c-4998-b336-72cdccb9b7f6",
+  "name": "A.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "avq",
+    "avqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "avq",
+          "lifespan": 5
+        },
+        {
+          "name": "avqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For children under 15, the Population Reference Intakes for vitamin A increase with age and range from 250 micrograms of retinol equivalents per day for those aged 7-11 months, up to 600 micrograms of retinol equivalents per day for those aged 11-14. See the associated table or the source document for full details.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does vitamin A do?"
+            },
+            {
+              "title": "Maximum vitamin A intake"
+            },
+            {
+              "title": "Best source of vitamin A"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 15, the Population Reference Intakes for vitamin A increase with age and range from 250 micrograms of retinol equivalents per day for those aged 7-11 months, up to 600 micrograms of retinol equivalents per day for those aged 11-14. See the associated table or the source document for full details. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

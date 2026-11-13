@@ -1,0 +1,97 @@
+{
+  "id": "bda5ca9c-f80e-40f9-8842-041546e7bca8",
+  "name": "BIS.VQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bismuth",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Bismuth subsalicylate controls diarrhea, reduces the number of bowel movements and helps firm stool, in adults and children 12+, at doses of 525 milligrams every 30 minutes to 1 hour, or 1,050 milligrams every hour as needed. Do not exceed 4,200 milligrams in 24 hours. Use until diarrhea stops but not for more than 2 days. For use in children under 12, ask a doctor. Do not use if you have bloody or black stool. Ask a doctor before use if you have fever or mucus in the stool. Do not take if you are allergic to salicylates (including aspirin), or taking other salicylate products.",
+              "displayText": "Bismuth subsalicylate controls diarrhea, reduces the number of bowel movements and helps firm stool, in adults and children 12+, at doses of 525 milligrams every 0.5–1 hour, or 1,050 milligrams every hour as needed. Do not exceed 4,200 milligrams in 24 hours. Use until diarrhea stops but not for more than 2 days. For use in children under 12, ask a doctor. Do not use if you have bloody or black stool. Ask a doctor before use if you have fever or mucus in the stool. Do not take if you are allergic to salicylates (including aspirin), or taking other salicylate products.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Do not use if you have an ulcer or a bleeding problem. When using these products a temporary, but harmless, darkening of the stool and/or tongue may occur. Ask a doctor or pharmacist before use if you are taking any drug for anticoagulation, diabetes, gout, or arthritis. Stop use and ask a doctor if symptoms get worse, ringing in the ears or loss of hearing occurs, or diarrhea lasts more than 2 days. Drink plenty of clear fluids to help prevent dehydration caused by diarrhea. Is there anything else I can help you with?",
+              "displayText": "Do not use if you have an ulcer or a bleeding problem. When using these products a temporary, but harmless, darkening of the stool and/or tongue may occur. Ask a doctor or pharmacist before use if you are taking any drug for anticoagulation (thinning the blood), diabetes, gout, or arthritis. Stop use and ask a doctor if symptoms get worse, ringing in the ears or loss of hearing occurs, or diarrhea lasts more than 2 days. Drink plenty of clear fluids to help prevent dehydration caused by diarrhea. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Reye\u0027s syndrome:",
+          "textToSpeech": "",
+          "formattedText": "Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use these products. When using these products, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye\u0027s syndrome, a rare but serious illness.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Bismuth subsalicylate controls diarrhea, reduces the number of bowel movements and helps firm stool, in adults and children 12+, at doses of 525 milligrams every 0.5–1 hour, or 1,050 milligrams every hour as needed. Do not exceed 4,200 milligrams in 24 hours. Use until diarrhea stops but not for more than 2 days. For use in children under 12, ask a doctor. Do not use if you have bloody or black stool. Ask a doctor before use if you have fever or mucus in the stool. Do not take if you are allergic to salicylates (including aspirin), or taking other salicylate products. Do not use if you have an ulcer or a bleeding problem. When using these products a temporary, but harmless, darkening of the stool and/or tongue may occur. Ask a doctor or pharmacist before use if you are taking any drug for anticoagulation (thinning the blood), diabetes, gout, or arthritis. Stop use and ask a doctor if symptoms get worse, ringing in the ears or loss of hearing occurs, or diarrhea lasts more than 2 days. Drink plenty of clear fluids to help prevent dehydration caused by diarrhea. Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use these products. When using these products, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye\u0027s syndrome, a rare but serious illness. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "0f1af4f9-d321-4a19-8487-e13148070436",
+  "name": "FVOL.FS.QTN",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, one of the highest food sources of quercetin by weight is raw capers, which contain as much as 323 milligrams of quercetin per 100 grams. Raw red onions contain as much as 192 milligrams of quercetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of quercetin or more per 100 grams. Raw lovage leaves, dill weed, elderberry juice concentrate, fresh oregano, dried Mexican oregano, raw blueberries, raw chokeberries, raw cranberries, raw elderberries, blackcurrant juice concentrate, chokeberry juice concentrate",
+              "displayText": "Based on data from the United States Department of Agriculture, one of the highest food sources of quercetin by weight is raw capers, which contain as much as 323 milligrams of quercetin per 100 grams. Raw red onions contain as much as 192 milligrams of quercetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of quercetin or more per 100 grams: raw lovage leaves, dill weed, elderberry juice concentrate, fresh oregano, dried Mexican oregano, raw blueberries, raw chokeberries, raw cranberries, raw elderberries, blackcurrant juice concentrate, chokeberry juice concentrate...",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "... raw cranberry juice, ripe juniper berries, raw black diamond plums, raw asparagus, raw pak choi cabbage, raw chicory greens, raw coriander leaves, raw moringa leaves, raw fennel leaves, raw kale, raw green leaf and red leaf lettuce, Japanese mustard, raw okra, raw onions, raw spring onions, raw sweet onions, raw green hot chili peppers, raw hot yellow wax peppers, raw jalapeno peppers, raw serrano peppers, raw radicchio, raw radish leaves, raw wild rocket, raw spinach, raw sweet potato leaves, raw cherry tomatoes, raw watercress, raw chia seeds, carob fiber, carob flour, and buckwheat. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, one of the highest food sources of quercetin by weight is raw capers, which contain as much as 323 milligrams of quercetin per 100 grams. Raw red onions contain as much as 192 milligrams of quercetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of quercetin or more per 100 grams: raw lovage leaves, dill weed, elderberry juice concentrate, fresh oregano, dried Mexican oregano, raw blueberries, raw chokeberries, raw cranberries, raw elderberries, blackcurrant juice concentrate, chokeberry juice concentrate, raw cranberry juice, ripe juniper berries, raw black diamond plums, raw asparagus, raw pak choi cabbage, raw chicory greens, raw coriander leaves, raw moringa leaves, raw fennel leaves, raw kale, raw green leaf and red leaf lettuce, Japanese mustard, raw okra, raw onions, raw spring onions, raw sweet onions, raw green hot chili peppers, raw hot yellow wax peppers, raw jalapeno peppers, raw serrano peppers, raw radicchio, raw radish leaves, raw wild rocket, raw spinach, raw sweet potato leaves, raw cherry tomatoes, raw watercress, raw chia seeds, carob fiber, carob flour, and buckwheat. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "d9a31061-5846-41be-984c-0446b69eba4d",
+  "name": "FVOL.FS.KMP",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of kaempferol by weight is saffron, which contains as much as 318 milligrams of kaempferol per 100 grams. The second highest source is raw capers, which contain as much as 308 milligrams of kaempferol per 100 grams. Raw arugula contains as much as 104 milligrams of kaempferol per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain as much as 15 milligrams of kaempferol or more per 100 grams. Raw endive, raw broccoli, raw Chinese cabbage, raw pak choi cabbage, raw collards, wild ginger, raw kale, Japanese mustard, raw mustard greens, raw New Zealand spinach, raw Welsh onions, raw sprouted radish seeds, raw spinach, raw turnip greens, raw watercress, raw common beans, and carob fiber. Is there anything else I can help you with?",
+              "displayText": "Additionally, the following foods contain as much as 15 milligrams of kaempferol or more per 100 grams: raw endive, raw broccoli, raw Chinese cabbage, raw pak choi cabbage, raw collards, wild ginger, raw kale, Japanese mustard, raw mustard greens, raw New Zealand spinach, raw Welsh onions, raw sprouted radish seeds, raw spinach, raw turnip greens, raw watercress, raw common beans, and carob fiber. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of kaempferol by weight is saffron, which contains as much as 318 milligrams of kaempferol per 100 grams. The second highest source is raw capers, which contain as much as 308 milligrams of kaempferol per 100 grams. Raw arugula contains as much as 104 milligrams of kaempferol per 100 grams. Additionally, the following foods contain as much as 15 milligrams of kaempferol or more per 100 grams: raw endive, raw broccoli, raw Chinese cabbage, raw pak choi cabbage, raw collards, wild ginger, raw kale, Japanese mustard, raw mustard greens, raw New Zealand spinach, raw Welsh onions, raw sprouted radish seeds, raw spinach, raw turnip greens, raw watercress, raw common beans, and carob fiber. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

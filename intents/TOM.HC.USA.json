@@ -1,0 +1,90 @@
+{
+  "id": "4e5452fa-e2c0-4de6-a10d-9b31e8e5580e",
+  "name": "TOM.HC.USA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "tomsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "\"Very limited and preliminary scientific research suggests that eating one-half to one cup of tomatoes and/or tomato sauce per week may reduce the risk of prostate cancer. FDA concludes that there is little scientific evidence supporting this claim\". FDA intends to consider exercising its enforcement discretion for this qualified health claim.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "FDA concludes that there is no credible evidence to support a qualified health claim for tomato lycopene itself. However, based on data from the United States Department of Agriculture, I can tell you that one cup of tomatoes contains 3.8 milligrams of lycopene, whereas one cup of tomato sauce contains 34 milligrams of lycopene. Would you like to know more about the source of this information, or would you like more information about lycopene?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of lycopene"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"Very limited and preliminary scientific research suggests that eating one-half to one cup of tomatoes and/or tomato sauce per week may reduce the risk of prostate cancer. FDA concludes that there is little scientific evidence supporting this claim\". FDA intends to consider exercising its enforcement discretion for this qualified health claim. FDA concludes that there is no credible evidence to support a qualified health claim for tomato lycopene itself. However, based on data from the United States Department of Agriculture, I can tell you that one cup of tomatoes contains 3.8 milligrams of lycopene, whereas one cup of tomato sauce contains 34 milligrams of lycopene. Would you like to know more about the source of this information, or would you like more information about lycopene?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

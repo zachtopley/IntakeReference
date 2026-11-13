@@ -1,0 +1,71 @@
+{
+  "id": "fe2d8976-f814-4753-9b2b-4c7f40f279f9",
+  "name": "ACD.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "acdfs",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Cyanidin"
+            },
+            {
+              "title": "Delphinidin"
+            },
+            {
+              "title": "Malvidin"
+            },
+            {
+              "title": "Pelargonidin"
+            },
+            {
+              "title": "Peonidin"
+            },
+            {
+              "title": "Petunidin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Anthocyanidins, sure. Do you want information about cyanidin, delphinidin, malvidin, pelargonidin, peonidin, or petunidin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

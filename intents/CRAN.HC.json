@@ -1,0 +1,107 @@
+{
+  "id": "6b93eaad-b772-4356-a40f-98bb0ec2e70f",
+  "name": "CRAN.HC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cranhc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The United States Food and Drug Administration intends to consider exercising its enforcement discretion for the following qualified health claims.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Consuming a 240 millilitre serving of a cranberry juice beverage daily, or consuming a 500 milligram serving of a cranberry dietary supplement daily, may help reduce the risk of recurrent urinary tract infection in healthy women. The cranberry juice beverage must contain at least 27% cranberry juice. The cranberry dietary supplement must contain 100% cranberry fruit powder. FDA has concluded that there is limited scientific evidence supporting these claims. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The United States Food and Drug Administration intends to consider exercising its enforcement discretion for the following qualified health claims."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Consuming a 240 millilitre serving of a cranberry juice beverage daily, or consuming a 500 milligram serving of a cranberry dietary supplement daily, may help reduce the risk of recurrent urinary tract infection in healthy women. The cranberry juice beverage must contain at least 27% cranberry juice. The cranberry dietary supplement must contain 100% cranberry fruit powder. FDA has concluded that there is limited scientific evidence supporting these claims."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

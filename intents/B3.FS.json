@@ -1,0 +1,75 @@
+{
+  "id": "03453d94-f4fe-4773-8b28-e62cf1403add",
+  "name": "B3.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum niacin intake"
+            },
+            {
+              "title": "Maximum niacin intake"
+            },
+            {
+              "title": "What does niacin do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, niacin, also known as vitamin B3."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of niacin by weight is yeast extract spread. Yeast extract spread contains 127.5 milligrams of niacin per 100 grams. Additionally, rice bran contain 34 milligrams of niacin per 100 grams. Defatted peanut flour contains 27 milligrams of niacin per 100 grams. Would you like to know more about the source of this information, or would you like more information about niacin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

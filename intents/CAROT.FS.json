@@ -1,0 +1,66 @@
+{
+  "id": "43b8c1d7-103e-4cca-9014-5f554c2d6bbf",
+  "name": "CAROT.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "α-carotene"
+            },
+            {
+              "title": "β-carotene"
+            },
+            {
+              "title": "Lycopene"
+            },
+            {
+              "title": "β-cryptoxanthin"
+            },
+            {
+              "title": "Lutein"
+            },
+            {
+              "title": "Zeaxanthin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are six different carotenoids you can ask me about. Bearing in mind that only beta-carotene is considered to have vitamin A activity, do you want information about the dietary sources of alpha carotene, beta carotene, lycopene, beta cryptoxanthin, lutein, or zeaxanthin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

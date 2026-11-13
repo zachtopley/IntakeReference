@@ -1,0 +1,28 @@
+[
+  {
+    "id": "d0082ccc-637a-4718-a314-d3c54da7c0a0",
+    "data": [
+      {
+        "text": "adult",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e51efbfe-e278-4708-8ab3-f5402a56087b",
+    "data": [
+      {
+        "text": "adults",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

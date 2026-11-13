@@ -1,0 +1,69 @@
+{
+  "id": "80a60e08-83a5-4d83-905f-f4fc6c123857",
+  "name": "CAL.HC.ANZ.G",
+  "auto": true,
+  "contexts": [
+    "calhc",
+    "calhcanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calhc",
+          "lifespan": 5
+        },
+        {
+          "name": "calhcanz",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Calcium is necessary for: normal teeth and bone structure, normal nerve and muscle function, and normal blood coagulation. Calcium contributes to: normal energy metabolism, the normal function of digestive enzymes, and normal cell division. Food Standards Australia New Zealand has approved these claims for foods containing at least 80 milligrams of calcium per serving. A diet high in calcium enhances bone mineral density. Food Standards Australia New Zealand has approved these claims for foods containing no less than 200 milligrams of calcium per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

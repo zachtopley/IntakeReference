@@ -1,0 +1,55 @@
+{
+  "id": "46aace30-2ed3-414a-85c2-12ad7ce898d6",
+  "name": "DIET.GUIDE",
+  "auto": true,
+  "contexts": [
+    "dietguide"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dietguide",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "guidelines",
+          "url": "https://health.gov/dietaryguidelines/2015/guidelines/",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "2015-2020 Dietary Guidelines for Americans, United States Department of Health and Human Services and United States Department of Agriculture, 2015. Available on health.gov, a website of the Office of Disease Prevention and Health Promotion. \"The information presented on health.gov is in the public domain\". Intake Reference is not endorsed by any of the aforementioned organizations. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

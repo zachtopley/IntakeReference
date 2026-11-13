@@ -1,0 +1,58 @@
+{
+  "id": "ece74416-2af8-4ad5-ad5f-b6c0cf759cf0",
+  "name": "PISTACHIO.SOURCE",
+  "auto": true,
+  "contexts": [
+    "pistachio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "pistachio",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What does melatonin do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Dietary Sources and Bioactivities of Melatonin\u0027, Meng, Xiao et al., Nutrients 9.4, Multidisciplinary Digital Publishing Institute, 2017. The article is an open access article distributed under the terms and conditions of the Creative Commons Attribution 4.0 International license. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

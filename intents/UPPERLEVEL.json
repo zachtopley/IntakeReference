@@ -1,0 +1,94 @@
+{
+  "id": "84417bf2-8988-4dc9-a64a-035968b933e3",
+  "name": "UPPERLEVEL",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Tolerable Upper Intake Level is a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population. The Upper Level of Intake is a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Both terms refer to the maximum level of total chronic intake of a nutrient judged to be unlikely to pose a risk of adverse health effects in humans. As intake increases above the Upper Level, the potential risk of adverse effects increases. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Pop. Reference Intake"
+            },
+            {
+              "title": "Recomm. Dietary Intake"
+            },
+            {
+              "title": "Tolerable Upper Intake"
+            },
+            {
+              "title": "Adequate Intake"
+            },
+            {
+              "title": "Reference Intake Range"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Tolerable Upper Intake Level is a type of Dietary Reference Value established by the European Food Safety Authority for the European Union population. The Upper Level of Intake is a type of Nutrient Reference Value established by the National Health and Medical Research Council for the Australia and New Zealand population. Both terms refer to the maximum level of total chronic intake of a nutrient judged to be unlikely to pose a risk of adverse health effects in humans. As intake increases above the Upper Level, the potential risk of adverse effects increases. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

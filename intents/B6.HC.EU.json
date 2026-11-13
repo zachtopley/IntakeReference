@@ -1,0 +1,97 @@
+{
+  "id": "0839f80c-02ec-4d42-99d6-fa5f68dda3fe",
+  "name": "B6.HC.EU",
+  "auto": true,
+  "contexts": [
+    "b6hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b6hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Vitamin B6 contributes to: normal cysteine synthesis, normal energy-yielding metabolism, normal functioning of the nervous system, normal homocysteine metabolism, normal protein and glycogen metabolism, normal psychological function, normal red blood cell formation, normal function of the immune system, the reduction of tiredness and fatigue, and the regulation of hormonal activity.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products which contain at least 210 micrograms of vitamin B6 per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin B6 contributes to: normal cysteine synthesis, normal energy-yielding metabolism, normal functioning of the nervous system, normal homocysteine metabolism, normal protein and glycogen metabolism, normal psychological function, normal red blood cell formation, normal function of the immune system, the reduction of tiredness and fatigue, and the regulation of hormonal activity. The European Commission has authorised these claims for products which contain at least 210 micrograms of vitamin B6 per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,76 @@
+{
+  "id": "2a69f238-ca62-4eec-a573-bbf79550b1c2",
+  "name": "E.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "evq",
+    "evqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "evq",
+          "lifespan": 5
+        },
+        {
+          "name": "evqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum vitamin E intake"
+            },
+            {
+              "title": "Best source of vitamin E"
+            },
+            {
+              "title": "What does vitamin E do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children aged 7-11 months, the Adequate Intake for vitamin E is 5 milligrams of α-tocopherol per day. For those aged 1-2, the Adequate Intake is 6 milligrams of α-tocopherol per day. For those aged 3-9, the Adequate Intake is 9 milligrams of α-tocopherol per day. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

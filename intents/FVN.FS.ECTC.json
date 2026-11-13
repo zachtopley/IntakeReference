@@ -1,0 +1,87 @@
+{
+  "id": "dcb7168b-8b9b-431d-8c8d-0b0fd1ce571e",
+  "name": "FVN.FS.ECTC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of epicatechin by weight is raw grape seeds, which contain as much as 284 milligrams of epicatechin per 100 grams. Raw rabbiteye blueberries contain as much as 130 milligrams of epicatechin per 100 grams.",
+              "displayText": "Based on data from the United States Department of Agriculture, the highest food source of epicatechin by weight is raw grape seeds, which contain as much as 284 milligrams of epicatechin per 100 grams. Raw rabbiteye blueberries (Vaccinium virgatum) contain as much as 130 milligrams of epicatechin per 100 grams.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain as much as 15 milligrams of epicatechin or more per 100 grams. Raw apples, raw blackberries, raw red sour cherries, raw sweet cherries, sour cherry juice, raw pears, raw immature broadbeans, red wine, brewed Quingmao green tea, and raw mature black soybeans. Is there anything else I can help you with?",
+              "displayText": "Additionally, the following foods contain as much as 15 milligrams of epicatechin or more per 100 grams: raw apples, raw blackberries, raw red sour cherries, raw sweet cherries, sour cherry juice, raw pears, raw immature broadbeans, red wine, brewed Quingmao green tea, and raw mature black soybeans. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of epicatechin by weight is raw grape seeds, which contain as much as 284 milligrams of epicatechin per 100 grams. Raw rabbiteye blueberries (Vaccinium virgatum) contain as much as 130 milligrams of epicatechin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of epicatechin or more per 100 grams: raw apples, raw blackberries, raw red sour cherries, raw sweet cherries, sour cherry juice, raw pears, raw immature broadbeans, red wine, brewed Quingmao green tea, and raw mature black soybeans. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

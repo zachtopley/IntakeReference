@@ -1,0 +1,68 @@
+{
+  "id": "5d8157ae-b4ab-4e9e-8d31-5b7874f9d1b5",
+  "name": "BIS.VQ.SOURCE",
+  "auto": true,
+  "contexts": [
+    "bismuth"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bismuth",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "code of regulations",
+          "url": "https://www.ecfr.gov/cgi-bin/text-idx?SID\u003d85470b6a7a6bf558a3ed883a201325ed\u0026mc\u003dtrue\u0026node\u003dpt21.5.335\u0026rgn\u003ddiv5",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Antidiarrheal Drug Products for Over-The-Counter Human Use\u0027, Electronic Code of Federal Regulations, Title 21, Part 335. According to Title 17, Section 105 of the United States Code, \"Copyright protection under this title is not available for any work of the United States Government\". Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

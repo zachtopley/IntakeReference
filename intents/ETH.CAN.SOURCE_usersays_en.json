@@ -1,0 +1,41 @@
+[
+  {
+    "id": "0cba916c-7c75-494c-9386-36feac9d9af9",
+    "data": [
+      {
+        "text": "what\u0027s the source of this information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15f74a59-40f0-4c5a-a9f8-954e2ea2302a",
+    "data": [
+      {
+        "text": "sources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8d18285-7b46-493a-b9bd-732bd15416ce",
+    "data": [
+      {
+        "text": "source",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

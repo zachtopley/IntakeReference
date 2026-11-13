@@ -1,0 +1,73 @@
+{
+  "id": "e0126693-aba3-47ae-a155-8fca4c01b7f1",
+  "name": "ALA.VQ.ANZ",
+  "auto": true,
+  "contexts": [
+    "alavq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "alavq",
+          "lifespan": 5
+        },
+        {
+          "name": "alavqanz",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Males"
+            },
+            {
+              "title": "Females"
+            },
+            {
+              "title": "Pregnancy 🤰"
+            },
+            {
+              "title": "Lactation 🤱"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Do you want information for males, females, pregnancy or lactation?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "8a9cff3c-b5ed-4fee-b9cf-22ddfc0f3e8e",
+    "data": [
+      {
+        "text": "oil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52ec0e18-fd45-468b-bc08-683be42c96fa",
+    "data": [
+      {
+        "text": "information about soybean oil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "229de488-3af9-46d5-bc00-aa8717776ba4",
+    "data": [
+      {
+        "text": "oil from soybeans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1433b2bf-2bdc-4eb8-b79c-24a1b7be5363",
+    "data": [
+      {
+        "text": "soya bean oil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37f3655b-4dbb-4fc7-9c07-89cc0d2821d1",
+    "data": [
+      {
+        "text": "soybean oil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1ee2833-9c58-4935-9d52-3b8690978dbf",
+    "data": [
+      {
+        "text": "soy oil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1e53bb9a-5e8c-4dfe-a006-13b5ccbf920f",
+    "data": [
+      {
+        "text": "what\u0027s the source of this information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bff98e4b-e07b-40b7-bd76-9d27d54d692b",
+    "data": [
+      {
+        "text": "source",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

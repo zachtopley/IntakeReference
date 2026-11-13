@@ -1,0 +1,126 @@
+[
+  {
+    "id": "c8afc28a-2ed1-4355-a1ad-c797b040d7d6",
+    "data": [
+      {
+        "text": "🇺🇸",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3e7413b-c208-4853-a14b-6b9993fe5933",
+    "data": [
+      {
+        "text": "united states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f26a8b1f-1a44-4ed7-a409-e63687748b05",
+    "data": [
+      {
+        "text": "americans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5d437cb5-5484-4178-9be3-1f42a26cd0d5",
+    "data": [
+      {
+        "text": "usa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59a46220-9d87-4b38-9a46-e46339007c5e",
+    "data": [
+      {
+        "text": "US",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5588aa8-c881-43e4-be82-87f87edd217e",
+    "data": [
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3ede05a6-3815-427d-b82f-f83f7c29aa6b",
+    "data": [
+      {
+        "text": "information for the ",
+        "userDefined": false
+      },
+      {
+        "text": "united states of",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1b8f80d-9191-4321-a16e-07387c2e508d",
+    "data": [
+      {
+        "text": "united states of",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

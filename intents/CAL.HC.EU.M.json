@@ -1,0 +1,69 @@
+{
+  "id": "dc431fcf-e3d6-46ab-9b6c-cafd56d66114",
+  "name": "CAL.HC.EU.M",
+  "auto": true,
+  "contexts": [
+    "calhc",
+    "calhceu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calhc",
+          "lifespan": 5
+        },
+        {
+          "name": "calhceu",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Calcium helps to reduce the loss of bone mineral in post-menopausal women. Low bone mineral density is a risk factor for osteoporotic bone fractures. The European Commission has authorised this claim for products which provide at least 400 milligrams of calcium per quantified portion. The claim is specifically intended for women 50 years and older and the beneficial effect is obtained with a daily intake of at least 1,200 milligrams of calcium from all sources. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

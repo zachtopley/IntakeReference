@@ -1,0 +1,327 @@
+[
+  {
+    "id": "94e4a3c5-f648-4892-8883-5f26d40352f7",
+    "data": [
+      {
+        "text": "adults",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87e98096-f167-4137-8c45-b4bfd4dc461c",
+    "data": [
+      {
+        "text": "lactation 🤱",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3a26acd4-4368-4997-961f-b2d7a54f311e",
+    "data": [
+      {
+        "text": "pregnancy 🤰",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1689fd2-b4ea-4c4c-8295-b020d4a28e8c",
+    "data": [
+      {
+        "text": "breastfeeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7e69112-34c3-481f-98a3-2a959b6a0288",
+    "data": [
+      {
+        "text": "lactating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9a23297-ba6b-4740-8360-bd850093d49c",
+    "data": [
+      {
+        "text": "pregnant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c068ca6-af52-4100-828f-bb11da882caa",
+    "data": [
+      {
+        "text": "information for lactation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ca6d365-99a6-4263-9a33-b88ee953e0a1",
+    "data": [
+      {
+        "text": "information for pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b43315dc-ed70-4f1b-9d05-199048a43930",
+    "data": [
+      {
+        "text": "i\u0027m breastfeeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3fa32743-e6f3-4b6b-811a-075d1ec6cd2d",
+    "data": [
+      {
+        "text": "i\u0027m lactating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16019515-b06e-46dc-93b9-7d3f4ea4764c",
+    "data": [
+      {
+        "text": "i\u0027m pregnant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77de0f86-5a6a-4617-b90e-4903fc6cb867",
+    "data": [
+      {
+        "text": "pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e7c4e2d9-3b78-431f-910e-a90537f9776e",
+    "data": [
+      {
+        "text": "lactation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e4b6fc0-1471-43d8-b572-a08fb9e48b47",
+    "data": [
+      {
+        "text": "i\u0027m female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "14176845-62a2-45a3-b31d-dda51c71b093",
+    "data": [
+      {
+        "text": "information for females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "acfda280-903d-44d2-8c5d-a0a6153dd05e",
+    "data": [
+      {
+        "text": "females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2e48cf2a-3001-41a0-93ae-c2ad383364d0",
+    "data": [
+      {
+        "text": "female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1106a599-8df9-4102-9f46-62d542f00488",
+    "data": [
+      {
+        "text": "woman",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b098e0ce-1c55-4aec-bd5c-45978707382a",
+    "data": [
+      {
+        "text": "women",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a45d7c4-ef82-41f9-ab55-acaf5a7fdcb1",
+    "data": [
+      {
+        "text": "information for males",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f138adc-b70e-4ba3-bc0d-cbcbcce451fc",
+    "data": [
+      {
+        "text": "i\u0027m male",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ccf33f8c-839e-4b82-8bdd-4c19195fffb6",
+    "data": [
+      {
+        "text": "man",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7dce5bfa-c077-45d7-8c9b-92692e316e7b",
+    "data": [
+      {
+        "text": "men",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fc7c15a-adbf-49cf-a8eb-20793dba2cd9",
+    "data": [
+      {
+        "text": "male",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de838eae-93fe-4ff9-9b86-0ecf6817f6d0",
+    "data": [
+      {
+        "text": "males",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

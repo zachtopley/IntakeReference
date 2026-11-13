@@ -1,0 +1,87 @@
+{
+  "id": "a2a78297-731f-457b-be2a-46580fe07b82",
+  "name": "VQ.SOURCE.EU",
+  "auto": true,
+  "contexts": [
+    "vqsourceeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "facebook",
+          "title": "More info",
+          "buttons": [
+            {
+              "text": "Full Publication (PDF)"
+            },
+            {
+              "text": "https://www.efsa.europa.eu/sites/default/files/2017_09_DRVs_summary_report.pdf"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "skype",
+          "title": "More info",
+          "buttons": [
+            {
+              "postback": "https://www.efsa.europa.eu/sites/default/files/2017_09_DRVs_summary_report.pdf",
+              "text": "Full Publication (PDF)"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/2017_09_DRVs_summary_report.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from \u0027Dietary reference values for nutrients: Summary report\u0027, European Food Safety Authority, 2017. Copyright European Food Safety Authority 2017. \"Reproduction is authorized, provided the source is acknowledged\". Intake Reference is not endorsed by the European Food Safety Authority, an agency of the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

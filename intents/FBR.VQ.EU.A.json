@@ -1,0 +1,107 @@
+{
+  "id": "64f3f6bd-6bfc-4e29-afaf-28b5bb6cddb1",
+  "name": "FBR.VQ.EU.A",
+  "auto": true,
+  "contexts": [
+    "fbrvq",
+    "fbrvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fbrvq",
+          "lifespan": 5
+        },
+        {
+          "name": "fbrvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For adults aged 18+, including those pregnant or lactating, the Adequate Intake for dietary fibre is 25 grams per day. The Panel notes that in adults there is evidence of benefit to health associated with consumption of diets rich in fibre-containing foods at dietary fibre intakes greater than 25 grams per day, for example, reduced risk of coronary heart disease and type 2 diabetes, and improved weight maintenance.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Fibre calories per gram"
+            },
+            {
+              "title": "What does fibre do?"
+            },
+            {
+              "title": "Best source of fibre"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For adults aged 18+, including those pregnant or lactating, the Adequate Intake for dietary fibre is 25 grams per day. The Panel notes that in adults there is evidence of benefit to health associated with consumption of diets rich in fibre-containing foods, at dietary fibre intakes greater than 25 grams per day, for example, reduced risk of coronary heart disease and type 2 diabetes, and improved weight maintenance. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

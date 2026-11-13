@@ -1,0 +1,123 @@
+{
+  "id": "97e467e1-d179-4fdc-9c2f-e5c84da56395",
+  "name": "MAG.UL.EU",
+  "auto": true,
+  "contexts": [
+    "magul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "magul",
+          "lifespan": 5
+        },
+        {
+          "name": "maguleu",
+          "lifespan": 5
+        },
+        {
+          "name": "ulsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For everyone aged 4+, including those pregnant or lactating, the Tolerable Upper Intake Level for magnesium is 250 milligrams per day, in the form of readily dissociable magnesium salts, for example, magnesium chloride, sulphate, aspartate and lactate, and compounds like magnesium oxide, in food supplements, water or added to foods. The Upper Level does not include magnesium naturally present in foods and beverages.",
+              "displayText": "For everyone aged 4+, including those pregnant or lactating, the Tolerable Upper Intake Level for magnesium is 250 milligrams per day, in the form of readily dissociable magnesium salts (e.g. chloride, sulphate, aspartate, lactate) and compounds like magnesium oxide, in food supplements, water or added to foods. The Upper Level does not include magnesium naturally present in foods and beverages.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 4+, including those pregnant or lactating, the Tolerable Upper Intake Level for magnesium is 250 milligrams per day, in the form of readily dissociable magnesium salts (e.g. chloride, sulphate, aspartate, lactate) and compounds like magnesium oxide, in food supplements, water or added to foods. The Upper Level does not include magnesium naturally present in foods and beverages. The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,107 @@
+{
+  "id": "185c9e26-3eb0-478d-80a1-2ba19ddaebe2",
+  "name": "COP.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "copvq",
+    "copvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "copvq",
+          "lifespan": 5
+        },
+        {
+          "name": "copvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For children under 18, the Adequate Intakes for copper increase with age and range from 0.4 milligrams per day for those aged 7-11 months, up to 1.3 milligrams per day for males aged 10-17, and up to 1.1 milligrams per day for females aged 10-17. See the associated table or the source document for full details.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum copper intake"
+            },
+            {
+              "title": "Best source of copper"
+            },
+            {
+              "title": "What does copper do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the Adequate Intakes for copper increase with age and range from 0.4 milligrams per day for those aged 7-11 months, up to 1.3 milligrams per day for males aged 10-17, and up to 1.1 milligrams per day for females aged 10-17. See the associated table or the source document for full details. The Adequate Intake is the average observed or experimentally determined approximations or estimates of nutrient intake that is assumed to be adequate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

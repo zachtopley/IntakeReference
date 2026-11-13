@@ -1,0 +1,117 @@
+{
+  "id": "8ac716ae-1d0f-4e18-b318-552fb7ca95cf",
+  "name": "NRG.VQ.EU.F.MA",
+  "auto": true,
+  "contexts": [
+    "nrgvq",
+    "nrgvqeu",
+    "nrgvqeuf"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgvq",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeuf",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeufma",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For females living a moderately active lifestyle, excluding those pregnant or lactating, the Average Requirements for energy reduce with age and range from 2,149 kilocalories per day for those aged 18-29, to 1,839 kilocalories per day for those aged 70-79. Average Requirements for energy were not calculated for adults aged 80+ because of a lack of anthropometric data from EU countries for this age group. See the associated table or the source document for full details.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Average Requirement is the level of nutrient intake estimated to satisfy the physiological requirement or metabolic demand in half of the people in a population group, given a normal distribution of requirement. Do you want information about the additional requirements for pregnancy or lactation?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Pregnancy 🤰"
+            },
+            {
+              "title": "Lactation 🤱"
+            },
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females living a moderately active lifestyle, excluding those pregnant or lactating, the Average Requirements for energy reduce with age and range from 2,149 kilocalories per day for those aged 18-29, to 1,839 kilocalories per day for those aged 70-79. Average Requirements for energy were not calculated for adults aged 80+ because of a lack of anthropometric data from EU countries for this age group. See the associated table or the source document for full details. The Average Requirement is the level of nutrient intake estimated to satisfy the physiological requirement or metabolic demand in half of the people in a population group, given a normal distribution of requirement. Do you want information about the additional requirements for pregnancy or lactation?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

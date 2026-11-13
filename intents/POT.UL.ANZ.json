@@ -1,0 +1,101 @@
+{
+  "id": "0e0d398f-13b0-4dcf-9a1b-01de74cc0c57",
+  "name": "POT.UL.ANZ",
+  "auto": true,
+  "contexts": [
+    "potul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "potul",
+          "lifespan": 5
+        },
+        {
+          "name": "potulanz",
+          "lifespan": 5
+        },
+        {
+          "name": "anzulsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "An Upper Level of Intake for potassium has not been set. In otherwise healthy people, there have been no reports of hyperkalaemia from acute or chronic ingestion of potassium naturally occurring in food. However, supplemental potassium should only be provided under medical supervision.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Upper Level of Intake is the highest average daily nutrient intake level likely to pose no adverse health effects to almost all individuals in the general population. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "An Upper Level of Intake for potassium has not been set. In otherwise healthy people, there have been no reports of hyperkalaemia from acute or chronic ingestion of potassium naturally occurring in food. However, supplemental potassium should only be provided under medical supervision. The Upper Level of Intake is the highest average daily nutrient intake level likely to pose no adverse health effects to almost all individuals in the general population. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

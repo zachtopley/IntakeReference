@@ -1,0 +1,65 @@
+{
+  "id": "7558ba85-6529-4a85-9987-46756a7e6959",
+  "name": "K.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin K intake"
+            },
+            {
+              "title": "Maximum vitamin K intake"
+            },
+            {
+              "title": "What does vitamin K do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food sources of vitamin K by weight are dried basil, dried thyme and ground sage, which each contain 1.71 milligrams of vitamin K per 100 grams. Dried coriander leaf and dried parsley each contain 1.36 milligrams of vitamin K per 100 grams. Would you like to know more about the source of this information, or would you like more information about vitamin K?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

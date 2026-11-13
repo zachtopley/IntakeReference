@@ -1,0 +1,71 @@
+[
+  {
+    "id": "08df75b6-ed4a-4f2a-a706-4e646ea14475",
+    "data": [
+      {
+        "text": "green",
+        "userDefined": false
+      },
+      {
+        "text": " kiwi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f5eb06f-85ae-404e-bc41-426f6670d61d",
+    "data": [
+      {
+        "text": "kiwi fruit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b94693e-9667-4a02-8b07-4cd3df0b8e48",
+    "data": [
+      {
+        "text": "kiwis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96aad2b8-55eb-42a8-be28-b355409e4ca2",
+    "data": [
+      {
+        "text": "kiwifruit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f44fef00-732d-4b93-93c3-e14470cc7b21",
+    "data": [
+      {
+        "text": "kiwi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

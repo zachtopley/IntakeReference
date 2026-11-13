@@ -1,0 +1,93 @@
+{
+  "id": "ed4b2f26-377f-4b8d-9238-becc0ea3f4e3",
+  "name": "PRO.FS.MORE.S",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the following foods contain 20-25 grams of protein per 100 grams. Dried butternuts, raw lentils, raw mature California red kidney beans, raw mature yardlong beans, dried black walnuts, raw mature hyacinth beans, yeast extract spread, raw mature mung beans, raw mature catjang cowpeas, raw mature common cowpeas, raw mature white beans, dried chervil, crude wheat germ, raw mature green split peas, raw mature cranberry beans...",
+              "displayText": "Based on data from the United States Department of Agriculture, the following foods contain 20-25 grams of protein per 100 grams: dried butternuts, raw lentils, raw mature California red kidney beans, raw mature yardlong beans, dried black walnuts, raw mature hyacinth beans, yeast extract spread, raw mature mung beans (Vigna radiata), raw mature catjang cowpeas, raw mature common cowpeas, raw mature white beans, dried chervil, crude wheat germ, raw mature green split peas, raw mature cranberry beans...",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "... fenugreek seed, dried basil, raw mature mothbeans, dried tarragon, garbanzo bean flour, raw mature navy beans, raw mature yellow beans, dried coriander leaf, raw mature great northern beans, raw mature black beans, raw mature lima beans, raw mature pinto beans, freeze-dried chives, almonds, dry roasted unsalted pistachios, almond butter, raw mature pink beans, dried sunflower seeds, raw garbanzo beans, dried sesame seeds, tempeh, and raw pistachios. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum protein intake"
+            },
+            {
+              "title": "Why do we need protein?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the following foods contain 20-25 grams of protein per 100 grams: dried butternuts, raw lentils, raw mature California red kidney beans, raw mature yardlong beans, dried black walnuts, raw mature hyacinth beans, yeast extract spread, raw mature mung beans (Vigna radiata), raw mature catjang cowpeas, raw mature common cowpeas, raw mature white beans, dried chervil, crude wheat germ, raw mature green split peas, raw mature cranberry beans, fenugreek seed, dried basil, raw mature mothbeans, dried tarragon, garbanzo bean flour, raw mature navy beans, raw mature yellow beans, dried coriander leaf, raw mature great northern beans, raw mature black beans, raw mature lima beans, raw mature pinto beans, freeze-dried chives, almonds, dry roasted unsalted pistachios, almond butter, raw mature pink beans, dried sunflower seeds, raw garbanzo beans, dried sesame seeds, tempeh, and raw pistachios. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

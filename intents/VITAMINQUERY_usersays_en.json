@@ -1,0 +1,93 @@
+[
+  {
+    "id": "61bf6716-4624-4305-a8e7-94e03b33fc85",
+    "data": [
+      {
+        "text": "/vitamin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "423741ff-998d-4cf6-aca1-d3273e65c5d8",
+    "data": [
+      {
+        "text": "what is vitamin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4ecb4409-f78c-443e-9b9f-ebd4ca8ce87c",
+    "data": [
+      {
+        "text": "what are the vitamins i can choose from?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "39052ffc-f38f-4978-b38e-4b050f3e82a2",
+    "data": [
+      {
+        "text": "what vitamins?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8dc356b-6aff-4264-bfd7-bb8969bc608c",
+    "data": [
+      {
+        "text": "what are the vitamins?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c02c825-01ac-431e-ad0a-f290db172ca7",
+    "data": [
+      {
+        "text": "what vitamins can you tell me about?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b103978-075a-445a-8d8b-0f7ea1b4f54d",
+    "data": [
+      {
+        "text": "vitamins",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "en",
+    "updated": 0
+  }
+]

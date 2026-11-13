@@ -1,0 +1,97 @@
+{
+  "id": "5b94f39b-0bb8-45d0-adb0-2df7f9f4f939",
+  "name": "IOD.HC.EU",
+  "auto": true,
+  "contexts": [
+    "iodhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "iodhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Iodine contributes to: normal cognitive function, normal energy-yielding metabolism, normal functioning of the nervous system, the maintenance of normal skin, and the normal production of thyroid hormones and normal thyroid function. Iodine contributes to the normal growth of children.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products which contain at least 22.5 micrograms of iodine per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Iodine contributes to: normal cognitive function, normal energy-yielding metabolism, normal functioning of the nervous system, the maintenance of normal skin, and the normal production of thyroid hormones and normal thyroid function. Iodine contributes to the normal growth of children. The European Commission has authorised these claims for products which contain at least 22.5 micrograms of iodine per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

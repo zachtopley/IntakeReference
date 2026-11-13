@@ -1,0 +1,64 @@
+{
+  "id": "71a75939-e4aa-4a44-9621-e5ba17c5a536",
+  "name": "B5.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b5hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b5hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Pantothenic acid is necessary for normal fat metabolism. Pantothenic acid contributes to: normal energy production, normal mental performance, normal synthesis and metabolism of steroid hormones, vitamin D and some neurotransmitters, and the reduction of tiredness and fatigue. Food Standards Australia New Zealand has approved these claims for foods containing at least 500 micrograms of pantothenic acid per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

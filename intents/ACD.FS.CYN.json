@@ -1,0 +1,87 @@
+{
+  "id": "e56cc59c-4a2d-4451-b532-22805fedb942",
+  "name": "ACD.FS.CYN",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of cyanidin by weight is raw elderberries, which contain as much as 1,067 milligrams of cyanidin per 100 grams. Raw chokeberries contain as much as 948 milligrams of cyanidin per 100 grams. Tasmanian peppers contain as much as 753 milligrams of cyanidin per 100 grams. Black raspberries, illawarra plums, raw red cabbage and elderberry juice concentrate all contain as much as 400 milligrams of cyanidin or more per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain as much as 100 milligrams of cyanidin or more per 100 grams. Frozen purple acai berries, raw bilberry, raw blackberry, raw red sour cherries, raw sweet cherries, raw European blackcurrants, raw golden currants, raw red currants, chokeberry juice concentrate, blackcurrant juice concentrate, black diamond plums, red raspberries, service berries, and raw radicchio. Is there anything else I can help you with?",
+              "displayText": "Additionally, the following foods contain as much as 100 milligrams of cyanidin or more per 100 grams: frozen purple acai berries, raw bilberry, raw blackberry, raw red sour cherries, raw sweet cherries, raw European blackcurrants, raw golden currants, raw red currants, chokeberry juice concentrate, blackcurrant juice concentrate, black diamond plums, red raspberries, service berries, and raw radicchio. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of cyanidin by weight is raw elderberries, which contain as much as 1,067 milligrams of cyanidin per 100 grams. Raw chokeberries contain as much as 948 milligrams of cyanidin per 100 grams. Tasmanian peppers contain as much as 753 milligrams of cyanidin per 100 grams. Black raspberries, illawarra plums, raw red cabbage and elderberry juice concentrate all contain as much as 400 milligrams of cyanidin or more per 100 grams. Additionally, the following foods contain as much as 100 milligrams of cyanidin or more per 100 grams: frozen purple acai berries, raw bilberry, raw blackberry, raw red sour cherries, raw sweet cherries, raw European blackcurrants, raw golden currants, raw red currants, chokeberry juice concentrate, blackcurrant juice concentrate, black diamond plums, red raspberries, service berries, and raw radicchio."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,69 @@
+{
+  "id": "c41b1b01-2d66-45d8-971e-effd4dec041d",
+  "name": "CAL.HC.ANZ.M",
+  "auto": true,
+  "contexts": [
+    "calhc",
+    "calhcanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calhc",
+          "lifespan": 5
+        },
+        {
+          "name": "calhcanz",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For those aged 65+, a diet high in calcium and adequate vitamin D status, reduces the risk of osteoporosis and osteoporotic fracture. Food Standards Australia New Zealand has approved these claims for foods containing no less than 290 milligrams of calcium and 1 microgram of vitamin D per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

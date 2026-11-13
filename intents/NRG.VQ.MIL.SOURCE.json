@@ -1,0 +1,82 @@
+{
+  "id": "ecedc2be-90f4-4047-b6b0-98032e5358ca",
+  "name": "NRG.VQ.MIL.SOURCE",
+  "auto": true,
+  "contexts": [
+    "nrgmilsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgmilsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "\u0027SACN Statement on Military Dietary Reference Values for Energy\u0027, Scientific Advisory Committee on Nutrition, Public Health England, 2017. \u0027Contains public sector information licensed under the Open Government Licence version three point zero\u0027. Intake Reference is not endorsed by Public Health England. Is there anything else I can help you with?",
+              "displayText": "\u0027SACN Statement on Military Dietary Reference Values for Energy\u0027, Scientific Advisory Committee on Nutrition, Public Health England, 2017. \u0027Contains public sector information licensed under the Open Government Licence v3.0\u0027. Intake Reference is not endorsed by Public Health England. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/583321/SACN_military_DRVs_for_energy_position_statement.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027SACN Statement on Military Dietary Reference Values for Energy\u0027, Scientific Advisory Committee on Nutrition, Public Health England, 2017. \u0027Contains public sector information licensed under the Open Government Licence v3.0\u0027. Intake Reference is not endorsed by Public Health England. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "11dc0fe7-2e99-43fc-b843-eea29c0be32f",
+  "name": "CAF.ETH.COMBO.USA",
+  "auto": true,
+  "contexts": [
+    "cafethcombo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafethcombo",
+          "lifespan": 5
+        },
+        {
+          "name": "dietguide",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Mixing alcohol and caffeine is not generally recognized as safe by the Food and Drug Administration. People who mix alcohol and caffeine may drink more alcohol and become more intoxicated than they realize, increasing the risk of alcohol-related adverse events. Caffeine does not change blood alcohol content levels, and thus, does not reduce the risk of harms associated with drinking alcohol. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

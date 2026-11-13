@@ -1,0 +1,128 @@
+[
+  {
+    "id": "d24784c9-3642-403b-9304-b74691f58ac3",
+    "data": [
+      {
+        "text": "information for females aged ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67f618f0-7eaa-4015-8989-7b4de28fa8f9",
+    "data": [
+      {
+        "text": "females aged ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": " plus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c939ad9b-5aaa-4185-8e6f-c9db24bd22e3",
+    "data": [
+      {
+        "text": "specific information for females aged ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "72c01f33-227c-406a-a6ee-850eba6adfde",
+    "data": [
+      {
+        "text": "females aged ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60e70407-8617-4c65-96ae-0eca1f071cfd",
+    "data": [
+      {
+        "text": "information for females ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": " and older",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "085f9822-3ec6-4317-9c37-e49cf79522f6",
+    "data": [
+      {
+        "text": "women ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      },
+      {
+        "text": " and older",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

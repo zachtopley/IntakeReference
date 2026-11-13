@@ -1,0 +1,64 @@
+{
+  "id": "18a7feea-2d34-4d59-8f82-a53ebf66e7f7",
+  "name": "B2.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b2hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b2hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Riboflavin contributes to: normal iron transport and metabolism, normal energy release from food, normal skin and mucous membrane structure and function, normal functioning of the nervous system, the protection of cells from oxidative stress, and the reduction of tiredness and fatigue. Riboflavin contributes to the maintenance of normal red blood cells and normal vision. Food Standards Australia New Zealand has approved these claims for foods containing at least 170 micrograms of riboflavin per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

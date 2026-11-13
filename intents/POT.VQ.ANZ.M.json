@@ -1,0 +1,112 @@
+{
+  "id": "5896c5ad-26ca-4be9-bdcb-13cfbe59823d",
+  "name": "POT.VQ.ANZ.M",
+  "auto": true,
+  "contexts": [
+    "potvq",
+    "potvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "potvq",
+          "lifespan": 5
+        },
+        {
+          "name": "potvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "potvqanzm",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For males aged 19+, the Adequate Intake for potassium is 3,800 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the Suggested Dietary Target for potassium is 4,700 milligrams per day. As potassium can blunt the effect of sodium on blood pressure, intakes at the 90th centile of current population intake may help to mitigate the effects of sodium on blood pressure until intakes of sodium can be lowered. At the level of 4,700 milligrams per day for potassium there is also evidence of protection against renal stones. Increased potassium intake should be through greater consumption of fruits and vegetables. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of potassium"
+            },
+            {
+              "title": "What does potassium do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 19+, the Adequate Intake for potassium is 3,800 milligrams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Additionally, the Suggested Dietary Target for potassium is 4,700 milligrams per day. As potassium can blunt the effect of sodium on blood pressure, intakes at the 90th centile of current population intake may help to mitigate the effects of sodium on blood pressure until intakes of sodium can be lowered. At the level of 4,700 milligrams per day for potassium there is also evidence of protection against renal stones. Increased potassium intake should be through greater consumption of fruits and vegetables. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

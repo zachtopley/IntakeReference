@@ -1,0 +1,223 @@
+[
+  {
+    "id": "73e26aed-c11b-4182-8c06-df63fb61e866",
+    "data": [
+      {
+        "text": "does banana contain potassium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47a64d4d-db75-462e-bde2-f8e2af2bba5c",
+    "data": [
+      {
+        "text": "how much potassium does banana contain",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aaf8e2b6-5846-49dc-a2ed-86d81a10787a",
+    "data": [
+      {
+        "text": "list out banana mineral content",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75691808-d8b7-462d-959f-2a94fb8814ef",
+    "data": [
+      {
+        "text": "how much fibre in a handful of nuts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a41e091b-74b4-4cd8-8f62-9ef71d80ebd0",
+    "data": [
+      {
+        "text": "vitamin K in Tulsi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f1d6597-ea5e-4c63-94fb-d33d9cc271f3",
+    "data": [
+      {
+        "text": "arey does Basil contain Vitamin K",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6b7a439c-369a-4f98-ab16-becbb56eec01",
+    "data": [
+      {
+        "text": "I like to know more about dried Basil",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ebc3aaf-56cc-4116-9d6f-a29fd0df0b29",
+    "data": [
+      {
+        "text": "who dried Basil contain Vitamin K",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f899b32-b0df-47e7-a9c8-1c84d9225428",
+    "data": [
+      {
+        "text": "is are bananas good for potassium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8199f635-c6d5-4cd9-b8b3-1f9258309608",
+    "data": [
+      {
+        "text": "how much sugar is in pineapples",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed7210bd-1e89-482f-bcc9-438af033391e",
+    "data": [
+      {
+        "text": "what are the benefits of pineapple",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb110a7c-35df-4ea0-a8b6-885c4465c2bc",
+    "data": [
+      {
+        "text": "is broccoli good for you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8be4d1e-6563-49dd-bbf3-557bf9aa533c",
+    "data": [
+      {
+        "text": "tell me about cucumbers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef885bc6-9034-4119-b38c-d3069acf0c06",
+    "data": [
+      {
+        "text": "tell me about the nutrients in cucumbers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d1335db-56f2-4ba0-88da-8d96057d1211",
+    "data": [
+      {
+        "text": "please could you tell me about the nutrient value of mangoes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb69afe7-75cf-4b81-861e-e3fe82b18800",
+    "data": [
+      {
+        "text": "I need to hear about spinach",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b64f2760-a129-430c-91d9-5e837360d4e6",
+    "data": [
+      {
+        "text": "the nutrients in kale",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

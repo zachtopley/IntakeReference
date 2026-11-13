@@ -1,0 +1,80 @@
+[
+  {
+    "id": "f8371747-1f5d-4a7d-9c53-f3aea8cbfc16",
+    "data": [
+      {
+        "text": "maximum iodine",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30c24f41-1e39-4acd-b739-3402f49f216b",
+    "data": [
+      {
+        "text": "what\u0027s the most iodine I should take?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce3e6e08-428e-463b-86ea-8e9f579b135b",
+    "data": [
+      {
+        "text": "iodine upper level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c10e1d12-4c8e-47dd-aad8-7fe54e35204a",
+    "data": [
+      {
+        "text": "how much iodine is excessive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7eda7fb6-acc6-4836-97f5-d8bbd85bccbf",
+    "data": [
+      {
+        "text": "how much iodine is dangerous?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f7033c2-c8f3-4e38-84e6-3454581ed3c4",
+    "data": [
+      {
+        "text": "how much iodine is too much?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

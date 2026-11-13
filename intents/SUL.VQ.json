@@ -1,0 +1,103 @@
+{
+  "id": "cc7408fe-eacb-4b2b-8149-7a67d182d595",
+  "name": "SUL.VQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "sulvq",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "No recommendations for sulphur intake have been established. However, the following substances contain sulphur. Thiamin hydrochloride (a form of vitamin B1) is 9.5% sulphur by weight. Biotin (also known as vitamin B7) is 13.1% sulphur by weight. The essential amino acid methionine is 21.5% sulphur by weight. The essential amino acid cysteine is 26.5% sulphur by weight.",
+              "displayText": "No recommendations for sulphur intake have been established. However, the following substances contain sulphur: thiamin hydrochloride (vitamin B1) is 9.5% sulphur by weight; biotin (vitamin B7) is 13.1% sulphur by weight; the essential amino acid methionine is 21.5% sulphur by weight; the essential amino acid cysteine is 26.5% sulphur by weight.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Methionine requirements"
+            },
+            {
+              "title": "Cysteine requirements"
+            },
+            {
+              "title": "Thiamin minimum intakes"
+            },
+            {
+              "title": "Biotin minimum intakes"
+            },
+            {
+              "title": "Protein minimum intakes"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No recommendations for sulphur intake have been established. However, the following substances contain sulphur: thiamin hydrochloride (vitamin B1) is 9.5% sulphur by weight; biotin (vitamin B7) is 13.1% sulphur by weight; the essential amino acid methionine is 21.5% sulphur by weight; the essential amino acid cysteine is 26.5% sulphur by weight. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

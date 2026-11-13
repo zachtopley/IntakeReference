@@ -1,0 +1,76 @@
+{
+  "id": "d3654f35-e77e-4b1e-a427-d1403383c203",
+  "name": "B9.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum folate intake"
+            },
+            {
+              "title": "Best source of folate"
+            },
+            {
+              "title": "What does folate do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 15, the Population Reference Intakes for folate increase with age, and range from 80 micrograms of dietary folate equivalents per day for those aged 7-11 months, to 270 micrograms of dietary folate equivalents per day for those aged 11-14. See the associated table or the source document for full details. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

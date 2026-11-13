@@ -1,0 +1,197 @@
+[
+  {
+    "id": "f1af210f-cab5-4660-a58e-995d374fe409",
+    "data": [
+      {
+        "text": "information for lactation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0f42d122-3dc4-4bd4-87fb-02311d6e85a9",
+    "data": [
+      {
+        "text": "lactating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "837b7a1b-68fa-4c7a-ba3b-109e1f267d10",
+    "data": [
+      {
+        "text": "lactation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "09b65abd-44ca-46e5-ad22-a9fdff06e3f1",
+    "data": [
+      {
+        "text": "breastfeeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f55747a9-e97b-4b12-97dd-9ec0bc559006",
+    "data": [
+      {
+        "text": "i\u0027m breastfeeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31b37740-e6dc-4c3b-b8f7-d334ebb40348",
+    "data": [
+      {
+        "text": "i\u0027m lactating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74e060d7-4b07-4d00-a0b8-634c25ce1807",
+    "data": [
+      {
+        "text": "information for pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2c75db08-f6c3-483a-9321-4768288282e2",
+    "data": [
+      {
+        "text": "i\u0027m pregnant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c802d4e3-4288-4a23-9b49-e5e5c3288c83",
+    "data": [
+      {
+        "text": "pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15d06689-d88e-487e-88df-566d65d0ebf3",
+    "data": [
+      {
+        "text": "females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "babfc40e-1eec-4321-8491-206fd82d9ae7",
+    "data": [
+      {
+        "text": "female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a87db58-8d2b-4e68-b62f-f4c2af09f18e",
+    "data": [
+      {
+        "text": "woman",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90a1321b-4bda-44bb-86a1-6248ee6f0d36",
+    "data": [
+      {
+        "text": "information for females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e30b672-166c-4596-abbd-f67530e9083a",
+    "data": [
+      {
+        "text": "i\u0027m female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "92f2c1a2-9b99-490c-9132-72a820ff3061",
+    "data": [
+      {
+        "text": "women",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

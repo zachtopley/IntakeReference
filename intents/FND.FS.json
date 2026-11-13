@@ -1,0 +1,77 @@
+{
+  "id": "dc259853-30ff-49c6-87e7-6092e4083bfd",
+  "name": "FND.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Flavonoids, sure. Do you want information about anthocyanidins, flavonols, flavones, flavanones, or flavans?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Anthocyanidins"
+            },
+            {
+              "title": "Flavonols"
+            },
+            {
+              "title": "Flavones"
+            },
+            {
+              "title": "Flavanones"
+            },
+            {
+              "title": "Flavans"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Flavonoids, sure. Do you want information about anthocyanidins, flavonols, flavones, flavanones, or flavans?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

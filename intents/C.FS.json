@@ -1,0 +1,93 @@
+{
+  "id": "e1f8c81e-c75b-4875-a570-c41f459ed59b",
+  "name": "C.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, freeze-dried sweet red peppers contain 1,900 milligrams of vitamin C per 100 grams. Raw acerola cherry contains 1,678 milligrams of vitamin C per 100 grams. Freeze-dried chives contain 660 milligrams of vitamin C per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 100 milligrams of vitamin C or more per 100 grams. Acerola cherry juice, dried coriander leaf, wild rose hips, raw green hot chili peppers, raw guavas, raw sweet yellow peppers, dried litchis, raw blackcurrants, fresh thyme, freeze-dried parsley, raw red hot chili peppers, raw moringa pods, raw orange peel, fresh parsley, raw mustard spinach, raw lemon peel, raw sweet red peppers, dried parsley, raw jalapeño peppers, and freeze-dried leeks. Would you like to know more about the source of this information, or would you like more information about vitamin C?",
+              "displayText": "Additionally, the following foods contain 100 milligrams of vitamin C or more per 100 grams: acerola cherry juice, dried coriander leaf, wild rose hips, raw green hot chili peppers, raw guavas, raw sweet yellow peppers, dried litchis, raw blackcurrants, fresh thyme, freeze-dried parsley, raw red hot chili peppers, raw moringa pods, raw orange peel, fresh parsley, raw mustard spinach, raw lemon peel, raw sweet red peppers, dried parsley, raw jalapeño peppers, and freeze-dried leeks. Would you like to know more about the source of this information, or would you like more information about vitamin C?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin C intake"
+            },
+            {
+              "title": "What does vitamin C do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, freeze-dried sweet red peppers contain 1,900 milligrams of vitamin C per 100 grams. Raw acerola cherry contains 1,678 milligrams of vitamin C per 100 grams. Freeze-dried chives contain 660 milligrams of vitamin C per 100 grams. Additionally, the following foods contain 100 milligrams of vitamin C or more per 100 grams: acerola cherry juice, dried coriander leaf, wild rose hips, raw green hot chili peppers, raw guavas, raw sweet yellow peppers, dried litchis, raw blackcurrants, fresh thyme, freeze-dried parsley, raw red hot chili peppers, raw moringa pods, raw orange peel, fresh parsley, raw mustard spinach, raw lemon peel, raw sweet red peppers, dried parsley, raw jalapeño peppers, and freeze-dried leeks. Would you like to know more about the source of this information, or would you like more information about vitamin C?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "db9f4709-5868-4fe3-a39a-cb671ba9c89f",
+  "name": "ACD.FS.MAL",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of malvidin by weight is raw blueberries, which contain as much as 185 milligrams of malvidin per 100 grams. Raw wild blueberries contain as much as 155 milligrams of malvidin per 100 grams. Shiraz red wine contains as much as 122 milligrams of malvidin per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain as much as 15 milligrams of malvidin or more per 100 grams. Raw rabbiteye blueberries, raw bilberries, frozen unsweetened blueberries, raw red grapes, Cabernet Franc wine, Cabernet Sauvignon wine, and raw mature black cowpeas. Is there anything else I can help you with?",
+              "displayText": "Additionally, the following foods contain as much as 15 milligrams of malvidin or more per 100 grams: raw rabbiteye blueberries (Vaccinium virgatum), raw bilberries, frozen unsweetened blueberries, raw red grapes, Cabernet Franc wine, Cabernet Sauvignon wine, and raw mature black cowpeas. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of malvidin by weight is raw blueberries, which contain as much as 185 milligrams of malvidin per 100 grams. Raw wild blueberries contain as much as 155 milligrams of malvidin per 100 grams. Shiraz red wine contains as much as 122 milligrams of malvidin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of malvidin or more per 100 grams: raw rabbiteye blueberries (Vaccinium virgatum), raw bilberries, frozen unsweetened blueberries, raw red grapes, Cabernet Franc wine, Cabernet Sauvignon wine, and raw mature black cowpeas. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

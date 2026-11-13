@@ -1,0 +1,65 @@
+{
+  "id": "1c8f5b9a-dae5-4c7f-abc0-a583283f3caa",
+  "name": "MAN.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum manganese intake"
+            },
+            {
+              "title": "Maximum manganese intake"
+            },
+            {
+              "title": "What does manganese do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, ground cloves contain 60.1 milligrams of manganese per 100 grams. Ground ginger contains 33.3 milligrams of manganese per 100 grams. Saffron contains 28.4 milligrams of manganese per 100 grams. Would you like to know more about the source of this information, or would you like more information about manganese?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

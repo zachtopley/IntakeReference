@@ -1,0 +1,150 @@
+[
+  {
+    "id": "69b4232e-efa9-41a1-b3e4-8f465ce03fe3",
+    "data": [
+      {
+        "text": "information for those aged 19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a3c9842-eeba-4273-b510-6578658c8493",
+    "data": [
+      {
+        "text": "19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82c4988f-009a-4491-bd68-d30a5b424d76",
+    "data": [
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "815f1578-762d-41bc-88f3-4f31114ebf36",
+    "data": [
+      {
+        "text": "age 19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ecb39282-747f-4777-9e49-695145b016f1",
+    "data": [
+      {
+        "text": "aged 19 to 70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "52512e32-8334-44c0-969d-86487a42599f",
+    "data": [
+      {
+        "text": "ages ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "519e3e51-a232-495b-ae79-8a90dcd33cbc",
+    "data": [
+      {
+        "text": "age ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9d89b8c8-4e34-436c-bb87-15df2eab3d58",
+    "data": [
+      {
+        "text": "aged ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "70",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

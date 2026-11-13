@@ -1,0 +1,212 @@
+{
+  "id": "1f174684-8503-4603-86a3-6ed92b61737b",
+  "name": "PROBIO.CAN.HC",
+  "auto": true,
+  "contexts": [
+    "probio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "probio",
+          "lifespan": 5
+        },
+        {
+          "name": "probiocanhc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "According to the Canadian Food Inspection Agency, the following eligible bacterial species are probiotics that naturally form part of the gut flora, and contribute to healthy gut flora. Bifidobacterium species, including bifidobacterium adolescentis, animalis animalis, bifidum, breve, lactis, longum infantis, and longum longum. as well as, Lactobacillus species, including Lactobacillus acidophilus, casei, fermentum, gasseri, johnsonii, paracasei, plantarum, rhamnosus, and salivarius.",
+              "displayText": "According to the Canadian Food Inspection Agency, the following eligible bacterial species, listed in the table below, are probiotics that naturally form part of the gut flora and contribute to healthy gut flora.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Health Canada has approved these claims for products which contain a minimum of 1 billion colony-forming units of one or more of the eligible species per serving. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Eligible Probiotic Bacterial Species",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Lactobacillus",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Bifidobacterium",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "L. acidophilus"
+                },
+                {
+                  "text": "B. adolescentis"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. casei"
+                },
+                {
+                  "text": "B. animalis ssp. animalis"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. fermentum"
+                },
+                {
+                  "text": "B. bifidum"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. gasseri"
+                },
+                {
+                  "text": "B. breve"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. johnsonii"
+                },
+                {
+                  "text": "B. lactis"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. paracasei"
+                },
+                {
+                  "text": "B. longum ssp. infantis"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. plantarum"
+                },
+                {
+                  "text": "B. longum ssp. longum"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. rhamnosus"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. salvarius"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to the Canadian Food Inspection Agency, the following eligible bacterial species are probiotics that naturally form part of the gut flora and contribute to healthy gut flora: Bifidobacterium species including B. adolescentis, B. animalis ssp. animalis, B. bifidum, B. breve, B. lactis, B. longum ssp. infantis, and B. longum ssp. longum, as well as, Lactobacillus species, including L. acidophilus, L. casei, L. fermentum, L. gasseri, L. johnsonii, L. paracasei, L. plantarum, L. rhamnosus, and L. salivarius. Health Canada has approved these claims for products which contain a minimum of 1 billion colony-forming units of one or more of the eligible species per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

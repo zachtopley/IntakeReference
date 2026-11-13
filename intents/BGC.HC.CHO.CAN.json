@@ -1,0 +1,69 @@
+{
+  "id": "49f23898-d792-4f71-be7f-b00c1f951c88",
+  "name": "BGC.HC.CHO.CAN",
+  "auto": true,
+  "contexts": [
+    "bgchc",
+    "bgchcselect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bgchc",
+          "lifespan": 5
+        },
+        {
+          "name": "bgchcselect",
+          "lifespan": 5
+        },
+        {
+          "name": "bgcansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "3 grams of beta-glucan from oat fibre or barley is the daily amount of beta-glucan shown to help lower cholesterol. Eligible sources of oat fibre are oat bran, rolled oats, and whole oat flour. Health Canada has concluded that scientific evidence exists in support of this claim. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

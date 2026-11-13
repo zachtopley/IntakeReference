@@ -1,0 +1,67 @@
+{
+  "id": "38ba6d8a-3390-48fd-93b2-0538ea803608",
+  "name": "BRN.UL.ANZ",
+  "auto": true,
+  "contexts": [
+    "brnul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "brnul",
+          "lifespan": 5
+        },
+        {
+          "name": "brnulanz",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "🇦🇺🇳🇿"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. The Working Party reviewed the literature on boron and it was agreed that there was little or no evidence for its essentiality in humans. Would you like information for the European Union instead?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

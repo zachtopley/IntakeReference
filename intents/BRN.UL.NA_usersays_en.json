@@ -1,0 +1,157 @@
+[
+  {
+    "id": "5ed33afa-5933-4d3e-8b76-45303c929560",
+    "data": [
+      {
+        "text": "usa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9fc8d07-b350-4dbb-8294-e7feb2badfe0",
+    "data": [
+      {
+        "text": "united states of america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3105c487-2436-4c2c-a795-4dacdf49112c",
+    "data": [
+      {
+        "text": "united states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "44ed4374-5cc1-4f90-ab55-c318142875c2",
+    "data": [
+      {
+        "text": "canadians",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fa653d6-28a9-4924-a80b-cc4aaeba1262",
+    "data": [
+      {
+        "text": "canada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba0c612a-67ee-4f8c-9b62-fbc26be52d08",
+    "data": [
+      {
+        "text": "🇨🇦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7281f58-2d2a-4fbd-9917-7d8d19af17ca",
+    "data": [
+      {
+        "text": "🇺🇸",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ced3779-f900-4596-ab6b-cdeee83b86c1",
+    "data": [
+      {
+        "text": "🇺🇸🇨🇦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "743a9f76-dcc4-4e09-b1dc-cdb635d01ef7",
+    "data": [
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0252ce96-63f1-4ef5-9a01-d29a062ec660",
+    "data": [
+      {
+        "text": "north ",
+        "userDefined": false
+      },
+      {
+        "text": "americans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b51fe514-3d01-4c48-91a5-f5c942858438",
+    "data": [
+      {
+        "text": "north",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

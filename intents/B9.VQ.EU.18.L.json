@@ -1,0 +1,137 @@
+{
+  "id": "06f4ba1e-c034-4b0f-8c7b-b389efcb5435",
+  "name": "B9.VQ.EU.18.L",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu18l",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For lactation, the Population Reference Intake for folate is 500 micrograms of dietary folate equivalents per day. Natural food folates have a lower bioavailability than synthetic folic acid. The Population Reference Intake is equivalent to 500 micrograms of natural food folate, or 300 micrograms of folic acid from fortified food or a supplement consumed with food, or 250 micrograms as a folic acid supplement taken on an empty stomach.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of folate"
+            },
+            {
+              "title": "What does folate do?"
+            },
+            {
+              "title": "Maximum folate intake"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactation, the Population Reference Intake for folate is 500 micrograms of dietary folate equivalents per day. Natural food folates have a lower bioavailability than synthetic folic acid. The Population Reference Intake is equivalent to 500 micrograms of natural food folate, or 300 micrograms of folic acid from fortified food or a supplement consumed with food, or 250 micrograms as a folic acid supplement taken on an empty stomach. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

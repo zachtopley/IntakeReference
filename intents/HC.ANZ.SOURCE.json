@@ -1,0 +1,93 @@
+{
+  "id": "4185625b-f80e-4874-8926-63eed929146d",
+  "name": "HC.ANZ.SOURCE",
+  "auto": true,
+  "contexts": [
+    "hcanzsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "facebook",
+          "title": "More options",
+          "buttons": [
+            {
+              "postback": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "text": "Licence"
+            },
+            {
+              "postback": "https://www.legislation.gov.au/Home",
+              "text": "Legislation Register"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "skype",
+          "title": "More options",
+          "buttons": [
+            {
+              "postback": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "text": "Licence"
+            },
+            {
+              "postback": "https://www.legislation.gov.au/Home",
+              "text": "Legislation Register"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Full Register",
+          "url": "https://www.legislation.gov.au/Details/F2017C00711",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from the Federal Register of Legislation, Australia New Zealand Food Standards Code, Standard 1.2.7 and Schedules 1 \u0026 4. Copyright Food Standards Australia New Zealand 2017. Provided under a Creative Commons Attribution 4.0 International license. Go to legislation.gov.au for the latest information on Australian Government law. Intake Reference is not endorsed by Food Standards Australia New Zealand or the Federal Government of Australia. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

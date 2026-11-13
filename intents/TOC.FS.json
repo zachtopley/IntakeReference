@@ -1,0 +1,70 @@
+{
+  "id": "4a38056d-d4e9-4573-a168-4b18a5fade0c",
+  "name": "TOC.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "α-tocopherol (vitamin E)"
+            },
+            {
+              "title": "β-tocopherol"
+            },
+            {
+              "title": "γ-tocopherol"
+            },
+            {
+              "title": "δ-tocopherol"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are four different tocopherols you can ask me about."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Bearing in mind that only alpha tocopherol is considered to have vitamin E activity, do you want information about the dietary sources of alpha tocopherol, beta tocopherol, gamma tocopherol or delta tocopherol?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

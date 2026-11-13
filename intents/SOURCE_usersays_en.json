@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ffcac5fd-5ba0-44ad-a0b5-a9885bb26164",
+    "data": [
+      {
+        "text": "sources of information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8ccbeee3-6206-48dc-87a0-2b71ac84697f",
+    "data": [
+      {
+        "text": "sources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b034898-69fc-44f5-8f5d-4639c72d0252",
+    "data": [
+      {
+        "text": "source",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16bad325-d4b6-4a2f-82a3-404723a95368",
+    "data": [
+      {
+        "text": "where is your information from?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b396af27-fa40-437b-a3af-8525c72ca9ac",
+    "data": [
+      {
+        "text": "what\u0027s the source of your information?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "063d59b6-9183-455d-8edf-c448f8d69905",
+    "data": [
+      {
+        "text": "where did you get this information?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f3b06d91-3891-4009-bddb-6a3a1416bcee",
+    "data": [
+      {
+        "text": "where is your information sourced from?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b4587bc-aeb9-4e3f-bde4-10dc609ec942",
+    "data": [
+      {
+        "text": "what are your sources?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

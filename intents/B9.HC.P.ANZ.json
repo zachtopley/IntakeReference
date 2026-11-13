@@ -1,0 +1,64 @@
+{
+  "id": "17f9fd35-e16b-4925-9f42-ed10986fa5c8",
+  "name": "B9.HC.P.ANZ",
+  "auto": true,
+  "contexts": [
+    "b9hcp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9hcp",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For women of childbearing age, folic acid contributes to normal neural tube structure in the developing foetus. Consume at least 400 micrograms of folic acid per day, at least the month before and three months after conception. Food Standards Australia New Zealand has approved these claims for certain foods containing no less than 40 micrograms of folic acid per serving. Supplemental folic acid intake is in addition to the Recommended Dietary Intake for folate. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

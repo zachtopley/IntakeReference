@@ -1,0 +1,95 @@
+{
+  "id": "9a0bf422-89e4-4ca3-8680-635baed7e205",
+  "name": "WTR.HC.EU",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "wtrhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Water contributes to the maintenance of normal physical and cognitive functions, and contributes to the maintenance of normal regulation of the body\u0027s temperature. In order to obtain the claimed effect, at least 2 litres of water, from all sources, should be consumed per day.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for water complying with Directives two thousand and nine dash fifty four dash EC, and or ninety eight dash eighty three dash EC. Is there anything else I can help you with?",
+              "displayText": "The European Commission has authorised these claims for water complying with Directives 2009/54/EC and/or 98/83/EC. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Water contributes to the maintenance of normal physical and cognitive functions, and contributes to the maintenance of normal regulation of the body\u0027s temperature. In order to obtain the claimed effect, at least 2 litres of water, from all sources, should be consumed per day. The European Commission has authorised these claims for water complying with Directives 2009/54/EC and/or 98/83/EC. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

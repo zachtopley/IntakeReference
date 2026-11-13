@@ -1,0 +1,171 @@
+[
+  {
+    "id": "d7fa92ca-959c-4b2f-b643-04c49a50f34b",
+    "data": [
+      {
+        "text": "female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f7ee866-fe4b-470c-ae88-db919bd4a030",
+    "data": [
+      {
+        "text": "females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3e7bf51c-a5d5-4ae9-8055-391e4e3e8899",
+    "data": [
+      {
+        "text": "women",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "432631cd-efd8-443a-abbf-55435495a937",
+    "data": [
+      {
+        "text": "lactation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "46c3cbb7-239b-449d-b9e1-7bd9ed8072ea",
+    "data": [
+      {
+        "text": "i\u0027m lactating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fc3f9ab7-535b-4f3a-bb75-540514b4f39b",
+    "data": [
+      {
+        "text": "i\u0027m pregnant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ba2a5b29-4da2-472d-b5cb-9f59ff1d7ef5",
+    "data": [
+      {
+        "text": "i\u0027m female",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "459598b2-05ef-40eb-b128-b66deb0eb317",
+    "data": [
+      {
+        "text": "woman",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "813c9dc7-d5c9-4104-a598-4ac2da10c04c",
+    "data": [
+      {
+        "text": "breastfeeding",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62fe7b5a-b82f-4feb-bb9a-53d3b519f0fa",
+    "data": [
+      {
+        "text": "pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f45d7feb-8231-4dba-a76b-3321912dbc7c",
+    "data": [
+      {
+        "text": "information for females",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59a9285f-3a3c-477a-9b88-3eff1149de4f",
+    "data": [
+      {
+        "text": "information for pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bac24902-7710-4002-af83-af0487155cdc",
+    "data": [
+      {
+        "text": "information for lactation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

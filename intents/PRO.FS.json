@@ -1,0 +1,100 @@
+{
+  "id": "87f2a7fb-1189-4d5d-be6c-56bb79d0ba63",
+  "name": "PRO.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "profs",
+          "lifespan": 5
+        },
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of protein by weight is soy protein isolate, which contains 88.3 grams of protein per 100 grams. Dried spirulina contains 57.5 grams of protein per 100 grams. Defatted peanut flour contains 52.2 grams of protein per 100 grams. Additionally, the following foods all contain 25 grams of protein or more per 100 grams:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "soy protein concentrate, freeze-dried tofu, defatted, low-fat and full-fat soy flour, defatted, low-fat and high-fat sesame flour, defatted sunflower seed flour, raw mature soybeans, raw mature lupin beans, low-fat peanut flour, hulled hemp seeds, freeze-dried parsley, dried pumpkin and squash seeds, raw mature winged beans, toasted wheat germ cereal, dried watermelon seeds, dried parsley, raw mature fava beans, ground mustard seed, raw peanuts, raw mature royal red kidney beans, and raw mature mungo beans. Would you like to hear more sources of protein?",
+              "displayText": "soy protein concentrate, freeze-dried tofu (koyadofu), defatted, low-fat and full-fat soy flour, defatted, low-fat and high-fat sesame flour, defatted sunflower seed flour, raw mature soybeans, raw mature lupin beans, low-fat peanut flour, hulled hemp seeds, freeze-dried parsley, dried pumpkin and squash seeds, raw mature winged beans, toasted wheat germ cereal, dried watermelon seeds, dried parsley, raw mature fava beans, ground mustard seed, raw peanuts, raw mature royal red kidney beans, and raw mature mungo beans (Vigna mungo). Would you like more sources of protein?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "More sources of protein"
+            },
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum protein intake"
+            },
+            {
+              "title": "Why do we need protein?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of protein by weight is soy protein isolate, which contains 88.3 grams of protein per 100 grams. Dried spirulina contains 57.5 grams of protein per 100 grams. Defatted peanut flour contains 52.2 grams of protein per 100 grams. Additionally, the following foods all contain 25 grams of protein or more per 100 grams: soy protein concentrate, freeze-dried tofu (koyadofu), defatted, low-fat and full-fat soy flour, defatted, low-fat and high-fat sesame flour, defatted sunflower seed flour, raw mature soybeans, raw mature lupin beans, low-fat peanut flour, hulled hemp seeds, freeze-dried parsley, dried pumpkin and squash seeds, raw mature winged beans, toasted wheat germ cereal, dried watermelon seeds, dried parsley, raw mature fava beans, ground mustard seed, raw peanuts, raw mature royal red kidney beans, and raw mature mungo beans (Vigna mungo). Would you like more sources of protein?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

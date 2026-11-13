@@ -1,0 +1,275 @@
+[
+  {
+    "id": "509507fa-774f-4ff1-a259-45aff9987478",
+    "data": [
+      {
+        "text": "omega-3 fatty acids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "332bfd16-36c6-42f2-954d-06a6666d765e",
+    "data": [
+      {
+        "text": "omega-3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18204f5a-d026-4930-aa7c-607b1925b5f1",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      },
+      {
+        "text": " fatty acids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1f82e7d-383e-4032-96c3-11f6d317471a",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebd92115-69e4-4bf6-8b7e-17f686bb9599",
+    "data": [
+      {
+        "text": "alpha linolenic acid intakes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cb30089e-a565-49ce-b0c5-1d165e7c9dec",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      },
+      {
+        "text": " minimum intakes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "917b3f93-76d7-4652-be0e-12d17bec6ee8",
+    "data": [
+      {
+        "text": "omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      },
+      {
+        "text": " recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4967a211-1a0c-41db-8290-d8b5f95096e0",
+    "data": [
+      {
+        "text": "α-linolenic acid (ω-3)",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62d07e88-3cf1-4939-8cb0-30e9cffbd1c1",
+    "data": [
+      {
+        "text": "recommended omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      },
+      {
+        "text": " intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "969881af-a097-4d21-88b3-fff93743cb3e",
+    "data": [
+      {
+        "text": "how much omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      },
+      {
+        "text": " fatty acids do I need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "add14ce3-d0d0-4982-bdcd-7928ca517058",
+    "data": [
+      {
+        "text": "how much omega ",
+        "userDefined": false
+      },
+      {
+        "text": "3",
+        "userDefined": false
+      },
+      {
+        "text": " do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "989deccc-5b1a-4de7-8b7e-4be3446d30f9",
+    "data": [
+      {
+        "text": "recommended alpha linolenic acid intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "badaf7c2-5f41-4f31-bc27-6b938ef8a5f5",
+    "data": [
+      {
+        "text": "alpha linolenic acid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af7563cf-9e23-4353-bf45-65c4cfece2f1",
+    "data": [
+      {
+        "text": "α-linolenic acid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98bc8265-bb9c-40b6-8a6f-6c01f6351132",
+    "data": [
+      {
+        "text": "how much α-linolenic acid do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "66652466-900c-436b-a7ee-01a6a8113522",
+    "data": [
+      {
+        "text": "how much alpha linolenic acid do I need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42457311-be85-4c8f-b8a4-2edbd20e8c4c",
+    "data": [
+      {
+        "text": "how much alpha linolenic acid do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

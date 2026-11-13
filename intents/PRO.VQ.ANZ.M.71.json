@@ -1,0 +1,87 @@
+{
+  "id": "76d3922b-5ed0-42b4-9a2a-149d37314019",
+  "name": "PRO.VQ.ANZ.M.71",
+  "auto": true,
+  "contexts": [
+    "provq",
+    "provqanz",
+    "provqanzm"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "provq",
+          "lifespan": 5
+        },
+        {
+          "name": "provqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "provqanzm",
+          "lifespan": 5
+        },
+        {
+          "name": "provqanzm71",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Protein calories per gram"
+            },
+            {
+              "title": "Best source of protein"
+            },
+            {
+              "title": "What does protein do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 71+, the Recommended Dietary Intake for protein is 81 grams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for protein is 15-25% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

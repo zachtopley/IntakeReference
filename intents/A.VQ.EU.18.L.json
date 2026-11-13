@@ -1,0 +1,97 @@
+{
+  "id": "b82cbf30-4dc3-43eb-a724-b8747533bf69",
+  "name": "A.VQ.EU.18.L",
+  "auto": true,
+  "contexts": [
+    "avq",
+    "avqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "avq",
+          "lifespan": 5
+        },
+        {
+          "name": "avqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "avqeu18l",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More options",
+          "replies": [
+            "Upper Intake Level",
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More options",
+          "replies": [
+            "Upper Intake Level",
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactation, the Population Reference Intake for vitamin A is 1,300 micrograms of retinol equivalents per day. The Population Reference Intake is equivalent to 1,300 micrograms of retinol, or 7,800 micrograms of β-carotene, or 15,600 micrograms of other provitamin A carotenoids. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

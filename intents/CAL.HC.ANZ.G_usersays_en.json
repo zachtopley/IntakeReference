@@ -1,0 +1,54 @@
+[
+  {
+    "id": "250228bc-b179-4d4f-ad92-8919222f4d09",
+    "data": [
+      {
+        "text": "general information for all ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5b9ab94-e3d0-4231-a147-61c7bd90f2d8",
+    "data": [
+      {
+        "text": "general information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6780e0d4-7b7a-4a3b-befe-2598e609cbc2",
+    "data": [
+      {
+        "text": "all ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a4d85a9-cf26-4f04-8e6b-f3e11d97ca7c",
+    "data": [
+      {
+        "text": "information for all ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

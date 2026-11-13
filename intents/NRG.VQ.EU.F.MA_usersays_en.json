@@ -1,0 +1,54 @@
+[
+  {
+    "id": "3d530fb7-d8a7-480e-9d12-e3293a75b80c",
+    "data": [
+      {
+        "text": "moderately active 🥉",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce0f1cfb-5477-45f1-98ae-7cd313a8faff",
+    "data": [
+      {
+        "text": "moderately active",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ebbfb584-3145-4bfd-989d-eb43a9d7d2ce",
+    "data": [
+      {
+        "text": "information for a moderately active lifestyle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "089487dc-6fff-41b6-8a6f-46a9ff72d3d6",
+    "data": [
+      {
+        "text": "moderately active lifestyle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

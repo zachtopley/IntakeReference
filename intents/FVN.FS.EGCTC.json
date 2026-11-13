@@ -1,0 +1,56 @@
+{
+  "id": "ab904205-bfbe-417a-88d5-c28e1badd33f",
+  "name": "FVN.FS.EGCTC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, one of the highest food sources of epigallocatechin by weight is brewed black tea, which contains as much as 31 milligrams of epigallocatechin per 100 grams. Additionally, raw black diamond plums, raw immature broadbeans, brewed decaffeinated green tea, brewed Quingmao green tea, brewed oolong tea, and brewed white tea, all contain as much as 15 milligrams of epigallocatechin or more per 100 grams. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

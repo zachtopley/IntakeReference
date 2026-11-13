@@ -1,0 +1,58 @@
+[
+  {
+    "id": "25c4e7a3-8582-41dd-8c73-4246bf0c9496",
+    "data": [
+      {
+        "text": "🇨🇦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6d999d0a-1ae7-4cf0-a4ba-4b46b74638c4",
+    "data": [
+      {
+        "text": "information for ",
+        "userDefined": false
+      },
+      {
+        "text": "canada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3d5f3c4-8c84-441c-b511-d09dd522e3a3",
+    "data": [
+      {
+        "text": "canadians",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7cd84212-2b77-4f27-8e86-e5a9e49ce04e",
+    "data": [
+      {
+        "text": "canada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

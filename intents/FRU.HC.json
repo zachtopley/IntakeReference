@@ -1,0 +1,66 @@
+{
+  "id": "961bae4b-a8d6-44db-a393-34e049ff4b82",
+  "name": "FRU.HC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fruhc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "As part of a healthy diet low in fat, sugars and sodium, the World Health Organization recommends consuming at least 400 grams of fruits and vegetables per day, not including potatoes, sweet potatoes, cassava, and other starchy tubers. Fruits and vegetables contribute to cardiovascular health through the variety of phytonutrients, potassium, and fibre that they contain."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Daily intake of fresh fruits and vegetables (including berries, green leafy and cruciferous vegetables, and legumes) in quantities greater than 400 grams, is recommended to reduce the risk of coronary heart disease, stroke, high blood pressure, cancer, diabetes, and obesity, as well as to prevent and alleviate several micronutrient deficiencies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

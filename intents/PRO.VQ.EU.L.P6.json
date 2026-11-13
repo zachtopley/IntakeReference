@@ -1,0 +1,109 @@
+{
+  "id": "9aa93c98-3caa-4d14-8f7a-88e342ecb60b",
+  "name": "PRO.VQ.EU.L.P6",
+  "auto": true,
+  "contexts": [
+    "provq",
+    "provqeu",
+    "provqeul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "provq",
+          "lifespan": 5
+        },
+        {
+          "name": "provqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "provqeul",
+          "lifespan": 5
+        },
+        {
+          "name": "provqeulp6",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Protein calories per gram"
+            },
+            {
+              "title": "Best source of protein"
+            },
+            {
+              "title": "What does protein do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For lactation more than 6 months post partum, the Population Reference Intake for protein is 0.83 grams per kilogram of bodyweight per day, plus an additional 13 grams per day. So for example, for a 60 kilogram lactating female, the Population Reference Intake for protein is 63 grams per day. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

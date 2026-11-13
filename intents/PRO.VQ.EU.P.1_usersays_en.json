@@ -1,0 +1,95 @@
+[
+  {
+    "id": "c17693b3-32fe-4c89-ba2f-ca22370f2939",
+    "data": [
+      {
+        "text": "1st",
+        "userDefined": false
+      },
+      {
+        "text": " trimesters",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87cb8a0e-022d-40a6-bdd6-b9e79cef45a6",
+    "data": [
+      {
+        "text": "i\u0027m in my ",
+        "userDefined": false
+      },
+      {
+        "text": "first",
+        "userDefined": false
+      },
+      {
+        "text": " trimester",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b6bdf19-def5-4dd3-a93b-9813f2525d00",
+    "data": [
+      {
+        "text": "first",
+        "userDefined": false
+      },
+      {
+        "text": " trimester",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e50f301d-5721-44fc-b51b-a1341c88a7a8",
+    "data": [
+      {
+        "text": "information for the ",
+        "userDefined": false
+      },
+      {
+        "text": "1st",
+        "userDefined": false
+      },
+      {
+        "text": " trimester",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5116a559-e997-4a6b-85e4-633ea2efd5fe",
+    "data": [
+      {
+        "text": "1st",
+        "userDefined": false
+      },
+      {
+        "text": " trimester",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

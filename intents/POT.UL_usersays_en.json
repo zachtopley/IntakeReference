@@ -1,0 +1,106 @@
+[
+  {
+    "id": "f52ec287-19ce-437d-8c7f-be303d4bb590",
+    "data": [
+      {
+        "text": "what\u0027s the most potassium I should take?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "86d911bb-2f0b-4d7b-829a-d6a924052556",
+    "data": [
+      {
+        "text": "maximum potassium",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c50a6b1c-2134-4fb0-b8fd-24d8a7984ca1",
+    "data": [
+      {
+        "text": "potassium tolerable upper intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee5a4b1f-d678-4d77-b471-982790f16488",
+    "data": [
+      {
+        "text": "potassium upper intake level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d6a1b92d-14f2-4a45-8157-8e552ca5dea5",
+    "data": [
+      {
+        "text": "potassium upper level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bb7d41e0-7327-41ed-8907-751b0ae0ab3e",
+    "data": [
+      {
+        "text": "how much potassium is dangerous?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5551d3db-b0b6-42ed-9e3c-6acfa615257f",
+    "data": [
+      {
+        "text": "how much potassium is excessive?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b4e578ec-5f0d-49ff-a3f9-cf7dd4677e94",
+    "data": [
+      {
+        "text": "how much potassium is too much?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

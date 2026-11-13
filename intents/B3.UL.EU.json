@@ -1,0 +1,142 @@
+{
+  "id": "8e4340b4-f5e0-4e30-85d3-eba3269174e5",
+  "name": "B3.UL.EU",
+  "auto": true,
+  "contexts": [
+    "b3ul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b3ul",
+          "lifespan": 5
+        },
+        {
+          "name": "b3uleu",
+          "lifespan": 5
+        },
+        {
+          "name": "ulsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Niacin is the term used to describe two related compounds, nicotinic acid and nicotinamide, both of which have biological activity. For adults aged 18+, excluding those pregnant or lactating, the Tolerable Upper Intake Level for niacin, in the form of free nicotinic acid, is 10 milligrams per day, whereas the Tolerable Upper Intake Level for niacin, in the form of nicotinamide, is 900 milligrams per day, or 12.5 milligrams per kilogram of bodyweight per day. Low doses of nicotinic acid may produce mild but noticeable flushing when taken on an empty stomach, whereas nicotinamide does not produce the flushing response.",
+              "displayText": "Niacin is the term used to describe two related compounds, nicotinic acid and nicotinamide, both of which have biological activity. For adults aged 18+, excluding those pregnant or lactating, the Tolerable Upper Intake Level for niacin in the form of free nicotinic acid is 10 milligrams per day, whereas the Tolerable Upper Intake Level for niacin in the form of nicotinamide is 900 milligrams per day, or 12.5 milligrams per kilogram of bodyweight per day. Low doses of nicotinic acid may produce mild but noticeable flushing when taken on an empty stomach, whereas nicotinamide does not produce the flushing response.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The levels for free nicotinic acid and nicotinamide are not applicable during pregnancy or lactation because of inadequate data relating to this critical life stage. The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. The Upper Levels do not apply to the use of nicotinic acid or nicotinamide under clinical supervision for the treatment of hypercholesterolaemia and hyperlipidaemias, or reducing the risk of the development of diabetes. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "The levels for free nicotinic acid and nicotinamide are not applicable during pregnancy or lactation because of inadequate data relating to this critical life stage. The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "formattedText": "The Upper Levels do not apply to the use of nicotinic acid or nicotinamide under clinical supervision for the treatment of hypercholesterolaemia and hyperlipidaemias, or reducing the risk of the development of diabetes.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum niacin intake"
+            },
+            {
+              "title": "What does niacin do?"
+            },
+            {
+              "title": "Best source of niacin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Niacin is the term used to describe two related compounds, nicotinic acid and nicotinamide, both of which have biological activity. For adults aged 18+, excluding those pregnant or lactating, the Tolerable Upper Intake Level for niacin in the form of free nicotinic acid is 10 milligrams per day, whereas the Tolerable Upper Intake Level for niacin in the form of nicotinamide is 900 milligrams per day, or 12.5 milligrams per kilogram of bodyweight per day. Low doses of nicotinic acid may produce mild but noticeable flushing when taken on an empty stomach, whereas nicotinamide does not produce the flushing response. The levels for free nicotinic acid and nicotinamide are not applicable during pregnancy or lactation because of inadequate data relating to this critical life stage. The Tolerable Upper Intake Level is the maximum level of total chronic intake of a nutrient from all sources judged to be unlikely to pose a risk of adverse health effects in humans. The Upper Levels do not apply to the use of nicotinic acid or nicotinamide under clinical supervision for the treatment of hypercholesterolaemia and hyperlipidaemias, or reducing the risk of the development of diabetes. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

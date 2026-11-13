@@ -1,0 +1,67 @@
+[
+  {
+    "id": "3f5d5e9d-25ad-4871-9ba1-aa03de225bac",
+    "data": [
+      {
+        "text": "general information",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c1af691c-78b2-44d5-a740-9e756e1dc09f",
+    "data": [
+      {
+        "text": "general information for all ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1ff3e662-b248-4938-a855-72f4425f0999",
+    "data": [
+      {
+        "text": "information for everyone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75764724-04f4-4414-84d2-b8c906c57851",
+    "data": [
+      {
+        "text": "all ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1dc4c082-916f-4065-b07f-a88a51e3c9f3",
+    "data": [
+      {
+        "text": "information for all ages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

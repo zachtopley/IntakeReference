@@ -1,0 +1,91 @@
+{
+  "id": "53735cba-5bd0-4371-80c5-2ae07438d775",
+  "name": "GMN.HC.EU",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Glucomannan contributes to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of 4 grams of glucomannan. The European Commission has authorised this claim for products which provide a daily intake of 4 grams of glucomannan.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Glucomannan contributes to weight loss, in the context of an energy restricted diet. The beneficial effect is obtained with a daily intake of 3 grams of glucomannan, in three doses of 1 gram each, together with 1-2 glasses of water, before meals and in the context of an energy-restricted diet. The European Commission has authorised this claim for products which provide 1 gram of glucomannan per quantified portion. To avoid choking, consume with plenty of water. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Glucomannan contributes to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of 4 grams of glucomannan. The European Commission has authorised this claim for products which provide a daily intake of 4 grams of glucomannan. Glucomannan contributes to weight loss, in the context of an energy restricted diet. The beneficial effect is obtained with a daily intake of 3 grams of glucomannan, in three doses of 1 gram each, together with 1-2 glasses of water, before meals and in the context of an energy-restricted diet. The European Commission has authorised this claim for products which provide 1 gram of glucomannan per quantified portion. To avoid choking, consume with plenty of water. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "f6bf818b-9228-4c68-a276-841413a1f6a4",
+    "data": [
+      {
+        "text": "flavanones",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01ecee2d-ce83-488b-b923-95bee22b75ad",
+    "data": [
+      {
+        "text": "flavanone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

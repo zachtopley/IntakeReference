@@ -1,0 +1,64 @@
+{
+  "id": "8e3fab0c-5cc6-448e-a01f-cbe30203414b",
+  "name": "RES.HC.USA",
+  "auto": true,
+  "contexts": [
+    "reshc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "reshc",
+          "lifespan": 5
+        },
+        {
+          "name": "usaressource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "High-amylose maize resistant starch may reduce the risk of type 2 diabetes, although the FDA has concluded that there is limited scientific evidence for this claim. The United States Food and Drug Administration intends to consider exercising its enforcement discretion for this qualified health claim. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

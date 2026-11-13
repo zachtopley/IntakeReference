@@ -1,0 +1,64 @@
+{
+  "id": "a7660945-1fd9-4ac0-8e19-d6b5c5ae5048",
+  "name": "FBR.HC.CAN",
+  "auto": true,
+  "contexts": [
+    "fbrhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "fbrhc",
+          "lifespan": 5
+        },
+        {
+          "name": "canfbrsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Consuming 7 grams of fibre from coarse wheat bran daily promotes laxation. Consuming 3.5 grams of fibre from psyllium seed daily promotes laxation. Health Canada has found these claims to be acceptable. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

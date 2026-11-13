@@ -1,0 +1,68 @@
+{
+  "id": "21ac5b2c-2e52-4679-bbdf-b9d21e8726db",
+  "name": "ZNO.SOURCE",
+  "auto": true,
+  "contexts": [
+    "zno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "zno",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "code of regulations",
+          "url": "https://www.ecfr.gov/cgi-bin/text-idx?SID\u003d85470b6a7a6bf558a3ed883a201325ed\u0026mc\u003dtrue\u0026node\u003dpt21.5.352\u0026rgn\u003ddiv5",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Sunscreen Drug Products for Over-The-Counter Human Use\u0027, Electronic Code of Federal Regulations, Title 21, Part 352. According to Title 17, Section 105 of the United States Code, \"Copyright protection under this title is not available for any work of the United States Government\". Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "ccd2ed49-d666-4c8d-a0fc-06ef70f862b9",
+  "name": "FVOL.FS.MYR",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of myricetin by weight is carob fiber which contains 52 milligrams of myricetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of myricetin or more per 100 grams. Raw European blackcurrants, blackcurrant juice concentrate, raw fennel leaves, raw cranberries, fresh parsley, and raw sweet potato leaves. Is there anything else I can help you with?",
+              "displayText": "Based on data from the United States Department of Agriculture, the highest food source of myricetin by weight is carob fiber which contains 52 milligrams of myricetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of myricetin or more per 100 grams: raw European blackcurrants, blackcurrant juice concentrate, raw fennel leaves, raw cranberries, fresh parsley, and raw sweet potato leaves. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of myricetin by weight is carob fiber which contains 52 milligrams of myricetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of myricetin or more per 100 grams: raw European blackcurrants, blackcurrant juice concentrate, raw fennel leaves, raw cranberries, fresh parsley, and raw sweet potato leaves. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

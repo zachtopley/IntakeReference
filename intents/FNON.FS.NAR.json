@@ -1,0 +1,82 @@
+{
+  "id": "9cacca85-9f5d-4e17-82c1-064409b4cbe8",
+  "name": "FNON.FS.NAR",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of naringenin by weight is dried Mexican oregano, which contains as much as 418 milligrams of naringenin per 100 grams. Raw pummelo juice contains as much as 133 milligrams of naringenin per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain as much as 15 milligrams of naringenin or more per 100 grams. Fresh rosemary, raw pink, red and white grapefruit, raw pink and white grapefruit juice, raw lemon juice, sour orange juice, tangelo juice, raw kumquats, raw oranges, raw pummelo, raw tangerines, raw yuzu, and raw artichokes. Is there anything else i can help you with?",
+              "displayText": "Additionally, the following foods contain as much as 15 milligrams of naringenin or more per 100 grams: fresh rosemary, raw pink, red and white grapefruit, raw pink and white grapefruit juice, raw lemon juice, sour orange juice, tangelo juice, raw kumquats, raw oranges, raw pummelo, raw tangerines, raw yuzu, and raw artichokes. Is there anything else i can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of naringenin by weight is dried Mexican oregano, which contains as much as 418 milligrams of naringenin per 100 grams. Raw pummelo juice contains as much as 133 milligrams of naringenin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of naringenin or more per 100 grams: fresh rosemary, raw pink, red and white grapefruit, raw pink and white grapefruit juice, raw lemon juice, sour orange juice, tangelo juice, raw kumquats, raw oranges, raw pummelo, raw tangerines, raw yuzu, and raw artichokes. Is there anything else i can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

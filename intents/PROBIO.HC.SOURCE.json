@@ -1,0 +1,68 @@
+{
+  "id": "0f88b452-c4ba-431a-9426-2bb2b7ef392a",
+  "name": "PROBIO.HC.SOURCE",
+  "auto": true,
+  "contexts": [
+    "probiocanhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "probiocanhc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "claims table",
+          "url": "http://inspection.gc.ca/food/labelling/food-labelling-for-industry/health-claims/eng/1392834838383/1392834887794?chap\u003d10",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Table of Acceptable Non-Strain Specific Claims for Probiotics\u0027, Probiotic Claims, Canadian Food Inspection Agency website, 2018. Copyright 2018 Government of Canada. Reproduced in accordance with Government of Canada non-commercial reproduction policy. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,115 @@
+{
+  "id": "9c566d2a-640d-4eb1-ba3e-9ee8cd92157c",
+  "name": "B9.VQ.ANZ.F",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For females aged 14+, excluding those pregnant or lactating, the Recommended Dietary Intake for folate is 400 micrograms of dietary folate equivalents per day. The Recommended Dietary Intake is equivalent to 400 micrograms of food folate, or 200 micrograms of folic acid on an empty stomach, or 240 micrograms of folic acid with meals or as fortified foods; fortified foods contain folic acid which has almost twice the potency of naturally occurring food folates. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "An additional 100-400 micrograms of dietary folate equivalents over current intakes may be required to optimise homocysteine levels and reduce overall chronic disease risk and DNA damage. This is to be attained through the replacement of nutrient-poor, energy-dense foods and drinks with folate-rich foods such as vegetables, fruits and wholegrain cereals. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Maximum folate intake"
+            },
+            {
+              "title": "Best source of folate"
+            },
+            {
+              "title": "What does folate do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 14+, excluding those pregnant or lactating, the Recommended Dietary Intake for folate is 400 micrograms of dietary folate equivalents per day. The Recommended Dietary Intake is equivalent to 400 micrograms of food folate, or 200 micrograms of folic acid on an empty stomach, or 240 micrograms of folic acid with meals or as fortified foods; fortified foods contain folic acid which has almost twice the potency of naturally occurring food folates. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. An additional 100-400 micrograms of dietary folate equivalents over current intakes may be required to optimise homocysteine levels and reduce overall chronic disease risk and DNA damage. This is to be attained through the replacement of nutrient-poor, energy-dense foods and drinks with folate-rich foods such as vegetables, fruits and wholegrain cereals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

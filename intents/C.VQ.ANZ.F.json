@@ -1,0 +1,112 @@
+{
+  "id": "9a50d8df-976e-4aed-88bd-8fd124013434",
+  "name": "C.VQ.ANZ.F",
+  "auto": true,
+  "contexts": [
+    "cvq",
+    "cvqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "cvqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For females aged 19+, excluding those pregnant or lactating, the Recommended Dietary Intake for vitamin C is 45 milligrams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the Suggested Dietary Target for vitamin C is 190 milligrams per day. The Suggested Dietary Target is a daily average intake from food and beverages for certain nutrients that may help in prevention of chronic disease. For vitamin C, it is equivalent to the 90th centile of intake in the Australian and New Zealand populations and is to be attained by replacing nutrient-poor, energy-dense foods and drinks with plenty of vegetables, legumes and fruit. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of vitamin C"
+            },
+            {
+              "title": "What does vitamin C do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 19+, excluding those pregnant or lactating, the Recommended Dietary Intake for vitamin C is 45 milligrams per day. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Additionally, the Suggested Dietary Target for vitamin C is 190 milligrams per day. The Suggested Dietary Target is a daily average intake from food and beverages for certain nutrients that may help in prevention of chronic disease. For vitamin C, it is equivalent to the 90th centile of intake in the Australian and New Zealand populations and is to be attained by replacing nutrient-poor, energy-dense foods and drinks with plenty of vegetables, legumes and fruit. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

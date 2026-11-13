@@ -1,0 +1,101 @@
+[
+  {
+    "id": "2afcdd46-1a1f-45a1-88f4-3e728d2058e8",
+    "data": [
+      {
+        "text": "fat calories per gram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "979c7411-8033-45d9-9653-893eac7a413e",
+    "data": [
+      {
+        "text": "calories in a gram of fat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f1fe79eb-eb31-4bfa-861c-fdea2d565493",
+    "data": [
+      {
+        "text": "how many calories in ",
+        "userDefined": false
+      },
+      {
+        "text": "one gram",
+        "userDefined": false
+      },
+      {
+        "text": " of fat?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5ed44d54-83e8-47d1-a4cc-0bf3eed43f48",
+    "data": [
+      {
+        "text": "how much energy per gram of fat?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f61e3830-0832-449f-9c37-cfe10c65c368",
+    "data": [
+      {
+        "text": "how caloric is fat?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8941e510-33d1-4753-9d93-7346b347afa5",
+    "data": [
+      {
+        "text": "how many calories per gram of fat?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fcb7c0f9-8174-41e7-b9d2-83b3326886f9",
+    "data": [
+      {
+        "text": "how many calories in fat?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

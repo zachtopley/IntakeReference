@@ -1,0 +1,62 @@
+{
+  "id": "122d8ce2-1a02-4c9e-bac6-761bd16089f9",
+  "name": "FBR.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum fibre intake"
+            },
+            {
+              "title": "What does fibre do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of fibre by weight is corn bran. Corn bran contains 79 grams of fibre per 100 grams. The second highest source is seed gums, including locust bean gum and guar gum, which contain 77.3 grams of fibre per 100 grams. Curry powder contains 53.2 grams of fibre per 100 grams. Ground cinnamon, savory and sage, dried rosemary, oregano, coriander seed and marjoram all contain over 40 grams of fibre per 100 grams. Would you like to know more about the source of this information, or would you like more information about fibre?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,98 @@
+{
+  "id": "bf6f62b1-a070-4956-8234-66a26f04dec5",
+  "name": "NRG.VQ.MIL.F",
+  "auto": true,
+  "contexts": [
+    "nrgvq",
+    "nrgvqmil"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgvq",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqmil",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgmilsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For females on Active Service, the median Estimated Average Requirement for energy is 2,800 kilocalories per day. The Requirements are increased for specific training groups. For the Common Military Syllabus for Recruits and for Royal Air Force Phase 1 recruits, the Estimated Average Requirement is increased to 3,100 kilocalories per day. For the Common Infantry Course, the Commissioning Course for Officer Cadets and the Section Commander\u0027s Battle Course, the Estimated Average Requirement is increased to 3,500 kilocalories per day.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For the United Kingdom Armed Forces, Military Dietary Reference Values are published by the Scientific Advisory Committee on Nutrition. The Committee considers that there is insufficient evidence to suggest that different values for energy are required for military personnel based on environmental temperature, age or body size. Similarly, there is insufficient evidence that military populations require a different micronutrient intake from the general population. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females on Active Service, the median Estimated Average Requirement for energy is 2,800 kilocalories per day. The Requirements are increased for specific training groups. For the Common Military Syllabus for Recruits and for Royal Air Force Phase 1 recruits, the Estimated Average Requirement is increased to 3,100 kilocalories per day. For the Common Infantry Course, the Commissioning Course for Officer Cadets and the Section Commander\u0027s Battle Course, the Estimated Average Requirement is increased to 3,500 kilocalories per day. For the United Kingdom Armed Forces, Military Dietary Reference Values are published by the Scientific Advisory Committee on Nutrition. The Committee considers that there is insufficient evidence to suggest that different values for energy are required for military personnel based on environmental temperature, age or body size. Similarly, there is insufficient evidence that military populations require a different micronutrient intake from the general population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

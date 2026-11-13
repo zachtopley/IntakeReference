@@ -1,0 +1,231 @@
+{
+  "id": "b5800779-6e2d-4ad3-9d9f-0866270f60b1",
+  "name": "PROBIO.KOR.HC",
+  "auto": true,
+  "contexts": [
+    "probio"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "probio",
+          "lifespan": 5
+        },
+        {
+          "name": "hckorsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "According to the Ministry of Food and Drug Safety, the following eligible bacterial species are probiotics that help to maintain a healthy gastrointestinal bacteria population and help to maintain healthy bowel function. Lactobacillus species, including Lactobacillus acidophilus, casei, gasseri, delbrueckii bulgaricus, helveticus, fermentum, paracasei, plantarum, reuteri, rhamnosus, and salivarius. Bifidobacterium species including Bifidobacterium bifidum, breve, longum, and animalis lactis. As well as Lactococcus lactis, Streptococcus thermophilus, Enterococcus faecium, and Enterococcus faecalis.",
+              "displayText": "According to the Ministry of Food and Drug Safety, the following eligible bacterial species, listed in the table below, are probiotics that help to maintain a healthy gastrointestinal bacteria population and help to maintain healthy bowel function. The beneficial effect is obtained with a daily intake of between 100 million and 10 billion colony-forming units of one or more of the eligible species.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The beneficial effect is obtained with a daily intake of between 100 million and 10 billion colony-forming units of one or more of the aforementioned species. Is there anything else I can help you with?",
+              "displayText": "In addition to those listed in the table below, Lactococcus lactis, Streptococcus thermophilus, Enterococcus faecium, and Enterococcus faecalis, are also eligible species. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Eligible Probiotic Bacterial Species",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Lactobacillus",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Bifidobacterium",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "L. acidophilus"
+                },
+                {
+                  "text": "B. bifidum"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. casei"
+                },
+                {
+                  "text": "B. breve"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. gasseri"
+                },
+                {
+                  "text": "B. longum"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. delbrueckii ssp. bulgaricus"
+                },
+                {
+                  "text": "B. animalis spp. lactis"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. helveticus"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. fermentum"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. paracasei"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. plantarum"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. reuteri"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. rhamnosus"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "L. salivarius"
+                },
+                {
+                  "text": ""
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to the Ministry of Food and Drug Safety, the following eligible bacterial species are probiotics that help to maintain a healthy gastrointestinal bacteria population and help to maintain healthy bowel function: Lactobacillus species, including L.acidophilus, L.casei, L.gasseri, L.delbrueckii ssp. bulgaricus, L.helveticus, L.fermentum, L.paracasei, L.plantarum, L.reuteri, L.rhamnosus, L.salivarius, Bifidobacterium species including B.bifidum, B.breve, B.longum, B.animalis spp. lactis., as well as Lactococcus lactis, Streptococcus thermophilus, Enterococcus faecium, and Enterococcus faecalis."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The beneficial effect is obtained with a daily intake of between 100 million and 10 billion colony-forming units of one (or a combination) of the aforementioned species. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

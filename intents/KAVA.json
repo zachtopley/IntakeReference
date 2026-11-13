@@ -1,0 +1,99 @@
+{
+  "id": "45fa0157-7777-4483-833c-f4e9d63170e5",
+  "name": "KAVA",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "kava",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Preparations for oral use containing Piper methysticum, also known as kava, may be included on the Australian Register of Therapeutic Goods, in tablet or capsule form, at doses of up to 125 milligrams of kava lactones per tablet or capsule, and in teabag form, at doses of up to 3 grams of dried rhizome and/or dried root per teabag.",
+              "displayText": "Preparations for oral use containing Piper methysticum, also known as kava, may be included on the Australian Register of Therapeutic Goods:\n\n- in tablet or capsule form at doses of up to 125 milligrams of kavalactones per tablet or capsule\n\n- in teabag form at doses of up to 3 grams of dried rhizome and/or dried root per teabag",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The recommended maximum dose is 250 milligrams of kava lactones per day. Doses greater than 25 milligrams of kava lactones are not recommended for use by pregnant or lactating women and may harm the liver. Not for prolonged use. If symptoms persist, seek advice from a health care practitioner. Is there anything else I can help you with?",
+              "displayText": "The recommended maximum dose is 250 milligrams of kavalactones per day. Doses greater than 25 milligrams of kavalactones are not recommended for use by pregnant or lactating women and may harm the liver. Not for prolonged use. If symptoms persist, seek advice from a health care practitioner. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Green tea 🍵"
+            },
+            {
+              "title": "Black tea ☕️"
+            },
+            {
+              "title": "Caffeine"
+            },
+            {
+              "title": "Melatonin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Preparations for oral use containing Piper methysticum, also known as kava, may be included on the Australian Register of Therapeutic Goods: in tablet or capsule form at doses of up to 125 milligrams of kavalactones per tablet or capsule, and in teabag form at doses of up to 3 grams of dried rhizome and/or dried root per teabag. The recommended maximum dose is 250 milligrams of kavalactones per day. Doses greater than 25 milligrams of kavalactones are not recommended for use by pregnant or lactating women and may harm the liver. Not for prolonged use. If symptoms persist, seek advice from a health care practitioner. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

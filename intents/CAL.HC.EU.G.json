@@ -1,0 +1,109 @@
+{
+  "id": "1b392d15-d969-4721-86fa-7e33c8d09947",
+  "name": "CAL.HC.EU.G",
+  "auto": true,
+  "contexts": [
+    "calhc",
+    "calhceu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "calhc",
+          "lifespan": 5
+        },
+        {
+          "name": "calhceu",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        },
+        {
+          "name": "hcmenolink",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Calcium contributes to: normal blood clotting, normal energy-yielding metabolism, normal muscle function and neurotransmission, and to the normal function of digestive enzymes. Calcium has a role in the process of cell division and specialisation, is needed for the maintenance of normal bones and teeth, and is needed for normal growth and development of bone in children.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products which contain at least 120 milligrams of calcium per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Do you want additional specific information about calcium intake for post-menopausal women?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Info for females aged 50+"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Calcium contributes to: normal blood clotting, normal energy-yielding metabolism, normal muscle function and neurotransmission, and to the normal function of digestive enzymes. Calcium has a role in the process of cell division and specialisation, is needed for the maintenance of normal bones and teeth, and is needed for normal growth and development of bone in children. The European Commission has authorised these claims for products which contain at least 120 milligrams of calcium per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Do you want additional specific information about calcium intake for post-menopausal women?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

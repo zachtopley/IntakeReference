@@ -1,0 +1,228 @@
+[
+  {
+    "id": "a0311596-450f-4f46-9769-61257f320f03",
+    "data": [
+      {
+        "text": "age ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68d8db68-fbfe-4eae-a761-abf2e2102067",
+    "data": [
+      {
+        "text": "ages ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c923308e-e6fd-434e-8441-9df758a57b6d",
+    "data": [
+      {
+        "text": "aged ",
+        "userDefined": false
+      },
+      {
+        "text": "19 to 30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e228952-90c0-4f12-810a-f0ed0122f7dc",
+    "data": [
+      {
+        "text": "information for those aged ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6e34729-21ef-4c2f-87da-7abdeb76b4bc",
+    "data": [
+      {
+        "text": "those aged ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b032d37a-3ee6-4885-b43c-bf01a289fe52",
+    "data": [
+      {
+        "text": "aged ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96108cb9-ba07-4e7c-8275-174b5c93ade6",
+    "data": [
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c882fa36-95dd-4b5b-8c22-1d25cc0110d3",
+    "data": [
+      {
+        "text": "ages ",
+        "userDefined": false
+      },
+      {
+        "text": "19 to 30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87e53772-454a-43fb-93d5-90feeea429ab",
+    "data": [
+      {
+        "text": "age ",
+        "userDefined": false
+      },
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0a0cbee5-1a5a-4ac2-bc25-c445615e9e5d",
+    "data": [
+      {
+        "text": "19",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "30",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

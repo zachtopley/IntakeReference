@@ -1,0 +1,116 @@
+{
+  "id": "4d7b875e-f613-4bac-a9a6-d392069848e0",
+  "name": "B9.VQ.ANZ.P",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqanzp",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For pregnant females aged 14-50, the Recommended Dietary Intake for folate is 600 micrograms of dietary folate equivalents per day. The Recommended Dietary Intake is equivalent to 600 micrograms of food folate, or 300 micrograms of folic acid on an empty stomach, or 360 micrograms of folic acid with meals or as fortified foods; fortified foods contain folic acid which has almost twice the potency of naturally occurring food folates. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Women capable of or planning pregnancies should consume additional folic acid as a supplement or in the form of fortified foods at a level of 400 micrograms per day for at least one month before and three months after conception, in addition to consuming food folate from a varied diet. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "Suggested Dietary Target",
+          "textToSpeech": "",
+          "formattedText": "An additional 100-400 micrograms of dietary folate equivalents over current intakes may be required to optimise homocysteine levels and reduce overall chronic disease risk and DNA damage. This is to be attained through the replacement of nutrient-poor, energy-dense foods and drinks with folate-rich foods such as vegetables, fruits and wholegrain cereals.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For pregnant females aged 14-50, the Recommended Dietary Intake for folate is 600 micrograms of dietary folate equivalents per day. The Recommended Dietary Intake is equivalent to 600 micrograms of food folate, or 300 micrograms of folic acid on an empty stomach, or 360 micrograms of folic acid with meals or as fortified foods; fortified foods contain folic acid which has almost twice the potency of naturally occurring food folates. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Women capable of or planning pregnancies should consume additional folic acid as a supplement or in the form of fortified foods at a level of 400 micrograms per day for at least one month before and three months after conception, in addition to consuming food folate from a varied diet. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

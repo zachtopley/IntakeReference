@@ -1,0 +1,96 @@
+{
+  "id": "c30588db-6086-4460-9436-16478f0b279e",
+  "name": "PHO.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, rice bran contains 1,677 milligrams of phosphorus per 100 grams. Hulled hemp seeds contain 1,650 milligrams of phosphorus per 100 grams. Dried pumpkin and squash seeds contain 1,233 milligrams of phosphorus per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 700 milligrams of phosphorus or more per 100 grams: toasted and dry-roasted unsalted sunflower seeds, toasted wheat germ cereal, crude wheat bran, poppy seed, dried chia seeds, crude wheat germ, soy protein concentrate, ground mustard seed, low-fat, defatted and high-fat sesame flour, sesame seed butter, soy protein isolate, toasted unsalted sesame seeds, defatted peanut flour, dried watermelon seeds, raw oat bran, dried unblanched brazilnuts, and raw mature soybeans. Would you like to know more about the source of this information, or would you like more information about phosphorus?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum phosphorus intake"
+            },
+            {
+              "title": "Maximum phosphorus intake"
+            },
+            {
+              "title": "What does phosphorus do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, rice bran contains 1,677 milligrams of phosphorus per 100 grams. Hulled hemp seeds contain 1,650 milligrams of phosphorus per 100 grams. Dried pumpkin and squash seeds contain 1,233 milligrams of phosphorus per 100 grams. Additionally, the following foods contain 700 milligrams of phosphorus or more per 100 grams: toasted and dry-roasted unsalted sunflower seeds, toasted wheat germ cereal, crude wheat bran, poppy seed, dried chia seeds, crude wheat germ, soy protein concentrate, ground mustard seed, low-fat, defatted and high-fat sesame flour, sesame seed butter, soy protein isolate, toasted unsalted sesame seeds, defatted peanut flour, dried watermelon seeds, raw oat bran, dried unblanched brazilnuts, and raw mature soybeans. Would you like to know more about the source of this information, or would you like more information about phosphorus?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

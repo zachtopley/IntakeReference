@@ -1,0 +1,73 @@
+{
+  "id": "a0902495-dd3e-4817-84bf-9cabeaa1b2c6",
+  "name": "B3.VQ.ANZ.F",
+  "auto": true,
+  "contexts": [
+    "b3vq",
+    "b3vqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b3vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b3vqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "b3vqanzf",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For females aged 14+, excluding those pregnant or lactating, the Recommended Dietary Intake for niacin is 14 milligrams of niacin equivalents per day. The Recommended Dietary Intake is equivalent to 14 milligrams of niacin or 840 milligrams of tryptophan, an essential amino acid. The Recommended Dietary Intake is the average daily dietary intake level that is sufficient to meet the nutrient requirements of 97-98% of healthy individuals. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

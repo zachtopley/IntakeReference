@@ -1,0 +1,96 @@
+{
+  "id": "f90c4702-b7ad-489c-bf47-62fa015efa4b",
+  "name": "COP.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, dried spirulina contains 6.1 milligrams of copper per 100 grams. Dried shiitake mushrooms contain 5.2 milligrams of copper per 100 grams. Dried sesame seeds contain 4 milligrams of copper per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 2 milligrams of copper or more per 100 grams. Sesame seed paste, defatted and full-fat soy flour, raw mature winged beans, roasted and toasted sesame seeds, ground mace, raw cashews, dried basil, and low-fat peanut flour. Would you like to know more about the source of this information, or would you like more information about copper?",
+              "displayText": "Additionally, the following foods contain 2 milligrams of copper or more per 100 grams: sesame seed paste, defatted and full-fat soy flour, raw mature winged beans, roasted and toasted sesame seeds, ground mace, raw cashews, dried basil, and low-fat peanut flour. Would you like to know more about the source of this information, or would you like more information about copper?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum copper intake"
+            },
+            {
+              "title": "Maximum copper intake"
+            },
+            {
+              "title": "What does copper do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, dried spirulina contains 6.1 milligrams of copper per 100 grams. Dried shiitake mushrooms contain 5.2 milligrams of copper per 100 grams. Dried sesame seeds contain 4 milligrams of copper per 100 grams. Additionally, the following foods contain 2 milligrams of copper or more per 100 grams: sesame seed paste, defatted and full-fat soy flour, raw mature winged beans, roasted and toasted sesame seeds, ground mace, raw cashews, dried basil, and low-fat peanut flour. Would you like to know more about the source of this information, or would you like more information about copper?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

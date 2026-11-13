@@ -1,0 +1,97 @@
+[
+  {
+    "id": "8e975fb5-ea35-43f7-ad8f-c0aca60ecad1",
+    "data": [
+      {
+        "text": "the US",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4b24382-1e6c-4df1-9aa0-2456e4358b72",
+    "data": [
+      {
+        "text": "usa",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f373db66-a747-4ebf-8fbb-18d39c849050",
+    "data": [
+      {
+        "text": "information for americans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dfda4baf-7a3c-4649-897b-598515040518",
+    "data": [
+      {
+        "text": "united states",
+        "userDefined": false
+      },
+      {
+        "text": " of america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54d86dac-62be-4bd3-a503-2ac716c6c20b",
+    "data": [
+      {
+        "text": "united states",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ede9d518-ee19-4532-8636-494e8b334dd7",
+    "data": [
+      {
+        "text": "america",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9282a514-4901-495c-94bc-845a8ad50865",
+    "data": [
+      {
+        "text": "🇺🇸",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

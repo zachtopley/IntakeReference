@@ -1,0 +1,70 @@
+{
+  "id": "28a96d27-4024-4601-ab0b-f9a700499670",
+  "name": "LIQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cpgsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "According to European Union regulations, people suffering from hypertension should avoid excessive consumption of confectionery containing glycyrrhizinic acid or its ammonium salt at concentrations of 400 milligrams or more per 100 grams, due to the addition of the aforementioned substances or the addition of the liquorice plant Glycyrrhiza glabra. People suffering from hypertension should avoid excessive consumption of beverages containing glycyrrhizinic acid or its ammonium salt at concentrations greater than 50 milligrams per litre, or 300 milligrams per litre for beverages containing 1.2% alcohol by volume or more. Is there anything else I can help you with?",
+              "displayText": "According to European Union regulations, people suffering from hypertension should avoid excessive consumption of:\n\n– confectionery containing glycyrrhizinic acid or its ammonium salt at concentrations of 400 milligrams or more per 100 grams, due to the addition of the aforementioned substances or the addition of the liquorice plant Glycyrrhiza glabra.\n\n– beverages containing glycyrrhizinic acid or its ammonium salt at concentrations greater than 50 milligrams per litre, or 300 milligrams per litre for beverages containing 1.2% alcohol by volume or more. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to European Union regulations, people suffering from hypertension should avoid excessive consumption of confectionery containing glycyrrhizinic acid or its ammonium salt at concentrations of 400 milligrams or more per 100 grams, due to the addition of the aforementioned substances or the addition of the liquorice plant Glycyrrhiza glabra. People suffering from hypertension should avoid excessive consumption of beverages containing glycyrrhizinic acid or its ammonium salt at concentrations greater than 50 milligrams per litre, or 300 milligrams per litre for beverages containing 1.2% alcohol by volume or more. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,65 @@
+{
+  "id": "6843fd09-4ab0-40c6-9ce3-7c0202bdaf6d",
+  "name": "CO.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum choline intake"
+            },
+            {
+              "title": "Maximum choline intake"
+            },
+            {
+              "title": "What does choline do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, soybean lecithin contains 350 milligrams of choline per 100 grams. Dried shiitake mushrooms contain 202 milligrams of choline per 100 grams. Low-fat soy flour contains 192 milligrams of choline per 100 grams. Additionally, toasted wheat germ contains 179 milligrams of choline per 100 grams. Would you like to know more about the source of this information, or would you like more information about choline?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

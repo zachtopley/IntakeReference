@@ -1,0 +1,71 @@
+[
+  {
+    "id": "d55782a7-e265-428f-836f-fbd01d0f9d93",
+    "data": [
+      {
+        "text": "blood cholesterol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf5d38b6-52e0-4454-b6a5-36aaced3d7ce",
+    "data": [
+      {
+        "text": "information for blood cholesterol ",
+        "userDefined": false
+      },
+      {
+        "text": "levels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5476fad-2622-48e1-96b3-e848b9b5bcdd",
+    "data": [
+      {
+        "text": "blood cholesterol levels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "078b8d5a-5f87-47aa-a05f-abf499b8a48a",
+    "data": [
+      {
+        "text": "cholesterol levels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbea2e29-9107-4969-976f-7406fa25584f",
+    "data": [
+      {
+        "text": "cholesterol",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

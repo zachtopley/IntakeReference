@@ -1,0 +1,64 @@
+{
+  "id": "0e31c6c1-eef0-4ebc-8387-84ed6d8c29fc",
+  "name": "B9.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b9hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Folate is necessary for normal blood formation and normal cell division. Folate contributes to: maternal tissue growth during pregnancy, normal amino acid synthesis, normal homocysteine metabolism, normal psychological function, normal immune system function, and the reduction of tiredness and fatigue. Food Standards Australia New Zealand has approved these claims for foods containing at least 20 micrograms of folate per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

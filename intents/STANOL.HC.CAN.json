@@ -1,0 +1,67 @@
+{
+  "id": "b8663260-5a0d-4bb9-b535-831c76d37c6a",
+  "name": "STANOL.HC.CAN",
+  "auto": true,
+  "contexts": [
+    "stanolhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "stanolhc",
+          "lifespan": 5
+        },
+        {
+          "name": "stanolcansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of phytosterols"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "2 grams of plant sterols and stanols is the daily amount of plant sterols and stanols shown to help lower cholesterol in adults. Health Canada has concluded that acceptable scientific evidence exists in support of this claim. Would you like to know more about the source of this information, or would you like more information about the dietary sources of phytosterols?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "8e1100c5-367c-4077-8c9a-fa79f37358e6",
+  "name": "MAG.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "maghc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "maghc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Magnesium is necessary for: normal electrolyte balance, normal nerve and muscle function, teeth and bone structure, normal protein synthesis, and normal cell division. Magnesium contributes to: normal energy metabolism, the reduction of tiredness and fatigue, and normal psychological function. Food Standards Australia New Zealand has approved these claims for foods containing at least 32 milligrams of magnesium per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

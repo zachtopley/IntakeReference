@@ -1,0 +1,94 @@
+{
+  "id": "bea5ac39-720e-4c47-aeb4-82ee1df1af8b",
+  "name": "MEL.JET",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Melatonin contributes to the alleviation of subjective feelings of jet lag.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised this claim for products which contain at least 0.5 milligrams of melatonin per quantified portion. The beneficial effect is obtained with a minimum intake of 0.5 milligrams to be taken close to bedtime on the first day of travel and on the following few days after arrival at the destination. Would you like to know more about the source of this information, or would you like more information about the dietary sources of melatonin?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of melatonin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Melatonin contributes to the alleviation of subjective feelings of jet lag. The European Commission has authorised this claim for products which contain at least 0.5 milligrams of melatonin per quantified portion. The beneficial effect is obtained with a minimum intake of 0.5 milligrams to be taken close to bedtime on the first day of travel and on the following few days after arrival at the destination. Would you like to know more about the source of this information, or would you like more information about the dietary sources of melatonin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

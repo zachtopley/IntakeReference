@@ -1,0 +1,163 @@
+{
+  "id": "5b76efc3-d26a-4add-9735-c9a32f3c251d",
+  "name": "SLP.VQ.C",
+  "auto": true,
+  "contexts": [
+    "slpvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "slpvq",
+          "lifespan": 5
+        },
+        {
+          "name": "slpsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For children under 18, the hours of recommended sleep per day are as follows. 14 to 17 hours for those aged 0 to 3 months. 12 to 16 hours for those aged 4 to 12 months. 11 to 14 hours for those aged 1 to 2 years. 10 to 13 hours for those aged 3 to 5 years. 9 to 12 hours for those aged 6 to 12 years. And 8 to 10 hours for those aged 13 to 18 years. Is there anything else I can help you with?",
+              "displayText": "For children under 18, the hours of recommended sleep per day are listed in the table below. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "subtitle": "US Centers for Disease Control \u0026 Prevention",
+          "title": "Daily Sleep Recommendations",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Age",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Hours Per Day",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "0-3 mos"
+                },
+                {
+                  "text": "14-17 hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "4-12 mos"
+                },
+                {
+                  "text": "12-16 hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "1-2 yrs"
+                },
+                {
+                  "text": "11-14 hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "3-5 yrs"
+                },
+                {
+                  "text": "10-13 hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "6-12 yrs"
+                },
+                {
+                  "text": "9-12 hrs"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "13-18 yrs"
+                },
+                {
+                  "text": "8-10 hrs"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the hours of recommended sleep per day are as follows: 14-17 hours for those aged 0-3 months, 12-16 hours for those aged 4-12 months, 11-14 hours for those aged 1-2 years, 10-13 hours for those aged 3-5 years, 9-12 hours for those aged 6-12 years, and 8-10 hours for those aged 13-18 years. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,71 @@
+{
+  "id": "462f2d65-3a5a-4a10-9d70-6215f562fa1f",
+  "name": "ACAROT.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "β-carotene (vitamin A)"
+            },
+            {
+              "title": "Lycopene"
+            },
+            {
+              "title": "β-cryptoxanthin"
+            },
+            {
+              "title": "Lutein"
+            },
+            {
+              "title": "Zeaxanthin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of alpha carotene by weight is dehydrated carrot. Dehydrated carrot contains 14.3 milligrams of alpha carotene per 100 grams. The second highest source of alpha carotene is freeze-dried sweet red peppers, which contain 6.9 milligrams of alpha carotene per 100 grams. The third highest source is canned pumpkin, which contains 4.8 milligrams of alpha carotene per 100 grams. Would you like to know more about the source of this information, or would you like more information about carotenoids?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

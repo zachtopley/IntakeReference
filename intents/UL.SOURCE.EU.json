@@ -1,0 +1,85 @@
+{
+  "id": "30dbe397-0b0a-412f-b5e0-1bbc450cb0e9",
+  "name": "UL.SOURCE.EU",
+  "auto": true,
+  "contexts": [
+    "ulsourceeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ulsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "1",
+          "platform": "skype",
+          "title": "More info",
+          "buttons": [
+            {
+              "postback": "https://www.efsa.europa.eu/sites/default/files/assets/ndatolerableuil.pdf",
+              "text": "Full Publication (PDF)"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "1",
+          "platform": "facebook",
+          "title": "More info",
+          "buttons": [
+            {
+              "postback": "https://www.efsa.europa.eu/sites/default/files/assets/ndatolerableuil.pdf",
+              "text": "Full Publication (PDF)"
+            }
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://www.efsa.europa.eu/sites/default/files/assets/ndatolerableuil.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from \u0027Tolerable Upper Intake Levels for Vitamins and Minerals\u0027, Scientific Committee on Food, Scientific Panel on Dietetic Products, Nutrition and Allergies, European Food Safety Authority, February 2006. Copyright European Food Safety Authority 2006. \"Reproduction is authorized, provided the source is acknowledged\". Intake Reference is not endorsed by the European Food Safety Authority, an agency of the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,70 @@
+{
+  "id": "f569e65a-1f3a-4036-8b1d-96962fc06b67",
+  "name": "FVON.FS.API",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of apigenin by weight is dried parsley, which contains as much as 13,506 milligrams of apigenin per 100 grams. Fresh parsley contains as much as 630 milligrams of apigenin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of apigenin or more per 100 grams. Dried mexican oregano, fresh peppermint, celery seed, raw kumquats, raw artichokes, green celery hearts, raw Chinese celery, raw rutabaga, raw vine spinach, and red sorghum. Is there anything else I can help you with?",
+              "displayText": "Based on data from the United States Department of Agriculture, the highest food source of apigenin by weight is dried parsley, which contains as much as 13,506 milligrams of apigenin per 100 grams. Fresh parsley contains as much as 630 milligrams of apigenin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of apigenin or more per 100 grams: dried Mexican oregano, fresh peppermint, celery seed, raw kumquats, raw artichokes, green celery hearts, raw Chinese celery, raw rutabaga, raw vine spinach, and red sorghum. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of apigenin by weight is dried parsley, which contains as much as 13,506 milligrams of apigenin per 100 grams. Fresh parsley contains as much as 630 milligrams of apigenin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of apigenin or more per 100 grams: dried Mexican oregano, fresh peppermint, celery seed, raw kumquats, raw artichokes, green celery hearts, raw Chinese celery, raw rutabaga, raw vine spinach, and red sorghum. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,116 @@
+{
+  "id": "ac5a7671-4572-4874-939c-07ca43b651fd",
+  "name": "B9.HC.P.USA",
+  "auto": true,
+  "contexts": [
+    "b9hcp"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9hcp",
+          "lifespan": 5
+        },
+        {
+          "name": "b9hcpusasource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Women who consume healthful diets with adequate folate throughout their childbearing years may reduce their risk of having a child with birth defects of the brain or spinal cord:? anencephaly or spina bifida. Adequate amounts of folate can be obtained from diets rich in fruits, including citrus fruits and juices, vegetables, including dark green leafy vegetables, legumes, whole grain products, including breads, rice, and pasta, fortified cereals, or a dietary supplement.",
+              "displayText": "Women who consume healthful diets with adequate folate throughout their childbearing years may reduce their risk of having a child with birth defects of the brain or spinal cord, anencephaly or spina bifida. Adequate amounts of folate can be obtained from diets rich in fruits, including citrus fruits and juices, vegetables, including dark green leafy vegetables, legumes, whole grain products, including breads, rice, and pasta, fortified cereals, or a dietary supplement.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The target intake goal is 400 micrograms of folate, equivalent to 100% of the Daily Value for folate. Folate intake should not exceed 250% of the Daily Value, equivalent to 1,000 micrograms. The United States Food and Drug Administration has approved this Authorized Health Claim for which there is Significant Scientific Agreement. Is there anything else I can help you with?",
+              "displayText": "400 micrograms of folate (100% Daily Value) is the target intake goal. Folate intake should not exceed 1,000 micrograms (250% Daily Value). The United States Food and Drug Administration has approved this Authorized Health Claim for which there is Significant Scientific Agreement. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "formattedText": "Folate intake is not the only recognized risk factor for neural tube defects. Women with a close relative with a neural tube defect, those with insulin-dependent diabetes mellitus, and women with seizure disorders who are being treated with valproic acid or carbamazepine are at significantly increased risk. Women with a history of a neural tube defect pregnancy should consult their physicians or health care providers before becoming pregnant. All women should consult a health care provider when planning a pregnancy.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum folate intake"
+            },
+            {
+              "title": "Maximum folate intake"
+            },
+            {
+              "title": "Best source of folate"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Women who consume healthful diets with adequate folate throughout their childbearing years may reduce their risk of having a child with birth defects of the brain or spinal cord, anencephaly or spina bifida. Adequate amounts of folate can be obtained from diets rich in fruits, including citrus fruits and juices, vegetables, including dark green leafy vegetables, legumes, whole grain products, including breads, rice, and pasta, fortified cereals, or a dietary supplement. 400 micrograms of folate (100% Daily Value for adults and children 4+) is the target intake goal. Folate intake should not exceed 1,000 micrograms (250% Daily Value). Folate intake is not the only recognized risk factor for neural tube defects. Women with a close relative with a neural tube defect, those with insulin-dependent diabetes mellitus, and women with seizure disorders who are being treated with valproic acid or carbamazepine are at significantly increased risk. Women with a history of a neural tube defect pregnancy should consult their physicians or health care providers before becoming pregnant. All women should consult a health care provider when planning a pregnancy. The United States Food and Drug Administration has approved this Authorized Health Claim for which there is Significant Scientific Agreement. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

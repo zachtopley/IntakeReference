@@ -1,0 +1,70 @@
+{
+  "id": "2ace16b7-4c21-49c3-be33-d23522e1db05",
+  "name": "PSY.HC.CAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "psyhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "psyhc",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/label-etiquet/claims-reclam/assess-evalu/psyllium-cholesterol-eng.pdf",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Summary of Health Canada’s Assessment of a Health Claim about Food Products Containing Psyllium and Blood Cholesterol Lowering\u0027, Bureau of Nutritional Sciences, Food Directorate, Health Products and Food Branch, Health Canada, 2011. Copyright 2011 Government of Canada. \u0027Acceptable Function Claims Table\u0027, Function Claims, Canadian Food Inspection Agency website, 2018. Copyright 2018 Government of Canada. Reproduced in accordance with Government of Canada non-commercial reproduction policy. Intake Reference is not endorsed by Health Canada. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

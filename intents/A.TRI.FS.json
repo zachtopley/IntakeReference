@@ -1,0 +1,65 @@
+{
+  "id": "67b0a59b-f0ec-4995-9654-9fc33a0746bb",
+  "name": "A.TRI.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin E intake"
+            },
+            {
+              "title": "Maximum vitamin E intake"
+            },
+            {
+              "title": "What does vitamin E do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, paprika contains 3.95 milligrams of alpha-tocotrienol per 100 grams. Wasabi contains 2.27 milligrams of alpha-tocotrienol per 100 grams. Additionally, raw oat bran contains 2.21 milligrams of alpha-tocotrienol per 100 grams. Would you like to know more about the source of this information, or would you like more information about vitamin E?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

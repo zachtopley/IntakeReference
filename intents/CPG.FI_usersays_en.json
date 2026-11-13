@@ -1,0 +1,114 @@
+[
+  {
+    "id": "34a0b603-9db9-4c3c-b14e-3b75aca6a064",
+    "data": [
+      {
+        "text": "calories in one gram of fiber",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6ef40de-41ac-4454-9580-a146ca42c993",
+    "data": [
+      {
+        "text": "calories in ",
+        "userDefined": false
+      },
+      {
+        "text": "one gram",
+        "userDefined": false
+      },
+      {
+        "text": " of fibre",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5639129c-2cb4-4e46-9857-4aa3cb21e2ff",
+    "data": [
+      {
+        "text": "how many calories in a gram of fiber?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b208d44-662b-4d15-941f-4dea0081f39a",
+    "data": [
+      {
+        "text": "how much energy per gram of fibre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30fad39b-2230-401f-92e5-440aaf91acf3",
+    "data": [
+      {
+        "text": "fibre calories per gram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d139d1f8-3ef8-4846-9084-cfec2ad5ba5d",
+    "data": [
+      {
+        "text": "how caloric is fibre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19064c1b-2329-479e-894c-1e30932a4551",
+    "data": [
+      {
+        "text": "how many calories per gram of fiber?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a07303d-9709-451e-acdd-69504717e3e7",
+    "data": [
+      {
+        "text": "how many calories per gram of fibre?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

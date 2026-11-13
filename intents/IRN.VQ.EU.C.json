@@ -1,0 +1,70 @@
+{
+  "id": "ed9c2211-f559-4129-8bea-ed1bf4946aad",
+  "name": "IRN.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "irnvq",
+    "irnvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "irnvq",
+          "lifespan": 5
+        },
+        {
+          "name": "irnvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does iron do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 18, the Population Reference Intake for iron is 11 milligrams per day, except for those aged 1-6, for whom the Population Reference Intake is reduced to 7 milligrams of iron per day. For females aged 12-17, the Population Reference Intake is increased to 13 milligrams of iron per day. See the associated table or the source document for full details. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

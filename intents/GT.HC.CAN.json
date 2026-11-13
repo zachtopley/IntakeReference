@@ -1,0 +1,61 @@
+{
+  "id": "fd09be52-6a1c-478b-8959-934eedd0366c",
+  "name": "GT.HC.CAN",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "canfbrsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Black tea ☕️"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Consumption of 250 millilitres of green tea helps to protect blood lipids from oxidation. A maximum of 2.25 litres per day should not be exceeded due to caffeine content. Health Canada has found this claim to be acceptable for green tea infusions brewed following manufacturer directions, which contain at least 2 grams or more tea leaves per 250 millilitres, or a tea bag containing 2 grams of tea leaves per 250 millilitres, or a reconstituted green tea product containing at least 0.8 grams of freeze-dried or spray-dried tea infusion per reference amount. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

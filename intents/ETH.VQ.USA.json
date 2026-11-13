@@ -1,0 +1,123 @@
+{
+  "id": "2f739357-73df-4d28-bd2f-ebe8946e862f",
+  "name": "ETH.VQ.USA",
+  "auto": true,
+  "contexts": [
+    "ethvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ethvq",
+          "lifespan": 5
+        },
+        {
+          "name": "ethvqusa",
+          "lifespan": 5
+        },
+        {
+          "name": "dietguide",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "According to the Dietary Guidelines for Americans, if alcohol is consumed, it should be in moderation and only by adults of legal drinking age. Females should consume no more than 14 grams of pure alcohol per day, and males should consume no more than 28 grams of pure alcohol per day. The Dietary Guidelines do not recommend that individuals who do not drink alcohol start drinking for any reason.",
+              "displayText": "According to the Dietary Guidelines for Americans, if alcohol is consumed, it should be in moderation and only by adults of legal drinking age. Females should consume no more than 14 grams of pure alcohol per day and males should consume no more than 28 grams of pure alcohol per day. The Dietary Guidelines do not recommend that individuals who do not drink alcohol start drinking for any reason.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "In comparison to moderate alcohol consumption, high-risk drinking, for females, is the consumption of 56 grams of pure alcohol or more on any day, or 112 grams of pure alcohol or more per week. High-risk drinking, for males, is the consumption of 70 grams of pure alcohol or more on any day, or 210 grams of pure alcohol or more per week. Binge drinking is the consumption, within about 2 hours, of 56 grams of pure alcohol or more for females, and 70 grams of pure alcohol or more for males. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "title": "More information",
+          "textToSpeech": "",
+          "formattedText": "Excessive alcohol consumption increases the risk of many chronic diseases and violence and, over time, can impair short-term and long-term cognitive function. Binge drinking is associated with a wide range of health and social problems, including sexually transmitted diseases, unintended pregnancy, accidental injuries, and violent crime. Many individuals should not consume alcohol, including individuals who are taking certain over-the-counter or prescription medications or who have certain medical conditions, those who are recovering from alcoholism or are unable to control the amount they drink, and anyone younger than age 21. Individuals should not drink if they are driving, planning to drive, or are participating in other activities requiring skill, coordination, and alertness. Women who are or who may be pregnant should not drink. Drinking during pregnancy, especially in the first few months of pregnancy, may result in negative behavioral or neurological consequences in the offspring. No safe level of alcohol consumption during pregnancy has been established. Women who are breastfeeding should consult with their health care provider regarding alcohol consumption.",
+          "image": {},
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Alcohol during pregnancy"
+            },
+            {
+              "title": "Alcohol and caffeine"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to the Dietary Guidelines for Americans, if alcohol is consumed, it should be in moderation and only by adults of legal drinking age. Females should consume no more than 14 grams of pure alcohol per day and males should consume no more than 28 grams of pure alcohol per day. The Dietary Guidelines do not recommend that individuals who do not drink alcohol start drinking for any reason."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "In comparison to moderate alcohol consumption, high-risk drinking, for females, is the consumption of 56 grams of pure alcohol or more on any day, or 112 grams of pure alcohol or more per week. High-risk drinking, for males, is the consumption of 70 grams of pure alcohol or more on any day, or 210 grams of pure alcohol or more per week. Binge drinking is the consumption, within about 2 hours, of 56 grams of pure alcohol or more for females, and 70 grams of pure alcohol or more for males. Excessive alcohol consumption increases the risk of many chronic diseases and violence and, over time, can impair short-term and long-term cognitive function. Binge drinking is associated with a wide range of health and social problems, including sexually transmitted diseases, unintended pregnancy, accidental injuries, and violent crime. Many individuals should not consume alcohol, including individuals who are taking certain over-the-counter or prescription medications or who have certain medical conditions, those who are recovering from alcoholism or are unable to control the amount they drink, and anyone younger than age 21. Individuals should not drink if they are driving, planning to drive, or are participating in other activities requiring skill, coordination, and alertness. Women who are or who may be pregnant should not drink. Drinking during pregnancy, especially in the first few months of pregnancy, may result in negative behavioral or neurological consequences in the offspring. No safe level of alcohol consumption during pregnancy has been established. Women who are breastfeeding should consult with their health care provider regarding alcohol consumption. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

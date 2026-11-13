@@ -1,0 +1,65 @@
+{
+  "id": "dfb4124a-3415-42a9-b0f9-4a31fc8995ee",
+  "name": "SEL.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum selenium intake"
+            },
+            {
+              "title": "Maximum selenium intake"
+            },
+            {
+              "title": "What does selenium do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest source of selenium by weight is unblanched brazil nuts. Unblanched brazil nuts contain 1.92 milligrams of selenium per 100 grams. Ground mustard seed contains 208 micrograms of selenium per 100 grams. Unsalted sunflower seed butter contains 104 micrograms of selenium per 100 grams. Would you like to know more about the source of this information, or would you like more information about selenium?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

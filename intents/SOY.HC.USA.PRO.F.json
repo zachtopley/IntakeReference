@@ -1,0 +1,69 @@
+{
+  "id": "6da09416-3527-4341-901b-dc0484dd881a",
+  "name": "SOY.HC.USA.PRO.F",
+  "auto": true,
+  "contexts": [
+    "soyhc",
+    "soyhcselect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "soyhc",
+          "lifespan": 5
+        },
+        {
+          "name": "soyhcselect",
+          "lifespan": 5
+        },
+        {
+          "name": "soyusasource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "25 grams of soy protein a day, as part of a diet low in saturated fat and cholesterol, may reduce the risk of heart disease. The United States Food and Drug Administration has approved this Authorized Health Claim for which there is Significant Scientific Agreement. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

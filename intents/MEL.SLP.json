@@ -1,0 +1,97 @@
+{
+  "id": "2b3c02fa-23e7-4b55-8303-3346105b4f6e",
+  "name": "MEL.SLP",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Melatonin contributes to the reduction of time taken to fall asleep.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised this claim for products which contain 1 milligram of melatonin per quantified portion. The beneficial effect is obtained by consuming 1 milligram of melatonin close to bedtime. Would you like to know more about the source of this information, or would you like more information about the dietary sources of melatonin?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Jet lag ✈️"
+            },
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of melatonin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Melatonin contributes to the reduction of time taken to fall asleep. The European Commission has authorised this claim for products which contain 1 milligram of melatonin per quantified portion. The beneficial effect is obtained by consuming 1 milligram of melatonin close to bedtime. Would you like to know more about the source of this information, or would you like more information about the dietary sources of melatonin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

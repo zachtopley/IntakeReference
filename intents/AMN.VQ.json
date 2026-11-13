@@ -1,0 +1,190 @@
+{
+  "id": "2dca2a60-1277-4ef6-a0d0-51e55ce76ba3",
+  "name": "AMN.VQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "amnvq",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The World Health Organization amino acid requirements for adults, as milligrams per kilogram of bodyweight per day, are as follows. Histidine, 10 milligrams. Isoleucine, 20 milligrams. Leucine, 39 milligrams. Lysine, 30 milligrams. Methionine and cysteine, 15 milligrams. Phenylalanine and tyrosine, 25 milligrams. Threonine, 15 milligrams. Tryptophan, 4 milligrams. Valine, 26 milligrams. To calculate your requirements, multiply the recommendations by your bodyweight in kilograms. Is there anything else I can help you with?",
+              "displayText": "The World Health Organization amino acid requirements for adults are listed in the table below. To calculate your requirements, multiply the recommendations by your bodyweight in kilograms. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "subtitle": "World Health Organization 🇺🇳",
+          "title": "Amino Acid Requirements for Adults",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "mg / kg of bodyweight / day",
+              "horizontalAlignment": "CENTER"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "Histidine"
+                },
+                {
+                  "text": "10"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Isoleucine"
+                },
+                {
+                  "text": "20"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Leucine"
+                },
+                {
+                  "text": "39"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Lysine"
+                },
+                {
+                  "text": "30"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Methionine \u0026 Cysteine"
+                },
+                {
+                  "text": "15"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Phenylalanine \u0026 Tyrosine"
+                },
+                {
+                  "text": "25"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Threonine"
+                },
+                {
+                  "text": "15"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Tryptophan"
+                },
+                {
+                  "text": "4"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Valine"
+                },
+                {
+                  "text": "26"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The World Health Organization amino acid requirements for adults, as milligrams per kilogram of bodyweight per day, are as follows: histidine, 10 milligrams; isoleucine, 20 milligrams; leucine, 39 milligrams; lysine, 30 milligrams; methionine and cysteine, 15 milligrams; phenylalanine and tyrosine, 25 milligrams; threonine, 15 milligrams; tryptophan, 4 milligrams; valine, 26 milligrams. To calculate your requirements, multiply the recommendations by your bodyweight in kilograms. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

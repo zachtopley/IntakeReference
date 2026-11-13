@@ -1,0 +1,74 @@
+{
+  "id": "7701ec4d-6022-4874-ba8a-38562e660ff0",
+  "name": "COMPOSITION",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Olive oil polyphenols"
+            },
+            {
+              "title": "Oat \u0026 barley beta glucans"
+            },
+            {
+              "title": "Black tea ☕️"
+            },
+            {
+              "title": "Green tea 🍵"
+            },
+            {
+              "title": "Soybeans"
+            },
+            {
+              "title": "Walnuts"
+            },
+            {
+              "title": "Prunes"
+            },
+            {
+              "title": "Flaxseed"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I can\u0027t provide information about the nutritional content of foods yet. However, you can ask me questions like \"what are the highest sources of magnesium?\" or \"what foods contain the most vitamin C?\". You can also ask about the benefits and functions of tomatoes, olive oil polyphenols, oat and barley beta-glucans, black and green tea, soybeans, walnuts, prunes, flaxseed, konjac root, red yeast rice, psyllium seed fibre and resistant starch from high-amylose maize. What nutrient or other substance do you want information for?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

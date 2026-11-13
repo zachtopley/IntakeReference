@@ -1,0 +1,80 @@
+[
+  {
+    "id": "384b047e-4fed-46ff-afbd-e16b288e1210",
+    "data": [
+      {
+        "text": "sedentary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "80d795b0-25ab-444b-8f1c-ebe43326ca1d",
+    "data": [
+      {
+        "text": "sedentary lifestyle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8a19a84-96e8-4720-8d97-9eed89ec709e",
+    "data": [
+      {
+        "text": "low active",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5a10484-5a06-4b19-a494-a35ccc7ea280",
+    "data": [
+      {
+        "text": "the least active",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d57a10e9-d365-49a5-91da-55bdbeaa9a31",
+    "data": [
+      {
+        "text": "information for a sedentary lifestyle",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3c2e969e-596f-4a1c-bfd2-64552d275cea",
+    "data": [
+      {
+        "text": "Sedentary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

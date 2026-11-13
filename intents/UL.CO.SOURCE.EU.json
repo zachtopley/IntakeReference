@@ -1,0 +1,57 @@
+{
+  "id": "13de0fb9-6f62-4ce5-8119-e92a83fe7ad9",
+  "name": "UL.CO.SOURCE.EU",
+  "auto": true,
+  "contexts": [
+    "ulcosourceeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ulcosourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "publication (PDF)",
+          "url": "https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/j.efsa.2016.4484",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Adapted from \u0027Scientific opinion on Dietary Reference Values for choline\u0027, European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies, 2016. Copyright European Food Safety Authority 2016. Provided under a Creative Commons Attribution No Derivatives 4.0 license. Intake Reference is not endorsed by the European Food Safety Authority, an agency of the European Union. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

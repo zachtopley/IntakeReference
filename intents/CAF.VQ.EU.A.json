@@ -1,0 +1,115 @@
+{
+  "id": "2173edd6-eaa7-4a7e-af08-2a8279674b02",
+  "name": "CAF.VQ.EU.A",
+  "auto": true,
+  "contexts": [
+    "cafvq",
+    "cafvqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "cafvq",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "cafvqeua",
+          "lifespan": 5
+        },
+        {
+          "name": "cafeusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Single doses of caffeine up to 200 milligrams from all sources do not give rise to safety concerns for the general healthy adult population. The same amount of caffeine does not give rise to safety concerns when consumed less than two hours prior to intense physical exercise under normal environmental conditions. Single doses of 100 milligrams of caffeine may increase sleep latency and reduce sleep duration in some adult individuals, particularly when consumed close to bedtime.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Caffeine intakes from all sources up to 400 milligrams per day, consumed throughout the day, do not give rise to safety concerns for healthy adults in the general population, except pregnant women. This is the scientific opinion of the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Caffeine \u0026 alcohol"
+            },
+            {
+              "title": "Black tea ☕️"
+            },
+            {
+              "title": "Green tea 🍵"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Single doses of caffeine up to 200 milligrams from all sources do not give rise to safety concerns for the general healthy adult population. The same amount of caffeine does not give rise to safety concerns when consumed less than two hours prior to intense physical exercise under normal environmental conditions. Single doses of 100 milligrams of caffeine may increase sleep latency and reduce sleep duration in some adult individuals, particularly when consumed close to bedtime. Caffeine intakes from all sources up to 400 milligrams per day, consumed throughout the day, do not give rise to safety concerns for healthy adults in the general population, except pregnant women. This is the scientific opinion of the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

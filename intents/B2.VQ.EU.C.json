@@ -1,0 +1,73 @@
+{
+  "id": "ad971f1c-209e-4f92-b4ac-8d112300b027",
+  "name": "B2.VQ.EU.C",
+  "auto": true,
+  "contexts": [
+    "b2vq",
+    "b2vqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b2vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b2vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "What does riboflavin do?"
+            },
+            {
+              "title": "Best source of riboflavin"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 15, the Population Reference Intakes for riboflavin increase with age and range from 0.4 milligrams per day for those aged 7-11 months, up to 1.4 milligrams of riboflavin per day for those aged 11-14. See the associated table or the source document for full details. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

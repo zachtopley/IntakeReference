@@ -1,0 +1,75 @@
+{
+  "id": "3c4af3d8-f50a-4058-b8c8-b368b424528f",
+  "name": "B2.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum riboflavin intake"
+            },
+            {
+              "title": "Maximum riboflavin intake"
+            },
+            {
+              "title": "What does riboflavin do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Alright, riboflavin, also known as vitamin B2."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of riboflavin by weight is yeast extract spread. Yeast extract spread contains 17.5 milligrams of riboflavin per 100 grams. Additionally, dried spirulina contains 3.67 milligrams of riboflavin per 100 grams. Dried pasilla peppers contain 3.2 milligrams of riboflavin per 100 grams. Would you like to know more about the source of this information, or would you like more information about riboflavin?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

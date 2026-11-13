@@ -1,0 +1,178 @@
+[
+  {
+    "id": "792ee9c2-9df2-4a53-803f-550f95f02734",
+    "data": [
+      {
+        "text": "information for those aged ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8b6ab7e0-a909-4119-a572-d13feb7a3b0c",
+    "data": [
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7f77d3ea-dbf4-4616-b6e3-d40631c85a78",
+    "data": [
+      {
+        "text": "age 14 to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19c2a9d9-6be8-48ed-a59f-4068338b0edd",
+    "data": [
+      {
+        "text": "aged 14 to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "911b3fa9-2d96-45ac-906e-cb0ce97890d1",
+    "data": [
+      {
+        "text": "aged ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa39b1cf-c49e-46af-9ae2-7cbf03e43167",
+    "data": [
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d77ddb21-63b9-43cf-9e45-4efe238fc062",
+    "data": [
+      {
+        "text": "age ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c2a4906-ca2c-4c8d-bf80-9a7fe5b9887f",
+    "data": [
+      {
+        "text": "ages ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": "-",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

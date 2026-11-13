@@ -1,0 +1,156 @@
+[
+  {
+    "id": "b08e5bb2-e052-4b15-97f8-01059cf5db3c",
+    "data": [
+      {
+        "text": "british",
+        "userDefined": false
+      },
+      {
+        "text": " army",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8d882db-6aee-489c-a672-062d4dc0fa8b",
+    "data": [
+      {
+        "text": "royal",
+        "userDefined": false
+      },
+      {
+        "text": " navy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b627ca0a-5dc1-458e-9200-c74d2614659f",
+    "data": [
+      {
+        "text": "the ",
+        "userDefined": false
+      },
+      {
+        "text": "royal",
+        "userDefined": false
+      },
+      {
+        "text": " air force",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e0960dd-4ce0-42df-9b6a-50e9f83ad706",
+    "data": [
+      {
+        "text": "the navy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f93b21b4-a168-4e91-8dec-0f177e876ed4",
+    "data": [
+      {
+        "text": "the army",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "07415aea-6c6c-45fc-9555-98ccb8cc710a",
+    "data": [
+      {
+        "text": "military",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0cdde03-5426-41eb-86da-33b50a68399c",
+    "data": [
+      {
+        "text": "armed forces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b771268-a8e6-4e86-8d39-d1f6d9893592",
+    "data": [
+      {
+        "text": "united kingdom",
+        "userDefined": false
+      },
+      {
+        "text": " armed forces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8450a43-6d28-4e6d-b6a2-6529a6df9391",
+    "data": [
+      {
+        "text": "uk",
+        "userDefined": false
+      },
+      {
+        "text": " armed forces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce2e9124-d6bf-4df2-9d2e-c7eb441474c8",
+    "data": [
+      {
+        "text": "🇬🇧 (military)",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

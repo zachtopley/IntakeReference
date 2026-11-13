@@ -1,0 +1,64 @@
+{
+  "id": "704c68c6-6a03-4ad1-9602-dd0eefb20f1a",
+  "name": "B12.HC.EU",
+  "auto": true,
+  "contexts": [
+    "b12hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b12hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin B12 contributes to: normal energy-yielding metabolism, normal functioning of the nervous system, normal homocysteine metabolism, normal psychological function, normal red blood cell formation, normal function of the immune system, and the reduction of tiredness and fatigue. Vitamin B12 has a role in the process of cell division. The European Commission has authorised these claims for products which contain at least 375 nanograms of vitamin B12 per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

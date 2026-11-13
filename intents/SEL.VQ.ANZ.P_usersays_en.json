@@ -1,0 +1,67 @@
+[
+  {
+    "id": "cec01e50-3e06-4c2a-8035-3b30001c97f5",
+    "data": [
+      {
+        "text": "information for pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d2e66b3-7d6e-4b76-9515-a1e6a479f4e5",
+    "data": [
+      {
+        "text": "pregnant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "155a4d6b-2be4-4a22-9ad6-98982c2b0af2",
+    "data": [
+      {
+        "text": "pregnancy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e3ae5b1-769d-4c33-8020-cc6bd7bc92d9",
+    "data": [
+      {
+        "text": "pregnancy 🤰",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ecca937-577e-43ac-aaa7-baba6f094eb2",
+    "data": [
+      {
+        "text": "i\u0027m pregnant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "id": "112ff8ef-be62-46ca-97fb-e114538936b4",
+  "name": "SLP.SOURCE",
+  "auto": true,
+  "contexts": [
+    "slpsource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "slpsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "CDC website",
+          "url": "https://www.cdc.gov/sleep/about_sleep/how_much_sleep.html",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\"How much sleep do I need?\", US Centers for Disease Control \u0026 Prevention website, 2017. Intake Reference is not affiliated with the US Centers for Disease Control \u0026 Prevention. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

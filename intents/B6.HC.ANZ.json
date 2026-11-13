@@ -1,0 +1,97 @@
+{
+  "id": "10452fa5-d84f-44bc-bc67-d4cf4f4c1e74",
+  "name": "B6.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "b6hc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b6hc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Vitamin B6 is necessary for normal protein metabolism and normal iron transport and metabolism. Vitamin B6 contributes to normal cysteine synthesis, normal energy metabolism, normal functioning of the nervous system, normal homocysteine metabolism, normal glycogen metabolism, normal psychological function, normal red blood cell formation, normal immune system function, the reduction of tiredness and fatigue, and the regulation of hormonal activity.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Food Standards Australia New Zealand has approved these claims for foods containing at least 160 micrograms of pyridoxine per serving. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin B6 is necessary for normal protein metabolism and normal iron transport and metabolism. Vitamin B6 contributes to normal cysteine synthesis, normal energy metabolism, normal functioning of the nervous system, normal homocysteine metabolism, normal glycogen metabolism, normal psychological function, normal red blood cell formation, normal immune system function, the reduction of tiredness and fatigue, and the regulation of hormonal activity. Food Standards Australia New Zealand has approved these claims for foods containing at least 160 micrograms of pyridoxine per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

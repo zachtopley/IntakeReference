@@ -1,0 +1,55 @@
+{
+  "id": "ed8a9bd3-dab5-4234-aab7-9b69d7d0c601",
+  "name": "AMN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "amnvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "amnvq",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "report",
+          "url": "https://apps.who.int/iris/bitstream/handle/10665/43411/WHO_TRS_935_eng.pdf?sequence\u003d1",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Protein and amino acid requirements in human nutrition: report of a joint Food and Agriculture Organization of the United Nations / World Health Organization / United Nations University expert consultation, World Health Organization, 2007. Intake Reference is not endorsed by any of the aforementioned organizations. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,97 @@
+{
+  "id": "9a885023-5a6d-4e87-a127-81107876e066",
+  "name": "ZIN.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "zinhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "zinhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Zinc is necessary for: normal immune system function and normal cell division. Zinc contributes to: normal skin structure and wound healing, normal acid-base metabolism, normal carbohydrate metabolism, normal cognitive function, normal fertility and reproduction, normal macronutrient metabolism, normal metabolism of fatty acids, normal metabolism of vitamin A, normal protein synthesis, and cell protection from free radicals. Zinc contributes to the maintenance of: normal bones, normal hair and nails, normal testosterone levels in the blood, and normal vision.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Food Standards Australia New Zealand has approved these claims for foods containing at least 1.2 milligrams of zinc per serving. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Zinc is necessary for: normal immune system function and normal cell division. Zinc contributes to: normal skin structure and wound healing, normal acid-base metabolism, normal carbohydrate metabolism, normal cognitive function, normal fertility and reproduction, normal macronutrient metabolism, normal metabolism of fatty acids, normal metabolism of vitamin A, normal protein synthesis, and cell protection from free radicals. Zinc contributes to the maintenance of: normal bones, normal hair and nails, normal testosterone levels in the blood, and normal vision. Food Standards Australia New Zealand has approved these claims for foods containing at least 1.2 milligrams of zinc per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

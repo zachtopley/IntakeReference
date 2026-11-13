@@ -1,0 +1,184 @@
+[
+  {
+    "id": "f39c82cf-dee2-44e7-a624-2a4cdee94323",
+    "data": [
+      {
+        "text": "fatty acids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13ea6602-1f76-42b4-b9fd-fdda223ccfcc",
+    "data": [
+      {
+        "text": "recommended fat intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "751ae4f9-6226-4fca-b9e6-9be90a61e97c",
+    "data": [
+      {
+        "text": "fat recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "48311d4c-eebe-4a61-ada8-9f0976a36c49",
+    "data": [
+      {
+        "text": "minimum fat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "68574e7c-f17c-406b-a650-16f6d64f07f2",
+    "data": [
+      {
+        "text": "how much fat should i consume?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9e8a4e9-cb66-4308-8610-0d605be36281",
+    "data": [
+      {
+        "text": "lipids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "134cf3db-2a7a-481c-8cec-cbc896b479b0",
+    "data": [
+      {
+        "text": "dietary fat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "988eec75-b5e2-49a0-a86c-a3d8fa2c6681",
+    "data": [
+      {
+        "text": "fats",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33d25383-28f7-49c9-86da-4dd03111559f",
+    "data": [
+      {
+        "text": "fat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3444c9c8-c532-449b-b79c-b83846be2b1d",
+    "data": [
+      {
+        "text": "how much total fat do i need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "54d1a873-fd5c-45f8-807b-f1ecbdae87b6",
+    "data": [
+      {
+        "text": "how much fat do i need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d866488d-fbc3-4b1d-b6dd-7852bbcac372",
+    "data": [
+      {
+        "text": "lipid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d596e120-d3f7-42d6-b123-f87f2f9b2d3d",
+    "data": [
+      {
+        "text": "how much dietary fat do i need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c0b8036-ccd0-4681-a2c5-b18588d286bf",
+    "data": [
+      {
+        "text": "how much fat do i need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

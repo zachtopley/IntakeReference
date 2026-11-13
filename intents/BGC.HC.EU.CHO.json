@@ -1,0 +1,102 @@
+{
+  "id": "197208a3-6588-4b6b-a60a-7ca350dc5e32",
+  "name": "BGC.HC.EU.CHO",
+  "auto": true,
+  "contexts": [
+    "bgchc",
+    "bgchcselect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bgchc",
+          "lifespan": 5
+        },
+        {
+          "name": "bgchcselect",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Beta-glucans contribute to the maintenance of normal blood cholesterol levels. The European Commission has authorised this claim for products which contain at least 1 gram of beta-glucans from oats, oat bran, barley, barley bran, or from mixtures of these sources per quantified portion. The beneficial effect is obtained with a daily intake of 3 grams of beta-glucans from these sources.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Oat beta-glucans and barley beta-glucans have been shown to lower blood cholesterol. High cholesterol is a risk factor in the development of coronary heart disease. The beneficial effect is obtained with a daily intake of 3 grams of oat or barley beta-glucans. The European Commission has authorised this claim for products which provide at least 1 gram of oat or barley beta-glucan per quantified portion. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Beta-glucans contribute to the maintenance of normal blood cholesterol levels. The European Commission has authorised this claim for products which contain at least 1 gram of beta-glucans from oats, oat bran, barley, barley bran, or from mixtures of these sources per quantified portion. The beneficial effect is obtained with a daily intake of 3 grams of beta-glucans from these sources. Oat beta-glucans and barley beta-glucans have been shown to lower blood cholesterol. High cholesterol is a risk factor in the development of coronary heart disease. The beneficial effect is obtained with a daily intake of 3 grams of oat or barley beta-glucans. The European Commission has authorised this claim for products which provide at least 1 gram of oat or barley beta-glucan per quantified portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

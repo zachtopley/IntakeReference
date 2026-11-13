@@ -1,0 +1,65 @@
+{
+  "id": "1dd9cfa3-813d-4f52-9a7d-dacae631ec4b",
+  "name": "VITAMINQUERY",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "vitamin C"
+            },
+            {
+              "title": "vitamin A"
+            },
+            {
+              "title": "niacin"
+            },
+            {
+              "title": "vitamin B12"
+            },
+            {
+              "title": "choline"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You can ask about vitamins A, C, D, E and K as well as vitamins B1, B2, B3, B5, B6, B7, B9, B12 and choline. Which vitamin are you interested in?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

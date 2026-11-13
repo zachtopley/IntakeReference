@@ -1,0 +1,110 @@
+{
+  "id": "6909a13c-4ee2-4725-84de-207471b765ae",
+  "name": "CARB.VQ.EU",
+  "auto": true,
+  "contexts": [
+    "carbvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "carbvq",
+          "lifespan": 5
+        },
+        {
+          "name": "carbvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For everyone aged 1+, the Reference Intake range for carbohydrates is between 45 and 60 percent of energy intake. So for example, for a daily energy intake of 2,000 kilocalories, the Reference Intake range is 900-1,200 kilocalories from carbohydrates per day.",
+              "displayText": "For everyone aged 1+, the Reference Intake range for carbohydrates is 45-60% of energy intake. So for example, for a daily energy intake of 2,000 kilocalories, the Reference Intake range is 900-1,200 kilocalories from carbohydrates per day.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Reference Intake range is the intake range for macronutrients, expressed as a percentage of energy intake. These apply to ranges of intakes that are adequate for maintaining health and associated with a low risk of selected chronic diseases. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Carbs calories per gram"
+            },
+            {
+              "title": "Resistant starch"
+            },
+            {
+              "title": "Fructose"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 1+, the Reference Intake range for carbohydrates is 45-60% of energy intake. So for example, for a daily energy intake of 2,000 kilocalories, the Reference Intake range is 900-1,200 kilocalories from carbohydrates per day. The Reference Intake range is the intake range for macronutrients, expressed as a percentage of energy intake. These apply to ranges of intakes that are adequate for maintaining health and associated with a low risk of selected chronic diseases. For the European Union, Dietary Reference Values are published by the European Food Safety Authority Panel on Dietetic Products, Nutrition and Allergies. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

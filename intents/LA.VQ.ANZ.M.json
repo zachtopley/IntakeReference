@@ -1,0 +1,106 @@
+{
+  "id": "aa3caf99-f3a8-4b8c-9de6-20e1cd5470b9",
+  "name": "LA.VQ.ANZ.M",
+  "auto": true,
+  "contexts": [
+    "lavq",
+    "lavqanz"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "lavq",
+          "lifespan": 5
+        },
+        {
+          "name": "lavqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "lavqanzm",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For males aged 19+, the Adequate Intake for linoleic acid is 13 grams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for linoleic acid is between 5 and 10 percent of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?",
+              "displayText": "Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for linoleic acid is 5-10% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 19+, the Adequate Intake for linoleic acid is 13 grams per day. The Adequate Intake is the average daily nutrient intake level based on observed or experimentally-determined approximations or estimates of nutrient intake that are assumed to be adequate. Additionally, for everyone aged 14+, the Acceptable Macronutrient Distribution Range for linoleic acid is 5-10% of energy intake. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

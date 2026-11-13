@@ -1,0 +1,70 @@
+{
+  "id": "c549ad2f-856a-43e8-8988-5c88676e665b",
+  "name": "WAL.HC.USA.SOURCE",
+  "auto": true,
+  "contexts": [
+    "walhcusasource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "walhcusasource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "enforcement letter",
+          "url": "http://wayback.archive-it.org/7993/20171114183725/https://www.fda.gov/Food/IngredientsPackagingLabeling/LabelingNutrition/ucm072910.htm",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Qualified Health Claims: Letter of Enforcement Discretion - Walnuts and Coronary Heart Disease\u0027, United States Food and Drug Administration website, 2004. \u0027Unless otherwise noted, the contents of the FDA website are not copyrighted\u0027. Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,87 @@
+{
+  "id": "795e88a4-903e-47bb-ab4a-3176652f04b5",
+  "name": "ACD.FS.DEL",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of delphinidin by weight is raw blackcurrants, which contain as much as 273 milligrams of delphinidin per 100 grams. Blackcurrant juice concentrate contains as much as 201 milligrams of delphinidin per 100 grams. Raw blueberries contain as much as 187 milligrams of delphinidin per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contains as much as 15 milligrams of delphinidin or more per 100 grams. Raw bilberries, raw wild blueberries, frozen unsweetened blueberries, raw rabbiteye blueberries, raw red currants, raw Concord grapes, raw guajiru, raw jambolan, blackcurrant juice, raw Maqui berries, service berries, raw eggplant, raw radicchio, raw mature black beans, and raw mature black cowpeas. Is there anything else I can help you with?",
+              "displayText": "Additionally, the following foods contains as much as 15 milligrams of delphinidin or more per 100 grams: raw bilberries, raw wild blueberries, frozen unsweetened blueberries, raw rabbiteye blueberries (Vaccinium virgatum), raw red currants, raw Concord grapes, raw guajiru, raw jambolan, blackcurrant juice, raw Maqui berries, service berries, raw eggplant, raw radicchio, raw mature black beans, and raw mature black cowpeas. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of delphinidin by weight is raw blackcurrants, which contain as much as 273 milligrams of delphinidin per 100 grams. Blackcurrant juice concentrate contains as much as 201 milligrams of delphinidin per 100 grams. Raw blueberries contain as much as 187 milligrams of delphinidin per 100 grams. Additionally, the following foods contains as much as 15 milligrams of delphinidin or more per 100 grams: raw bilberries, raw wild blueberries, frozen unsweetened blueberries, raw rabbiteye blueberries (Vaccinium virgatum), raw red currants, raw Concord grapes, raw guajiru, raw jambolan, blackcurrant juice, raw Maqui berries, service berries, raw eggplant, raw radicchio, raw mature black beans, and raw mature black cowpeas. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "02a2bec8-cbeb-4c82-a809-f502a503389b",
+  "name": "ORS.HC",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "orshc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Carbohydrate-electrolyte solutions enhance the absorption of water during physical exercise and contribute to the maintenance of endurance performance during prolonged endurance exercise. The European Commission has authorised these claims for products containing between 80 and 350 kilocalories per litre derived from carbohydrates, where at least 75% of carbohydrates are those with a high glycaemic response, such as glucose, glucose polymers, and sucrose. Additionally, the products should contain between 460 milligrams and 1,150 milligrams of sodium per litre. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

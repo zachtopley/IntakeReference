@@ -1,0 +1,110 @@
+{
+  "id": "e592d9d1-5360-4f38-918a-459fc59f5e03",
+  "name": "CARB.VQ.ANZ",
+  "auto": true,
+  "contexts": [
+    "carbvq"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "carbvq",
+          "lifespan": 5
+        },
+        {
+          "name": "carbvqanz",
+          "lifespan": 5
+        },
+        {
+          "name": "vqanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For everyone aged 14+, including those pregnant or lactating, the Acceptable Macronutrient Distribution Range for carbohydrates is between 45 and 65 percent of energy intake, predominantly from low energy density and/or low glycaemic index foods. So for example, for a daily energy intake of 2,000 kilocalories, the Acceptable Macronutrient Distribution Range is between 900 and 1,300 kilocalories from carbohydrates per day.",
+              "displayText": "For everyone aged 14+, including those pregnant or lactating, the Acceptable Macronutrient Distribution Range for carbohydrates is 45-65% of energy intake, predominantly from low energy density and/or low glycaemic index foods. So for example, for a daily energy intake of 2,000 kilocalories, the Acceptable Macronutrient Distribution Range is 900-1,300 kilocalories from carbohydrates per day.",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Carbs calories per gram"
+            },
+            {
+              "title": "Resistant starch"
+            },
+            {
+              "title": "Fructose"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For everyone aged 14+, including those pregnant or lactating, the Acceptable Macronutrient Distribution Range for carbohydrates is 45-65% of energy intake, predominantly from low energy density and/or low glycaemic index foods. So for example, for a daily energy intake of 2,000 kilocalories, the Acceptable Macronutrient Distribution Range is 900-1,300 kilocalories from carbohydrates per day. The Acceptable Macronutrient Distribution Range is an estimate of the range of intake for each macronutrient which would allow for an adequate intake of all other nutrients whilst maximising general health outcome. For Australia and New Zealand, Nutrient Reference Values are published by the National Health and Medical Research Council. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

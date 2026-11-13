@@ -1,0 +1,122 @@
+[
+  {
+    "id": "682710c6-3a0a-4329-b529-0fefbdbe72c3",
+    "data": [
+      {
+        "text": "carbs calories per gram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5016ab0-6433-4f67-8961-464c94ec2b47",
+    "data": [
+      {
+        "text": "calories in a gram of carbohydrates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7166a8bf-810f-472a-b3dd-3020f8b38a1f",
+    "data": [
+      {
+        "text": "how many calories in a gram of carbs?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1c53f9c2-1358-4e49-ae97-01e5651c591a",
+    "data": [
+      {
+        "text": "how many calories in ",
+        "userDefined": false
+      },
+      {
+        "text": "one gram",
+        "userDefined": false
+      },
+      {
+        "text": " of carbohydrates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9e9561f8-a823-47fc-894f-c9be4bd34e18",
+    "data": [
+      {
+        "text": "how much energy in ",
+        "userDefined": false
+      },
+      {
+        "text": "one gram",
+        "userDefined": false
+      },
+      {
+        "text": " of carbohydrates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "98753d46-b10f-4276-9bcb-a8a0a95af738",
+    "data": [
+      {
+        "text": "carbohydrates calories per gram",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f7ca0ca-7ad6-4d0f-bc58-95995bd3bd29",
+    "data": [
+      {
+        "text": "how caloric are carbohydrates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a527f06c-adf4-4a2a-8a71-732308e683b3",
+    "data": [
+      {
+        "text": "how many calories per gram of carbohydrates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

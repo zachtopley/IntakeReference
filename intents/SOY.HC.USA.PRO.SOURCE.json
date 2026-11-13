@@ -1,0 +1,70 @@
+{
+  "id": "0a4f978c-e039-42e4-9342-7f4e4173de67",
+  "name": "SOY.HC.USA.PRO.SOURCE",
+  "auto": true,
+  "contexts": [
+    "soyusasource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "soyusasource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "What can you do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "code of regulations",
+          "url": "http://www.ecfr.gov/cgi-bin/text-idx?SID\u003dc7e427855f12554dbc292b4c8a7545a0\u0026mc\u003dtrue\u0026node\u003dpt21.2.101\u0026rgn\u003ddiv5#se21.2.101_182",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Health claims: Soy protein and risk of coronary heart disease\u0027, Electronic Code of Federal Regulations, Title 21, Subpart E, Section 101.82. According to Title 17, Section 105 of the United States Code, \"Copyright protection under this title is not available for any work of the United States Government\". Intake Reference is not endorsed by the United States Food and Drug Administration. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,55 @@
+{
+  "id": "397710d1-27eb-48c3-85f8-907c841bf915",
+  "name": "NUT.CAN.SOURCE",
+  "auto": true,
+  "contexts": [
+    "nutcansource"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nutcansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "claims table",
+          "url": "https://www.inspection.gc.ca/food-label-requirements/labelling/industry/health-claims-on-food-labels/eng/1392834838383/1392834887794?chap\u003d9#s16c9",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "\u0027Acceptable Nutrient Function Claims Table\u0027, Nutrient Function Claims, Canadian Food Inspection Agency website, 2019. Copyright 2019 Government of Canada. Reproduced in accordance with Government of Canada non-commercial reproduction policy. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

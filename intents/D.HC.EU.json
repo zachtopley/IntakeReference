@@ -1,0 +1,97 @@
+{
+  "id": "da52b626-5fe2-415a-ba48-a18b85d4293c",
+  "name": "D.HC.EU",
+  "auto": true,
+  "contexts": [
+    "dhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "dhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Vitamin D contributes to: normal absorption and utilisation of calcium and phosphorus, normal blood calcium levels, the maintenance of normal bones and teeth, the maintenance of normal muscle function, the normal function of the immune system, and normal function of the immune system in children. Vitamin D has a role in the process of cell division, and is needed for normal growth and development of bone in children.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims for products which contain at least 750 nanograms of vitamin D per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin D contributes to: normal absorption and utilisation of calcium and phosphorus, normal blood calcium levels, the maintenance of normal bones and teeth, the maintenance of normal muscle function, the normal function of the immune system, and normal function of the immune system in children. Vitamin D has a role in the process of cell division, and is needed for normal growth and development of bone in children. The European Commission has authorised these claims for products which contain at least 750 nanograms of vitamin D per 100 grams, per 100 millilitres or per package, if the package contains only a single portion. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

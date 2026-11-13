@@ -1,0 +1,97 @@
+{
+  "id": "10ea783a-4d51-40b8-8166-f5e7aeb93da4",
+  "name": "C.HC.ANZ",
+  "auto": true,
+  "contexts": [
+    "chc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "chc",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Vitamin C is necessary for: normal connective tissue structure and function, normal blood vessel structure and function, and normal neurological function. Vitamin C contributes to: iron absorption from food, cell protection from free radical damage, normal energy metabolism, normal psychological function, normal immune system function, and the reduction of tiredness and fatigue. Vitamin C contributes to normal collagen formation for the normal structure of cartilage and bones and the normal function of teeth, gums and skin.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Food Standards Australia New Zealand has approved these claims for foods containing at least 4 milligrams of vitamin C per serving. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Vitamin C is necessary for: normal connective tissue structure and function, normal blood vessel structure and function, and normal neurological function. Vitamin C contributes to: iron absorption from food, cell protection from free radical damage, normal energy metabolism, normal psychological function, normal immune system function, and the reduction of tiredness and fatigue. Vitamin C contributes to normal collagen formation for the normal structure of cartilage and bones and the normal function of teeth, gums and skin. Food Standards Australia New Zealand has approved these claims for foods containing at least 4 milligrams of vitamin C per serving. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

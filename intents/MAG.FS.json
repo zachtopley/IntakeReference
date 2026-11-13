@@ -1,0 +1,96 @@
+{
+  "id": "38d7b97b-23ed-4cec-afcf-dcadfe697d9f",
+  "name": "MAG.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of magnesium by weight is rice bran, which contains 781 milligrams of magnesium per 100 grams. Dried basil contains 711 milligrams of magnesium per 100 grams. Hulled hemp seeds contain 700 milligrams of magnesium per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 400 milligrams of magnesium or more per 100 grams. Dried coriander leaf, freeze-dried chives, crude wheat bran, dried spearmint, dried pumpkin and squash seeds, dried watermelon seeds, dried dill weed, celery seed, raw full-fat soy flour, ground sage, and dried parsley. Would you like to know more about the source of this information, or would you like more information about magnesium?",
+              "displayText": "Additionally, the following foods contain 400 milligrams of magnesium or more per 100 grams: dried coriander leaf, freeze-dried chives, crude wheat bran, dried spearmint, dried pumpkin and squash seeds, dried watermelon seeds, dried dill weed, celery seed, raw full-fat soy flour, ground sage, and dried parsley. Would you like to know more about the source of this information, or would you like more information about magnesium?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum magnesium intake"
+            },
+            {
+              "title": "Maximum magnesium intake"
+            },
+            {
+              "title": "What does magnesium do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of magnesium by weight is rice bran, which contains 781 milligrams of magnesium per 100 grams. Dried basil contains 711 milligrams of magnesium per 100 grams. Hulled hemp seeds contain 700 milligrams of magnesium per 100 grams. Additionally, the following foods contain 400 milligrams of magnesium or more per 100 grams: dried coriander leaf, freeze-dried chives, crude wheat bran, dried spearmint, dried pumpkin and squash seeds, dried watermelon seeds, dried dill weed, celery seed, raw full-fat soy flour, ground sage, and dried parsley. Would you like to know more about the source of this information, or would you like more information about magnesium?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

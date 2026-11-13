@@ -1,0 +1,54 @@
+[
+  {
+    "id": "efa17a66-22bc-40ad-acde-bd635b580a56",
+    "data": [
+      {
+        "text": "adults",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bbebabd4-c40b-4fb0-925d-b41ad95c8211",
+    "data": [
+      {
+        "text": "adult",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "009486a2-3a00-4289-bbb5-53fcea868a12",
+    "data": [
+      {
+        "text": "i\u0027m an adult",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5bb2604f-14fa-46d7-81f8-8ccf6c3ee698",
+    "data": [
+      {
+        "text": "information for adults",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

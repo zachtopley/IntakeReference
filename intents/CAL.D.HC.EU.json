@@ -1,0 +1,64 @@
+{
+  "id": "d7759206-2d4c-444c-975a-05cc81d6e1c9",
+  "name": "CAL.D.HC.EU",
+  "auto": true,
+  "contexts": [
+    "caldhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "caldhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Calcium and vitamin D help to reduce the loss of bone mineral in post-menopausal women. Low bone mineral density is a risk factor for osteoporotic bone fractures. The European Commission has authorised this claim for food supplements which provide at least 400 milligrams of calcium and 15 micrograms of vitamin D per daily portion. The claim is specifically intended for women 50 years and older and the beneficial effect is obtained with a daily intake of at least 1,200 milligrams of calcium and 20 micrograms of vitamin D from all sources. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

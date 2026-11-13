@@ -1,0 +1,96 @@
+{
+  "id": "141b7b67-c5a8-4b55-a411-1d1bcc2d741d",
+  "name": "A.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of beta carotene by weight is freeze-dried sweet red peppers, which contain 42.9 milligrams of beta-carotene per 100 grams. Dehydrated carrot contains 34 milligrams of beta-carotene per 100 grams. Paprika contains 26.2 milligrams of beta-carotene per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 5 milligrams of beta-carotene or more per 100 grams. Cayenne pepper, raw grape leaves, raw sweet potato, carrot juice, raw carrots, raw turnip greens, canned pumpkin, raw dandelion greens, raw spinach, raw cos lettuce, and fresh parsley. Would you like to know more about the source of this information, or would you like more information about vitamin A?",
+              "displayText": "Additionally, the following foods contain 5 milligrams of beta-carotene or more per 100 grams: cayenne pepper, raw grape leaves, raw sweet potato, carrot juice, raw carrots, raw turnip greens, canned pumpkin, raw dandelion greens, raw spinach, raw cos lettuce, and fresh parsley. Would you like to know more about the source of this information, or would you like more information about vitamin A?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum vitamin A intake"
+            },
+            {
+              "title": "Maximum vitamin A intake"
+            },
+            {
+              "title": "What does vitamin A do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of beta carotene by weight is freeze-dried sweet red peppers, which contain 42.9 milligrams of beta-carotene per 100 grams. Dehydrated carrot contains 34 milligrams of beta-carotene per 100 grams. Paprika contains 26.2 milligrams of beta-carotene per 100 grams. Additionally, the following foods contain 5 milligrams of beta-carotene or more per 100 grams: cayenne pepper, raw grape leaves, raw sweet potato, carrot juice, raw carrots, raw turnip greens, canned pumpkin, raw dandelion greens, raw spinach, raw cos lettuce, and fresh parsley. Would you like to know more about the source of this information, or would you like more information about vitamin A?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "389b90df-1409-4175-9bb5-d84d756eab6e",
+    "data": [
+      {
+        "text": "recommended carbohydrate intake for the elderly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4a6ad130-c1d9-47ce-ac6a-2ffa8bd59363",
+    "data": [
+      {
+        "text": "recommended carbohydrate intake for teenagers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27ab1232-7d6a-4755-9e2e-f01e2d998a9a",
+    "data": [
+      {
+        "text": "recommended carbohydrate intake for infants",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b47f6c38-4637-439e-bb60-98115edb6f41",
+    "data": [
+      {
+        "text": "recommended carbohydrate intake for children",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8d6e745-5a54-41ad-8abd-800e5b03ac5b",
+    "data": [
+      {
+        "text": "how many calories worth of carbohydrates do i need per day",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4edb44bf-2c9a-4a47-9fc1-dcec6552aa0b",
+    "data": [
+      {
+        "text": "how many carbs does my child need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bbdef5c8-4fe9-4fb6-9ad1-de8ba64b096d",
+    "data": [
+      {
+        "text": "carbohydrates",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9476acd9-8866-46bb-8567-9abdf24e4814",
+    "data": [
+      {
+        "text": "minimum carbohydrate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4841b707-cee2-4784-ab42-bbb36221c3af",
+    "data": [
+      {
+        "text": "carbohydrate recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "321b9b1b-b968-46de-a6bf-cb6a29deab37",
+    "data": [
+      {
+        "text": "carbs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4b158d54-f3eb-4637-8b2e-8f5e25ff96ae",
+    "data": [
+      {
+        "text": "daily carbohydrate recommendations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "87a290fb-a6ca-4431-921c-2d9da3978f73",
+    "data": [
+      {
+        "text": "how many carbohydrates do I need per day?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61dceffd-5abe-4fca-9c56-08a5d3edb936",
+    "data": [
+      {
+        "text": "what percentage of calories should come from carbohydrates?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6a9426b-0f24-463a-a06e-e5582daf0d8c",
+    "data": [
+      {
+        "text": "recommended daily carbs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22383b3c-84ec-4ae5-a871-e3f55b442bf2",
+    "data": [
+      {
+        "text": "recommended carbohydrate intake",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5f110b6b-6be1-4fcb-a23a-9372dba41b4f",
+    "data": [
+      {
+        "text": "how many carbs do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7019a1f1-b9ee-4a43-a974-c2b912a053eb",
+    "data": [
+      {
+        "text": "how much carbohydrates do I need?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

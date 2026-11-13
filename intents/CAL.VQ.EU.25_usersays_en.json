@@ -1,0 +1,125 @@
+[
+  {
+    "id": "2dd5eeba-9e8f-432f-a75b-3ecb8726770e",
+    "data": [
+      {
+        "text": "25",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af743ec2-ab14-484f-a663-358b9a41858d",
+    "data": [
+      {
+        "text": "25",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "44a7408c-c2a0-48c4-a5ee-314db14d4a60",
+    "data": [
+      {
+        "text": "information for those aged ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7a7c697b-03e4-4851-89d9-58d2d88be686",
+    "data": [
+      {
+        "text": "25",
+        "userDefined": false
+      },
+      {
+        "text": " and older",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "addd9510-f1e1-40b2-96a0-8c0ff7c66d80",
+    "data": [
+      {
+        "text": "age ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8f6991a2-40e9-4816-bb8d-6ee73f77eb20",
+    "data": [
+      {
+        "text": "25",
+        "userDefined": false
+      },
+      {
+        "text": " plus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f772de1-ec5b-47dc-818e-d57794f8f82e",
+    "data": [
+      {
+        "text": "older than ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

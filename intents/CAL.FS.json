@@ -1,0 +1,96 @@
+{
+  "id": "4abd7f2f-139a-44c9-8ba4-c3ed1a06881a",
+  "name": "CAL.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "usda",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, dried basil contains 2,240 milligrams of calcium per 100 grams. Ground savory contains 2,132 milligrams of calcium per 100 grams. Dried marjoram contains 1,990 milligrams of calcium per 100 grams.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Additionally, the following foods contain 1,000 milligrams of calcium or more per 100 grams. Dried thyme, dried dill weed, celery seed, ground sage, dried oregano, dill seed, dried spearmint, poppy seed, dried chervil, dried rosemary, dried coriander leaf, fennel seed, dried parsley, dried tarragon, and ground cinnamon. Would you like to know more about the source of this information, or would you like more information about calcium?",
+              "displayText": "Additionally, the following foods contain 1,000 milligrams of calcium or more per 100 grams: dried thyme, dried dill weed, celery seed, ground sage, dried oregano, dill seed, dried spearmint, poppy seed, dried chervil, dried rosemary, dried coriander leaf, fennel seed, dried parsley, dried tarragon, and ground cinnamon. Would you like to know more about the source of this information, or would you like more information about calcium?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Minimum calcium intake"
+            },
+            {
+              "title": "Maximum calcium intake"
+            },
+            {
+              "title": "What does calcium do?"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, dried basil contains 2,240 milligrams of calcium per 100 grams. Ground savory contains 2,132 milligrams of calcium per 100 grams. Dried marjoram contains 1,990 milligrams of calcium per 100 grams. Additionally, the following foods contain 1,000 milligrams of calcium or more per 100 grams: dried thyme, dried dill weed, celery seed, ground sage, dried oregano, dill seed, dried spearmint, poppy seed, dried chervil, dried rosemary, dried coriander leaf, fennel seed, dried parsley, dried tarragon, and ground cinnamon. Would you like to know more about the source of this information, or would you like more information about calcium?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "94e56f5d-1c28-4c21-a242-4f3d939d736c",
+  "name": "SOY.HC.CAN",
+  "auto": true,
+  "contexts": [
+    "soyhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "soyhc",
+          "lifespan": 5
+        },
+        {
+          "name": "soycansource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "25 grams of soy protein is the daily amount of soy protein shown to help lower cholesterol. Health Canada has concluded that scientific evidence exists to support this claim. Eligible foods and ingredients include soy beverages, tofu, miso, tempeh, natto, soy cheese, and soy nuts, as well as isolated soy protein, soy protein concentrate, textured soy protein and soy flour. Soy sauce and soybean oil are excluded because they lack substantial amounts of soy protein. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

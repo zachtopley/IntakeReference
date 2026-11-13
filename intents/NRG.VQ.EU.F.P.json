@@ -1,0 +1,114 @@
+{
+  "id": "be5de45f-81b1-494b-895e-1ca7abe6b58a",
+  "name": "NRG.VQ.EU.F.P",
+  "auto": true,
+  "contexts": [
+    "nrgvq",
+    "nrgvqeu",
+    "nrgvqeuf"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nrgvq",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeuf",
+          "lifespan": 5
+        },
+        {
+          "name": "nrgvqeufp",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For pregnancy, the Average Requirements for energy are an additional 69 kilocalories per day during the first trimester, an additional 263 kilocalories per day during the second trimester, and an additional 502 kilocalories per day during the third trimester, in addition to the Average Requirements for non-pregnant females.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Average Requirement is the level of nutrient intake estimated to satisfy the physiological requirement or metabolic demand in half of the people in a population group, given a normal distribution of requirement. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Lactation 🤱"
+            },
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For pregnancy, the Average Requirements for energy are an additional 69 kilocalories per day during the first trimester, an additional 263 kilocalories per day during the second trimester, and an additional 502 kilocalories per day during the third trimester, in addition to the Average Requirements for non-pregnant females. The Average Requirement is the level of nutrient intake estimated to satisfy the physiological requirement or metabolic demand in half of the people in a population group, given a normal distribution of requirement. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

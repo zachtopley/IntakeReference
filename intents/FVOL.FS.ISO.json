@@ -1,0 +1,70 @@
+{
+  "id": "12f9c433-6aa1-4cad-b9cd-4ead276fdd0a",
+  "name": "FVOL.FS.ISO",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "special",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Based on data from the United States Department of Agriculture, the highest food source of isorhamnetin by weight is dried parsley, which contains 331 milligrams of isorhamnetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of isorhamnetin or more per 100 grams. Dill weed, raw sea buckthorn berries, unsweeetened dry sour cherries, raw kale, raw mustard greens, and raw red onions. Is there anything else I can help you with?",
+              "displayText": "Based on data from the United States Department of Agriculture, the highest food source of isorhamnetin by weight is dried parsley, which contains 331 milligrams of isorhamnetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of isorhamnetin or more per 100 grams: dill weed, raw sea buckthorn berries, unsweeetened dry sour cherries, raw kale, raw mustard greens, and raw red onions. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Based on data from the United States Department of Agriculture, the highest food source of isorhamnetin by weight is dried parsley, which contains 331 milligrams of isorhamnetin per 100 grams. Additionally, the following foods contain as much as 15 milligrams of isorhamnetin or more per 100 grams: dill weed, raw sea buckthorn berries, unsweeetened dry sour cherries, raw kale, raw mustard greens, and raw red onions. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

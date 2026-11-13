@@ -1,0 +1,100 @@
+{
+  "id": "74aa2aeb-c26a-4302-a74d-c4a009611703",
+  "name": "STANOL.HC.EU",
+  "auto": true,
+  "contexts": [
+    "stanolhc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "stanolhc",
+          "lifespan": 5
+        },
+        {
+          "name": "hceusource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Plant sterols and stanols contribute to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of at least 0.8 grams of plant sterols or stanols. Additionally, plant sterol esters and plant stanol esters have been shown to lower blood cholesterol. High cholesterol is a risk factor in the development of coronary heart disease. The beneficial effect is obtained with a daily intake of 1.5–3 grams of plant sterol or stanol esters.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The European Commission has authorised these claims. Would you like to know more about the source of this information, or would you like information about the dietary sources of phytosterols?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Sources of phytosterols"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Plant sterols and stanols contribute to the maintenance of normal blood cholesterol levels. The beneficial effect is obtained with a daily intake of at least 0.8 grams of plant sterols or stanols. Additionally, plant sterol esters and plant stanol esters have been shown to lower blood cholesterol. High cholesterol is a risk factor in the development of coronary heart disease. The beneficial effect is obtained with a daily intake of 1.5–3 grams of plant sterol or stanol esters. The European Commission has authorised these claims. Would you like to know more about the source of this information, or would you like information about the dietary sources of phytosterols?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

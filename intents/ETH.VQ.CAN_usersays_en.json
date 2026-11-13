@@ -1,0 +1,41 @@
+[
+  {
+    "id": "e4938197-9e9a-40b3-8525-fce967daaab9",
+    "data": [
+      {
+        "text": "🇨🇦",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b690f532-8e3e-448b-b2bc-a15b76ab7734",
+    "data": [
+      {
+        "text": "information for canadians",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "411d4fb5-c7dc-452c-a008-d066ec3f105a",
+    "data": [
+      {
+        "text": "canada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "5daaad92-3890-41fd-91f7-e3fb0dddace5",
+    "data": [
+      {
+        "text": "chromium functions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b60b7f34-0877-4f94-952f-7cc800cf5879",
+    "data": [
+      {
+        "text": "chromium benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d9d4fa7c-e34e-45ab-a704-d123df92528c",
+    "data": [
+      {
+        "text": "why do I need chromium?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9a1636c-fc1d-4efe-bb1a-d80fb2942612",
+    "data": [
+      {
+        "text": "chromium health claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b0a8b40-015f-4e20-9b1a-4cd0dc750d8d",
+    "data": [
+      {
+        "text": "what does chromium do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

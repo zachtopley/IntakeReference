@@ -1,0 +1,69 @@
+{
+  "id": "619f01cf-b5bb-4d96-a829-d8ca26df9ad7",
+  "name": "BGC.HC.CHO.ANZ",
+  "auto": true,
+  "contexts": [
+    "bgchc",
+    "bgchcselect"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "bgchc",
+          "lifespan": 5
+        },
+        {
+          "name": "bgchcselect",
+          "lifespan": 5
+        },
+        {
+          "name": "hcanzsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A diet low in saturated fatty acids and containing 3 grams of beta-glucan per day reduces dietary and biliary cholesterol absorption. Food Standards Australia New Zealand has approved this claim for foods which contain at least 1 gram of beta-glucan per serving derived from oat bran, wholegrain oats, and/or wholegrain barley. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true,
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "66245027-6119-4576-9ae1-94637c82e1e8",
+    "data": [
+      {
+        "text": "sleeping",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45c6fc16-b4f4-483d-9a36-52c28fefc4df",
+    "data": [
+      {
+        "text": "how long do i need to sleep for",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4fec8fb7-fb59-4248-bb46-777b4ed1a3c0",
+    "data": [
+      {
+        "text": "how many hours of sleep do i need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82a0a7c1-581c-4ed5-9e47-f8f118032ba1",
+    "data": [
+      {
+        "text": "how much sleep do i need",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "42fd8530-4b88-44d6-a0a5-b4e143392a34",
+    "data": [
+      {
+        "text": "sleep",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

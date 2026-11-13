@@ -1,0 +1,87 @@
+{
+  "id": "73f0115f-1412-44bf-b1fa-cfffb45b5a06",
+  "name": "COL.EU",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "coleu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "According to European Union regulations, the following food colours may have an adverse effect on activity and attention in children:",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "sunset yellow, also known as E 110 or FD and C Yellow 6). quinoline yellow, also known as E 104. carmoisine, also known as E 122. allura red, also known as E 129 or FD and C Red 40. tartrazine, also known as E 102 or FD and C Yellow 5. and ponceau 4R also known as E 124. Is there anything else I can help you with?",
+              "displayText": "sunset yellow (E 110 / FD\u0026C Yellow 6)\nquinoline yellow (E 104)\ncarmoisine (E 122)\nallura red (E 129 / FD\u0026C Red 40)\ntartrazine (E 102 / FD\u0026C Yellow 5)\nponceau 4R (E 124)\n\nIs there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "According to European Union regulations, the following food colours may have an adverse effect on activity and attention in children: sunset yellow (E 110 / FD\u0026C Yellow 6), quinoline yellow (E 104), carmoisine (E 122), allura red (E 129 / FD\u0026C Red 40), tartrazine (E 102 / FD\u0026C Yellow 5), and ponceau 4R (E 124). Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

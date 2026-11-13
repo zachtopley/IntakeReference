@@ -1,0 +1,60 @@
+{
+  "id": "26ebb148-2709-4a82-985f-97e118de5e0c",
+  "name": "TTRI.FS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "α-tocotrienol"
+            },
+            {
+              "title": "β-tocotrienol"
+            },
+            {
+              "title": "γ-tocotrienol"
+            },
+            {
+              "title": "δ-tocotrienol"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "There are four tocotrienols you can ask me about. Do you want information about the dietary sources of alpha-tocotrienol, beta-tocotrienol, gamma-tocotrienol or delta-tocotrienol?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

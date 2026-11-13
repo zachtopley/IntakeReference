@@ -1,0 +1,87 @@
+{
+  "id": "04f695c9-d3e9-4712-8be5-c8177e3c4d2f",
+  "name": "CBD.VQ",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "CBD",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "When prescribed by a doctor, cannabidiol, in an oral solution at a concentration of 100 milligrams of cannabidiol per millilitre, is indicated for the treatment of seizures associated with Lennox-Gastaut syndrome or Dravet syndrome in patients 2 years of age and older. According to the prescribing information, the starting dosage is 2.5 milligrams of cannabidiol per kilogram of bodyweight, administered twice daily.",
+              "displayText": "When prescribed by a doctor, cannabidiol, in an oral solution at a concentration of 100 mg of cannabidiol per ml, is indicated for the treatment of seizures associated with Lennox-Gastaut syndrome or Dravet syndrome in patients 2 years of age and older. According to the prescribing information, the starting dosage is 2.5 mg of cannabidiol per kg of bodyweight, administered twice daily (5 mg of cannabidiol per kg of bodyweight per day).",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "After one week, the dosage can be increased to a maintenance dosage of 5 milligrams of cannabidiol per kilogram of bodyweight, administered twice daily. Based on individual clinical response and tolerability, the dosage can be increased up to a maximum recommended maintenance dosage of 10 milligrams of cannabidiol per kilogram of bodyweight, administered twice daily. Dosage adjustment is recommended for patients with moderate or severe hepatic impairment. Read the full prescribing information at the source link. Is there anything else I can help you with?",
+              "displayText": "After one week, the dosage can be increased to a maintenance dosage of 5 mg of cannabidiol per kg of bodyweight, administered twice daily (10 mg of cannabidiol per kg of bodyweight per day). Based on individual clinical response and tolerability, the dosage can be increased up to a maximum recommended maintenance dosage of 10 mg of cannabidiol per kg of bodyweight, administered twice daily (20 mg of cannabidiol per kg of bodyweight per day). Dosage adjustment is recommended for patients with moderate or severe hepatic impairment. Read the full prescribing information at the source link. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "When prescribed by a doctor, cannabidiol, in an oral solution at a concentration of 100 mg of cannabidiol per ml, is indicated for the treatment of seizures associated with Lennox-Gastaut syndrome or Dravet syndrome in patients 2 years of age and older. According to the prescribing information, the starting dosage is 2.5 mg of cannabidiol per kg of bodyweight, administered twice daily (5 mg of cannabidiol per kg of bodyweight per day). After one week, the dosage can be increased to a maintenance dosage of 5 mg of cannabidiol per kg of bodyweight, administered twice daily (10 mg of cannabidiol per kg of bodyweight per day). Based on individual clinical response and tolerability, the dosage can be increased up to a maximum recommended maintenance dosage of 10 mg of cannabidiol per kg of bodyweight, administered twice daily (20 mg of cannabidiol per kg of bodyweight per day). Dosage adjustment is recommended for patients with moderate or severe hepatic impairment. Read the full prescribing information at the source link. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

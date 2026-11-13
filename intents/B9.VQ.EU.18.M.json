@@ -1,0 +1,137 @@
+{
+  "id": "f8f8ca15-0ff3-477e-a439-7b201ca63e39",
+  "name": "B9.VQ.EU.18.M",
+  "auto": true,
+  "contexts": [
+    "b9vq",
+    "b9vqeu"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "b9vq",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu",
+          "lifespan": 5
+        },
+        {
+          "name": "b9vqeu18m",
+          "lifespan": 5
+        },
+        {
+          "name": "vqsourceeu",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "skype",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "More info",
+          "replies": [
+            "Source"
+          ],
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For males aged 15+, the Population Reference Intake for folate is 330 micrograms of dietary folate equivalents per day. Natural food folates have a lower bioavailability than synthetic folic acid. The Population Reference Intake is equivalent to 330 micrograms of natural food folate, or 198 micrograms of folic acid from fortified food or a supplement consumed with food, or 165 micrograms as a folic acid supplement taken on an empty stomach.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Best source of folate"
+            },
+            {
+              "title": "What does folate do?"
+            },
+            {
+              "title": "Maximum folate intake"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For males aged 15+, the Population Reference Intake for folate is 330 micrograms of dietary folate equivalents per day. Natural food folates have a lower bioavailability than synthetic folic acid. The Population Reference Intake is equivalent to 330 micrograms of natural food folate, or 198 micrograms of folic acid from fortified food or a supplement consumed with food, or 165 micrograms as a folic acid supplement taken on an empty stomach. The Population Reference Intake is the level of nutrient intake that will meet the requirements of 97.5% of the individuals in the population. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

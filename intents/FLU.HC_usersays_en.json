@@ -1,0 +1,67 @@
+[
+  {
+    "id": "e39a7e01-e3ca-4497-92e0-b2d5617a85ee",
+    "data": [
+      {
+        "text": "what does fluoride do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "acdf7f1c-96ad-43f8-8b30-7e0cfb4af513",
+    "data": [
+      {
+        "text": "fluoride benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4864f33f-aa1e-4c78-8ccd-100ccb546efb",
+    "data": [
+      {
+        "text": "fluoride functions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8601ee7c-2c22-462b-b8ad-98b338776f39",
+    "data": [
+      {
+        "text": "why do I need fluoride?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6236768f-a8c1-4ea0-9f6c-13786fd32fbb",
+    "data": [
+      {
+        "text": "fluoride health claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

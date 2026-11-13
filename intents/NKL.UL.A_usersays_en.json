@@ -1,0 +1,96 @@
+[
+  {
+    "id": "f46a7b73-46a1-4a93-82e4-88b79160a140",
+    "data": [
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": " plus",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25fe0860-0615-4d3e-a368-805ac2b47706",
+    "data": [
+      {
+        "text": "older than ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "abf6ab07-53d3-4b9e-a163-2ebdc229a95c",
+    "data": [
+      {
+        "text": "everyone aged ",
+        "userDefined": false
+      },
+      {
+        "text": "14",
+        "userDefined": false
+      },
+      {
+        "text": "+",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6aebc89-b718-4804-ba74-6b6db7dd362a",
+    "data": [
+      {
+        "text": "everyone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "74636ead-9edb-4c77-9624-3eb384c036f1",
+    "data": [
+      {
+        "text": "adolescents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9746c5d5-f409-472c-a666-cbb0d8610b88",
+    "data": [
+      {
+        "text": "adults",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

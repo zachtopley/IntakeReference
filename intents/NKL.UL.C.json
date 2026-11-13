@@ -1,0 +1,139 @@
+{
+  "id": "ec2199a5-3ba0-4624-b1a8-b608537f78a8",
+  "name": "NKL.UL.C",
+  "auto": true,
+  "contexts": [
+    "nklul"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "nklul",
+          "lifespan": 5
+        },
+        {
+          "name": "nadrisource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "For children under 14, the Tolerable Upper Intake Levels for nickel are as follows. 0.2 milligrams per day for those aged 1 to 3 years. 0.3 milligrams per day for those aged 4 to 8 years. and 0.6 milligrams per day for those aged 9 to 13 years. The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?",
+              "displayText": "For children under 14, the Tolerable Upper Intake Levels for nickel are listed in the table below. The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "title": "Tolerable Upper Intake Levels for Nickel",
+          "textToSpeech": "",
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Age",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Intake Level",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "1-3"
+                },
+                {
+                  "text": "0.2 mg"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "4-8"
+                },
+                {
+                  "text": "0.3 mg"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "9-13"
+                },
+                {
+                  "text": "0.6 mg"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "For children under 14, the Tolerable Upper Intake Levels for nickel are as follows: 0.2 milligrams per day for those aged 1-3 years, 0.3 milligrams per day for those aged 4-8 years, and 0.6 milligrams per day for those aged 9-13 years."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Tolerable Upper Intake Level is the highest average daily nutrient intake level likely to pose no risk of adverse health effects to almost all individuals in a given life-stage and gender group. The Tolerable Upper Intake Level is not a recommended level of intake. As intake increases above the Tolerable Upper Intake Level, the potential risk of adverse effects increases. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

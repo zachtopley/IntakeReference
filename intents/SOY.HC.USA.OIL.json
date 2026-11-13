@@ -1,0 +1,94 @@
+{
+  "id": "e8fad563-60ab-4126-ab00-fa7f50785ccc",
+  "name": "SOY.HC.USA.OIL",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "soyusaoilsource",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Supportive but not conclusive scientific evidence suggests that eating about 20.5 grams daily of soybean oil, which contains unsaturated fat, may reduce the risk of coronary heart disease. To achieve this possible benefit, soybean oil is to replace saturated fat and not increase the total number of calories you eat in a day. See nutrition information for total fat content.",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "The United States Food and Drug Administration intends to consider exercising its enforcement discretion for this qualified health claim. Is there anything else I can help you with?",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "Source"
+            },
+            {
+              "title": "Soy protein"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Supportive but not conclusive scientific evidence suggests that eating about 20.5 grams daily of soybean oil, which contains unsaturated fat, may reduce the risk of coronary heart disease. To achieve this possible benefit, soybean oil is to replace saturated fat and not increase the total number of calories you eat in a day. See nutrition information for total fat content. The United States Food and Drug Administration intends to consider exercising its enforcement discretion for this qualified health claim. Is there anything else I can help you with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true,
+        "skype": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
